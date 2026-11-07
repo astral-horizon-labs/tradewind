@@ -28,11 +28,13 @@ import sys
 from typing import Callable
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-if str(ROOT / "scripts") not in sys.path:
-    sys.path.insert(0, str(ROOT / "scripts"))
+for folder in (ROOT / "scripts", pathlib.Path(__file__).resolve().parent):
+    if str(folder) not in sys.path:
+        sys.path.insert(0, str(folder))
 
 import atomic_file  # noqa: E402  # type: ignore[import-not-found]
 import bar_calendar  # noqa: E402  # type: ignore[import-not-found]
+import client_messages  # noqa: E402
 import prices_server  # noqa: E402  # type: ignore[import-not-found]
 
 DEFAULT_URL = "https://wallet-prices.kakobaba1212.workers.dev"
@@ -73,7 +75,8 @@ def series(conid: int, folder: pathlib.Path, getter: SeriesGetter,
             # un test au temps figé lirait sinon une copie « du futur » comme fraîche.
             os.utime(path, (now.timestamp(), now.timestamp()))
         except prices_server.ServerError as error:
-            stale_error = str(error)
+            # Le serveur répond en français (il sert aussi le propriétaire) : traduit ici.
+            stale_error = client_messages.english(str(error))
         except (ValueError, UnicodeDecodeError):
             stale_error = "the server returned an unreadable series"
     if not path.exists():

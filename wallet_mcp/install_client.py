@@ -38,6 +38,10 @@ import urllib.error
 import urllib.request
 
 HERE = pathlib.Path(__file__).resolve().parent
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
+from client_messages import english  # noqa: E402  (bibliothèque standard seule)
+
 PACKAGE = HERE.parent
 VENV = PACKAGE / ".venv-client"
 SERVER = HERE / "client_server.py"
@@ -115,7 +119,7 @@ def request_price_key(url: str, *, opener=urllib.request.urlopen) -> tuple[str |
             detail = json.loads(failure.read().decode("utf-8")).get("error")
         except (ValueError, AttributeError):
             detail = None
-        return None, f"HTTP {failure.code}" + (f" : {detail}" if detail else "")
+        return None, f"HTTP {failure.code}" + (f": {english(detail)}" if detail else "")
     except (urllib.error.URLError, OSError, ValueError, KeyError) as failure:
         return None, failure.__class__.__name__
 
@@ -156,7 +160,12 @@ def status(check: bool) -> int:
                if check else ""))
     result = subprocess.run([str(venv_python()), "-c", code], cwd=HERE, text=True,
                             capture_output=True, check=False)
-    say(result.stdout.strip() or result.stderr.strip()[-400:])
+    # La sortie ET, si le contrôle a planté, la fin de l'erreur : le 2026-11-07, un
+    # `import httpx` manquant plantait après la première ligne, et le client ne lisait
+    # que « the check failed: see the message above » sans aucun message au-dessus.
+    say(result.stdout.strip())
+    if result.returncode:
+        say(result.stderr.strip()[-400:])
     return 1 if result.returncode or "ERROR" in result.stdout else 0
 
 

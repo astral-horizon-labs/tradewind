@@ -1,3 +1,5 @@
-# Le MCP client (wallet_mcp/client_server.py) : le serveur MCP et son client httpx.
+# Le MCP client (wallet_mcp/client_server.py) : le serveur MCP, et httpx pour le
+# tirage Flex (`flex_webservice`), que mcp 2.x n'apporte plus (il dépend de httpx2).
 # Rien d'autre : le reste du MCP client est en bibliothèque standard.
 mcp==2.3.0
+httpx==0.28.1
