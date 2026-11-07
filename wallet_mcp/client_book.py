@@ -43,6 +43,8 @@ import atomic_file  # noqa: E402  # type: ignore[import-not-found]
 import flex_snapshot  # noqa: E402  # type: ignore[import-not-found]
 import flex_webservice  # noqa: E402  # type: ignore[import-not-found]
 
+import client_messages  # noqa: E402
+
 #: Six heures : le rapport d'IBKR ne bouge qu'une fois par nuit ; plus souvent, on
 #: attendrait 30 s pour relire le même fichier.
 MAX_AGE_S = 6 * 3600
@@ -136,7 +138,7 @@ def refresh(config: dict, fetcher: Fetcher, *, force: bool = False,
             stamp = {"fetched_at": now.isoformat(timespec="seconds"), "cash_error": cash_error}
             atomic_file.write_text(folder / STAMP_FILE, json.dumps(stamp, ensure_ascii=False))
     if not lots_path.exists():
-        return {"error": f"no Flex report: {stale_error or 'never fetched'}"}
+        return {"error": f"no Flex report: {english(stale_error) or 'never fetched'}"}
     cash_text = None
     if config.get("query_id_cash") and cash_path.exists():
         cash_text = cash_path.read_text(encoding="utf-8")
@@ -163,10 +165,10 @@ SNAPSHOT_ENGLISH = (
 
 
 def english(text: str | None) -> str | None:
-    """Un message de `flex_snapshot` en anglais."""
+    """Un message de `flex_snapshot` ou du tirage Flex en anglais."""
     for french, words in SNAPSHOT_ENGLISH:
         text = text.replace(french, words) if text else text
-    return text
+    return client_messages.english(text)
 
 
 def base_currency(config: dict, lots_text: str) -> tuple[str | None, str | None]:
@@ -209,11 +211,11 @@ def load_book(fetcher: Fetcher | None = None, *, force: bool = False,
     notes = []
     if report["stale_error"]:
         notes.append(f"today's fetch failed, keeping the report from {report['fetched_at']}: "
-                     f"{report['stale_error']}")
+                     f"{english(report['stale_error'])}")
     if not config.get("query_id_cash"):
         notes.append("no Cash Report query: NAV and cash unavailable")
     elif report.get("cash_error"):
-        notes.append(f"cash report failed: {report['cash_error']}")
+        notes.append(f"cash report failed: {english(report['cash_error'])}")
     return {"snapshot": snapshot, "fetched_at": report["fetched_at"], "notes": notes}
 
 

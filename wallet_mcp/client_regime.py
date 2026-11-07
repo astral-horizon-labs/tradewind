@@ -32,6 +32,7 @@ for folder in (ROOT / "scripts", pathlib.Path(__file__).resolve().parent):
         sys.path.insert(0, str(folder))
 
 import client_book  # noqa: E402
+import client_messages  # noqa: E402
 import client_prices  # noqa: E402
 import data_root  # noqa: E402  # type: ignore[import-not-found]
 import price_cache  # noqa: E402  # type: ignore[import-not-found]
@@ -113,18 +114,19 @@ def regime_alerts(getter=None, *, now: datetime.datetime | None = None) -> dict:
         if status != "UNVERIFIABLE" and alert["kind"] in ("close", "ratio"):
             recent = [round(v, 4) for v in tripwires.recent_values(alert, universe, RECENT)]
         text = english.get(alert["id"], {})
+        as_of = client_messages.english(str(as_of)) if as_of else None
         rows.append({
             "id": alert["id"], "label": text.get("label"), "status": STATUS_WORDS.get(status, status),
             "value": round(value, 4) if isinstance(value, (int, float)) else value,
             "threshold": {"below": alert["below"]} if "below" in alert else {"above": alert.get("above")},
-            "settled": str(as_of).split(" — ")[0] if as_of else None,
-            "detail": str(as_of).split(" — ", 1)[1] if as_of and " — " in str(as_of) else None,
+            "settled": as_of.split(" — ")[0] if as_of else None,
+            "detail": as_of.split(" — ", 1)[1] if as_of and " — " in as_of else None,
             "recent_settled": recent,
             "direction": direction(alert, recent),
             "release_closes": alert.get("release_closes", 1),
             "meaning": text.get("meaning"), "on_trigger": text.get("action"),
             "touches": text.get("exposure_note"),
-            **({"why": (why or line).split(" — ")[0]} if status == "UNVERIFIABLE" else {}),
+            **({"why": client_messages.english(why or line)} if status == "UNVERIFIABLE" else {}),
         })
     order = {"triggered": 0, "unverifiable": 1, "armed": 2}
     rows.sort(key=lambda row: order.get(row["status"], 3))

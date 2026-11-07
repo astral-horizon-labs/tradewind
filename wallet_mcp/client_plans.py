@@ -34,6 +34,7 @@ for folder in (ROOT / "scripts", pathlib.Path(__file__).resolve().parent):
 
 import atomic_file  # noqa: E402  # type: ignore[import-not-found]
 import client_book  # noqa: E402
+import client_messages  # noqa: E402
 import client_prices  # noqa: E402
 import decision_schema  # noqa: E402  # type: ignore[import-not-found]
 import price_cache  # noqa: E402  # type: ignore[import-not-found]
@@ -103,7 +104,8 @@ def evaluate(symbol: str, conid: int, level: dict, getter, now: datetime.datetim
     price_cache.CACHE_DIR = folder
     universe = {symbol: {"conid": conid}}
     status, message = tripwires.check_level(symbol, level, universe, today=now.date())
-    out = {"status": status, "why": message.split(" — ")[0] if status not in LIVE_STATUSES else None}
+    out = {"status": status,
+           "why": client_messages.english(message) if status not in LIVE_STATUSES else None}
     if status in LIVE_STATUSES:
         bars, why = tripwires._bars(universe, symbol, level["bar"], today=now.date())
         if not why:
@@ -124,7 +126,7 @@ def describe(symbol: str, conid: int, decision: dict, getter, now: datetime.date
                        "rule": f"{level['bar']} {level['op']} " + (
                            f"{level['px']}" if "px" in level else
                            f"sma{level['sma']['window']}" if "sma" in level else
-                           f"palier (seed {level['trail']['seed']})"),
+                           f"trail (seed {level['trail']['seed']})"),
                        "effect": decision_schema.level_effect(level),
                        "action": level.get("action"), **state})
     return {"symbol": symbol, "status": decision.get("status"), "horizon": decision.get("horizon"),
@@ -165,8 +167,11 @@ def set_plan(symbol: str, thesis: str, horizon: str, if_hit: str, if_miss: str,
         parsed = [dict(decision_schema.parse_level(spec), set_by=decision_schema.SET_BY_AGENT)
                   for spec in (levels or [])]
     except (decision_schema.SchemaError, ValueError) as failure:
-        return {"error": f"unreadable level: {failure}",
-                "format": "\"1W < 140 (memory) [exit] exit on a weekly close below 140\""}
+        first = client_messages.english(str(failure)).split("\n")[0]
+        return {"error": first if isinstance(failure, decision_schema.SchemaError)
+                else f"unreadable level: {first}",
+                "format": "\"1W < 140 (memory) [exit] exit on a weekly close below 140\"; "
+                          "\"sma10\" or \"trail19.2\" replace the number for a computed rule"}
     previous = read_plan(sym) or {}
     block = {"status": decision_schema.STATUS_ACTIVE, "horizon": horizon, "thesis": thesis,
              "if_hit": if_hit, "if_miss": if_miss, "next_decision": next_decision,
@@ -179,7 +184,7 @@ def set_plan(symbol: str, thesis: str, horizon: str, if_hit: str, if_miss: str,
     try:
         decision = decision_schema.validate_decision(block, sym)
     except decision_schema.SchemaError as failure:
-        return {"error": "plan rejected, nothing was written", "violations": str(failure).splitlines()}
+        return {"error": "plan rejected, nothing was written", "violations": [client_messages.english(line) for line in str(failure).splitlines()]}
     path = plan_path(sym)
     path.parent.mkdir(parents=True, exist_ok=True)
     with atomic_file.locked(path):
@@ -191,7 +196,7 @@ def set_plan(symbol: str, thesis: str, horizon: str, if_hit: str, if_miss: str,
     exits = [lv for lv in decision.get("levels") or []
              if decision_schema.level_effect(lv) == decision_schema.EFFECT_EXIT]
     return {"written": sym, "levels": len(parsed),
-            "warning": None if exits else "no exit level: the line still has no written exit"}
+            "warning": None if exits else "no exit level: the holding still has no written exit"}
 
 
 def overview(getter=None, *, now: datetime.datetime | None = None) -> dict:
