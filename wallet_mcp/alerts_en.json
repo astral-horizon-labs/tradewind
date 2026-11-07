@@ -1,0 +1,80 @@
+{
+  "xbi-spy-break": {
+    "label": "Biotech vs. the market",
+    "meaning": "Is biotech leading the market? The XBI/SPY ratio (equal-weight biotech against the S&P 500) is compared with its own ten-week average. A weekly close below that average says no: the basket is no longer clearly rising, so no new biotech entries. The alert clears after two consecutive weekly closes above.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "All biotech holdings: therapeutics, drug discovery, synthetic biology."
+  },
+  "xbi-xlv-break": {
+    "label": "Biotech vs. healthcare",
+    "meaning": "Within healthcare, is money taking risk? The XBI/XLV ratio is compared with its ten-week average. A weekly close below says healthcare money is leaving biotech for large defensive names: no new clinical setups. The alert clears after two consecutive weekly closes above.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "Clinical biotech and drug discovery holdings. Broad healthcare (XLV) is not counted: the rotation favours it."
+  },
+  "sbio-xbi-break": {
+    "label": "Clinical risk",
+    "meaning": "Is the market paying for clinical risk? The SBIO/XBI ratio (phase 2-3 biotech against broad biotech) is compared with its ten-week average. A weekly close below says trial risk is no longer rewarded: no new clinical setups. The alert clears after two consecutive weekly closes above.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "Clinical biotech and drug discovery holdings, the ones carrying trial risk."
+  },
+  "smh-reprise": {
+    "label": "Semiconductors — recovery",
+    "meaning": "Above 620, semiconductors erase the summer's overcapacity scare: the AI trend is back on. The signal holds as long as the weekly close stays above.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "Technology holdings and technology ETFs."
+  },
+  "smh-capitulation": {
+    "label": "Semiconductors — capitulation",
+    "meaning": "Below 506, semiconductors break their April base: the correction becomes a real decline, and technology holdings take the hit.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "Technology holdings and technology ETFs."
+  },
+  "vix-regime-peur": {
+    "label": "Fear on the S&P 500 (VIX)",
+    "meaning": "The VIX prices protection against an S&P 500 decline over 30 days. The S&P 500 is carried by its mega caps: a calm VIX says nothing about biotech or small caps. Above 28, even large caps are afraid, as in the 5% most stressed weeks.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "A volatility shock hits the whole book: no holding is singled out."
+  },
+  "vix-terme-backwardation": {
+    "label": "Immediate panic on the S&P 500 (VIX ÷ 3-month VIX)",
+    "meaning": "Compares 30-day fear with 3-month fear: the SHAPE of fear, not its level. Normally distant fear is higher and the ratio stays below 1. Above 1, immediate panic exceeds future worry: an acute shock, which often comes before the level and fades fast.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "A volatility shock hits the whole book: no holding is singled out."
+  },
+  "tnx-plafond-regime": {
+    "label": "10-year yield — ceiling",
+    "meaning": "The US 10-year yield had not closed a week above 5% in 15 years. Above it, money stays expensive: a headwind for biotech, healthcare and real estate.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "Rate-sensitive holdings: clinical biotech, tools and diagnostics, healthcare ETFs and listed real estate."
+  },
+  "tnx-plancher-detente": {
+    "label": "10-year yield — easing",
+    "meaning": "Below 4%, rates ease decisively: a tailwind for biotech, healthcare and real estate.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "Rate-sensitive holdings: clinical biotech, healthcare ETFs and listed real estate."
+  },
+  "hygh-plancher-credit": {
+    "label": "High-yield credit",
+    "meaning": "HYGH is a high-yield bond fund (the most indebted companies), hedged against rate risk: its price follows the credit spread, the premium those companies pay over the government, and hardly the 10-year yield. When it falls, lenders demand more to finance fragile borrowers. Below 84.6 on a weekly close, it breaks the floor held since 2024: credit is repricing risk, often before equities. For clinical biotech, the financing window is closing: equity raises become costlier, or impossible.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "A credit shock hits the whole book: no holding is singled out."
+  },
+  "livre-baisse-sommet": {
+    "label": "My book — drawdown from peak",
+    "meaning": "The only fear gauge that concerns you directly: how far your book has fallen from its best level. Beyond the threshold (−25% by default), review its structure.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "The whole book, measured without deposits and withdrawals."
+  },
+  "rvx-regime-peur": {
+    "label": "Fear on small caps (RVX)",
+    "meaning": "The RVX is the Russell 2000's VIX: fear on small caps. Its median is 21; above 36 we are in the 5% most stressed weeks since 2011.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "A small-cap volatility shock hits the whole book: no holding is singled out."
+  },
+  "queue-largeur-petites-cuivre": {
+    "label": "Market crash risk (breadth, small caps, copper)",
+    "meaning": "Three questions at once, each against its ten-week average: does the equal-weight S&P follow the S&P (RSP/SPY)? do small caps follow (IWM/SPY)? does copper lead gold (CPER/GLD)? When all three say no, the rally rests on a few giants and on fear. Measured over 2012-2026: all three together 35% of the time, and SPY fell at least 5% within the next 13 weeks 16.5% of the time, against 6.8% otherwise. The median barely moves: it is a crash risk, not a direction. The combination was chosen after seeing the numbers: it is judged on what it announces from 2026-11-03 on.",
+    "action": "Check the affected holdings against their plan: no sale on this signal alone, the exits are the plans' exits.",
+    "exposure_note": "A market crash hits the whole book: no holding is singled out."
+  }
+}

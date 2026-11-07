@@ -1,0 +1,2866 @@
+{
+  "version": 1,
+  "note": "Graine LIVRÉE de l'univers de marché, GÉNÉRÉE par `scripts/universe_seed.py --render` depuis le manifeste personnel : groupes de structure, membres de paniers et paires de régime, sans aucune étiquette de possession. Ne pas éditer à la main.",
+  "base_default": "RSP",
+  "instruments": {
+    "SBIO": {
+      "conid": 178813576,
+      "label": "Biotech Ph2/3 + cash (filtré)",
+      "group": "health",
+      "subsector": "Biotech (large/clinique)"
+    },
+    "XBI": {
+      "conid": 45540828,
+      "label": "Biotech équipondéré (SPDR)",
+      "group": "health",
+      "subsector": "Biotech (large/clinique)",
+      "exchange": "ARCA"
+    },
+    "BBC": {
+      "conid": 177128399,
+      "label": "Biotech clinique sans filtre",
+      "group": "health",
+      "subsector": "Biotech (large/clinique)"
+    },
+    "XLV": {
+      "conid": 4215205,
+      "label": "Santé large (secteur)",
+      "group": "health",
+      "groups": [
+        "health",
+        "sectors"
+      ]
+    },
+    "XLK": {
+      "conid": 4215230,
+      "label": "Tech (secteur)",
+      "group": "tech",
+      "groups": [
+        "tech",
+        "sectors"
+      ]
+    },
+    "SMH": {
+      "conid": 229725622,
+      "label": "Semis (VanEck)",
+      "group": "tech",
+      "groups": [
+        "tech",
+        "industry"
+      ],
+      "subsector": "Semi-conducteurs"
+    },
+    "SPY": {
+      "conid": 756733,
+      "label": "S&P 500 (cap-weight)",
+      "group": "market"
+    },
+    "RSP": {
+      "conid": 319359375,
+      "label": "S&P 500 équipondéré",
+      "group": "market"
+    },
+    "QQQ": {
+      "conid": 320227571,
+      "label": "Nasdaq 100",
+      "group": "market"
+    },
+    "IWM": {
+      "conid": 9579970,
+      "label": "Russell 2000 (small caps)",
+      "group": "market"
+    },
+    "DIA": {
+      "conid": 73128548,
+      "label": "Dow Jones 30",
+      "group": "market"
+    },
+    "XLF": {
+      "conid": 4215220,
+      "label": "Financières",
+      "group": "sectors"
+    },
+    "XLE": {
+      "conid": 4215217,
+      "label": "Énergie",
+      "group": "sectors",
+      "groups": [
+        "sectors",
+        "energy"
+      ],
+      "subsector": "pétrole (bloc)"
+    },
+    "XLI": {
+      "conid": 4215227,
+      "label": "Industrie",
+      "group": "sectors"
+    },
+    "XLY": {
+      "conid": 4215215,
+      "label": "Conso discrétionnaire",
+      "group": "sectors"
+    },
+    "XLP": {
+      "conid": 4215210,
+      "label": "Conso de base",
+      "group": "sectors"
+    },
+    "XLU": {
+      "conid": 4215235,
+      "label": "Utilities",
+      "group": "sectors",
+      "groups": [
+        "sectors",
+        "energy"
+      ],
+      "subsector": "électricité/régulées"
+    },
+    "XLB": {
+      "conid": 4215200,
+      "label": "Matériaux",
+      "group": "sectors"
+    },
+    "XLRE": {
+      "conid": 209048377,
+      "label": "Immobilier",
+      "group": "sectors"
+    },
+    "XLC": {
+      "conid": 322317077,
+      "label": "Communication",
+      "group": "sectors"
+    },
+    "SCHH": {
+      "conid": 82817278,
+      "label": "REIT US",
+      "group": "industry",
+      "subsector": "REIT (large)",
+      "groups": [
+        "industry"
+      ]
+    },
+    "VHT": {
+      "conid": 27638082,
+      "label": "Vanguard santé",
+      "group": "sectors"
+    },
+    "USA": {
+      "conid": 756733,
+      "label": "États-Unis (S&P 500, cap-weight)",
+      "group": "regions"
+    },
+    "ACWI": {
+      "conid": 49954154,
+      "label": "Monde cap-weight 64% US — contraste, JAMAIS dénominateur",
+      "group": "regions"
+    },
+    "VGK": {
+      "conid": 27684070,
+      "label": "Europe développée (FTSE)",
+      "group": "regions"
+    },
+    "EWU": {
+      "conid": 253190561,
+      "label": "Royaume-Uni (MSCI)",
+      "group": "regions"
+    },
+    "EWG": {
+      "conid": 2586603,
+      "label": "Allemagne (MSCI)",
+      "group": "regions"
+    },
+    "EPOL": {
+      "conid": 75778782,
+      "label": "Pologne (MSCI)",
+      "group": "regions"
+    },
+    "EWJ": {
+      "conid": 253190534,
+      "label": "Japon (MSCI)",
+      "group": "regions"
+    },
+    "EWY": {
+      "conid": 10753248,
+      "label": "Corée ⚠ Hynix+Samsung ~45% (16/07/26)",
+      "group": "regions"
+    },
+    "EWT": {
+      "conid": 253190576,
+      "label": "Taïwan ⚠ TSMC 21,7% (16/07/26)",
+      "group": "regions"
+    },
+    "MCHI": {
+      "conid": 86326988,
+      "label": "Chine (MSCI China)",
+      "group": "regions"
+    },
+    "INDA": {
+      "conid": 101484826,
+      "label": "Inde (MSCI)",
+      "group": "regions"
+    },
+    "EIS": {
+      "conid": 49954171,
+      "label": "Israël (MSCI)",
+      "group": "regions"
+    },
+    "EWZ": {
+      "conid": 10753244,
+      "label": "Brésil (MSCI)",
+      "group": "regions"
+    },
+    "EWW": {
+      "conid": 2586566,
+      "label": "Mexique (MSCI)",
+      "group": "regions"
+    },
+    "EWC": {
+      "conid": 2586548,
+      "label": "Canada (MSCI)",
+      "group": "regions"
+    },
+    "EWA": {
+      "conid": 2586606,
+      "label": "Australie (MSCI)",
+      "group": "regions"
+    },
+    "VWO": {
+      "conid": 27684033,
+      "label": "Émergents larges (FTSE)",
+      "group": "regions"
+    },
+    "RSPN": {
+      "conid": 319359411,
+      "label": "Industrie S&P équipondéré",
+      "group": "sectors"
+    },
+    "IHI": {
+      "conid": 39046985,
+      "label": "Medical devices US (watchlist)",
+      "group": "health",
+      "groups": [
+        "health",
+        "industry"
+      ],
+      "subsector": "Dispositifs médicaux / medtech"
+    },
+    "GH": {
+      "conid": 335906876,
+      "label": "Biopsie liquide (dx oncologie)",
+      "group": "health"
+    },
+    "KIE": {
+      "conid": 45540872,
+      "label": "Assurance US équipondérée",
+      "group": "industry",
+      "subsector": "Assurance"
+    },
+    "GLD": {
+      "conid": 51529211,
+      "label": "Or physique (SPDR)",
+      "group": "macro"
+    },
+    "SLV": {
+      "conid": 39039301,
+      "label": "Argent physique (iShares)",
+      "group": "macro"
+    },
+    "CPER": {
+      "conid": 97462781,
+      "label": "Cuivre (US Copper Index)",
+      "group": "macro"
+    },
+    "DBC": {
+      "conid": 319355208,
+      "label": "Matières premières large (Invesco DB)",
+      "group": "macro"
+    },
+    "TLT": {
+      "conid": 15547841,
+      "label": "Obligations US 20+ ans (taux)",
+      "group": "macro"
+    },
+    "UUP": {
+      "conid": 319355766,
+      "label": "Dollar US (Invesco DB USD Bull)",
+      "group": "macro"
+    },
+    "IBIT": {
+      "conid": 677037673,
+      "label": "Bitcoin (iShares)",
+      "group": "macro"
+    },
+    "HYG": {
+      "conid": 43652089,
+      "label": "Crédit haut rendement US (iShares iBoxx HY)",
+      "group": "macro"
+    },
+    "IEF": {
+      "conid": 15547844,
+      "label": "Treasuries 7-10 ans (iShares)",
+      "group": "macro"
+    },
+    "TIP": {
+      "conid": 26787475,
+      "label": "Treasuries indexées inflation (iShares TIPS)",
+      "group": "macro"
+    },
+    "COIN": {
+      "conid": 481691285,
+      "label": "Coinbase (exchange)",
+      "group": "crypto"
+    },
+    "XYZ": {
+      "conid": 212671971,
+      "label": "Block (paiements + BTC)",
+      "group": "crypto"
+    },
+    "MSTR": {
+      "conid": 272110,
+      "label": "Strategy (proxy bitcoin levier)",
+      "group": "crypto"
+    },
+    "HOOD": {
+      "conid": 504546674,
+      "label": "Robinhood (courtier crypto/retail)",
+      "group": "crypto"
+    },
+    "KBE": {
+      "conid": 45540769,
+      "label": "Banques US équipondérées (SPDR)",
+      "group": "industry",
+      "subsector": "Banques"
+    },
+    "KRE": {
+      "conid": 45540822,
+      "label": "Banques régionales US équipondérées (SPDR)",
+      "group": "industry",
+      "subsector": "Banques"
+    },
+    "IAI": {
+      "conid": 39046988,
+      "label": "Courtiers & marchés de capitaux (iShares)",
+      "group": "industry",
+      "subsector": "Courtiers & marchés de capitaux"
+    },
+    "ITA": {
+      "conid": 39046959,
+      "label": "Aérospatiale & défense US (iShares)",
+      "group": "industry",
+      "subsector": "Aéro-défense US"
+    },
+    "JEDI": {
+      "conid": 570487084,
+      "label": "New space (VanEck Space Innovators, LSE — cap-weight plafonné 8 %)",
+      "group": "industry",
+      "subsector": "New space"
+    },
+    "IYT": {
+      "conid": 26337175,
+      "label": "Transports US (iShares)",
+      "group": "industry",
+      "subsector": "Transports"
+    },
+    "PAVE": {
+      "conid": 268960148,
+      "label": "Infrastructure US (Global X)",
+      "group": "industry",
+      "subsector": "Infrastructure"
+    },
+    "JETS": {
+      "conid": 192643858,
+      "label": "Compagnies aériennes (US Global Jets)",
+      "group": "industry",
+      "subsector": "Compagnies aériennes"
+    },
+    "OIH": {
+      "conid": 415578515,
+      "label": "Services pétroliers (VanEck)",
+      "group": "industry",
+      "subsector": "pétrole (bloc)",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "CRAK": {
+      "conid": 229725583,
+      "label": "Raffineurs mondiaux (VanEck) — ~28% US, reste international+FX",
+      "group": "industry",
+      "subsector": "pétrole (bloc)",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "XOP": {
+      "conid": 413951498,
+      "label": "Exploration-production pétrole & gaz (SPDR)",
+      "group": "industry",
+      "subsector": "pétrole (bloc)",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "URA": {
+      "conid": 211651685,
+      "label": "Uranium & nucléaire (Global X)",
+      "group": "industry",
+      "subsector": "nucléaire/uranium",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "TAN": {
+      "conid": 319359420,
+      "label": "Solaire (Invesco)",
+      "group": "industry",
+      "subsector": "électricité/renouvelables-stockage",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "GDX": {
+      "conid": 229726316,
+      "label": "Mineurs d'or (VanEck)",
+      "group": "industry",
+      "subsector": "Mineurs d'or"
+    },
+    "SIL": {
+      "conid": 211651690,
+      "label": "Mineurs d'argent (Global X)",
+      "group": "industry",
+      "subsector": "Mineurs d'argent"
+    },
+    "COPX": {
+      "conid": 211651700,
+      "label": "Mineurs de cuivre (Global X)",
+      "group": "industry",
+      "subsector": "Mineurs de cuivre"
+    },
+    "XME": {
+      "conid": 45540699,
+      "label": "Métaux & mines US (SPDR)",
+      "group": "industry",
+      "subsector": "Métaux & mines"
+    },
+    "MOO": {
+      "conid": 229728912,
+      "label": "Agro-industrie (VanEck — actions, ≠ PDBA futures)",
+      "group": "industry",
+      "subsector": "Agro-industrie"
+    },
+    "IGV": {
+      "conid": 12658199,
+      "label": "Logiciel US (iShares Expanded Tech-Software)",
+      "group": "industry",
+      "subsector": "Logiciel"
+    },
+    "FDN": {
+      "conid": 39622928,
+      "label": "Internet US (First Trust Dow Jones)",
+      "group": "industry",
+      "subsector": "Internet"
+    },
+    "XRT": {
+      "conid": 45540784,
+      "label": "Distribution / retail équipondéré (SPDR)",
+      "group": "industry",
+      "subsector": "Distribution / retail"
+    },
+    "XHB": {
+      "conid": 45540859,
+      "label": "Construction résidentielle (SPDR)",
+      "group": "industry",
+      "subsector": "Construction résidentielle"
+    },
+    "XPH": {
+      "conid": 45540802,
+      "label": "Pharma US équipondérée (SPDR)",
+      "group": "industry",
+      "subsector": "Pharma US"
+    },
+    "IHF": {
+      "conid": 39046982,
+      "label": "Prestataires de soins US (iShares)",
+      "group": "industry",
+      "subsector": "Prestataires de soins"
+    },
+    "ENLAY": {
+      "conid": 50488867,
+      "label": "Enel utility/renouvelables (ADR)",
+      "group": "energy",
+      "groups": [
+        "energy"
+      ],
+      "subsector": "électricité/régulées"
+    },
+    "GEV": {
+      "conid": 691984365,
+      "label": "GE Vernova grid/électrification",
+      "group": "energy",
+      "groups": [
+        "energy"
+      ],
+      "subsector": "électricité/grid-équipement"
+    },
+    "SLX": {
+      "conid": 229726273,
+      "label": "Acier (VanEck)",
+      "group": "metals"
+    },
+    "AMLP": {
+      "conid": 419585780,
+      "label": "Midstream MLP",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "ALERIAN MLP ETF",
+      "subsector": "pétrole (bloc)",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "ARGT": {
+      "conid": 127587915,
+      "label": "Argentine",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "GLOBAL X MSCI ARGENTINA ETF"
+    },
+    "ARKX": {
+      "conid": 479429933,
+      "label": "Espace & exploration",
+      "group": "themes",
+      "exchange": "BATS",
+      "name": "ARK SPACE & DEFENSE INNOVATI"
+    },
+    "BETZ": {
+      "conid": 425242708,
+      "label": "Paris sportifs",
+      "group": "themes",
+      "exchange": "ARCA",
+      "name": "ROUNDHILL SPORTS BET & IGAM"
+    },
+    "BLOK": {
+      "conid": 302902491,
+      "label": "Blockchain",
+      "group": "themes",
+      "exchange": "ARCA",
+      "name": "AMPLIFY BLOCKCHAIN TECH ETF"
+    },
+    "BND": {
+      "conid": 43645828,
+      "label": "Obligations US agrégées",
+      "group": "bonds",
+      "exchange": "NASDAQ",
+      "name": "VANGUARD TOTAL BOND MARKET"
+    },
+    "DAPP": {
+      "conid": 481863631,
+      "label": "Écosystème crypto",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "VANECK DIGITAL TRANSFORMATIO"
+    },
+    "DBA": {
+      "conid": 319355717,
+      "label": "Agriculture (matières)",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "INVESCO DB AGRICULTURE FUND"
+    },
+    "DXJ": {
+      "conid": 39832875,
+      "label": "Japon (hedgé USD)",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "WISDOMTREE JAPAN HEDGED EQ"
+    },
+    "EMB": {
+      "conid": 47649504,
+      "label": "Dette émergente USD",
+      "group": "bonds",
+      "exchange": "NASDAQ",
+      "name": "ISHARES J.P. MORGAN USD EMERGI"
+    },
+    "ESPO": {
+      "conid": 337611936,
+      "label": "Jeux vidéo & esport",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "VANECK VIDEOGAMING ESPORTS"
+    },
+    "EWI": {
+      "conid": 253190540,
+      "label": "Italie",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "ISHARES MSCI ITALY ETF"
+    },
+    "EZA": {
+      "conid": 17058090,
+      "label": "Afrique du Sud",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "ISHARES MSCI SOUTH AFRICA ET"
+    },
+    "FCG": {
+      "conid": 231046611,
+      "label": "Gaz naturel E&P",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "FIRST TRUST NATURAL GAS ETF",
+      "subsector": "pétrole (bloc)",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "GLUX": {
+      "conid": 305072377,
+      "label": "Luxe (Paris, EUR)",
+      "group": "themes",
+      "exchange": "SBF",
+      "name": "AM GLOBAL LUXURY ETF EUR ACC"
+    },
+    "GREK": {
+      "conid": 417292587,
+      "label": "Grèce",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "GLOBAL X MSCI GREECE ETF"
+    },
+    "GRID": {
+      "conid": 70302631,
+      "label": "Réseaux électriques",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "FIRST TRST NASD CL EDG SGIIF",
+      "subsector": "électricité/grid-équipement",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "IAK": {
+      "conid": 39046964,
+      "label": "Assurance US",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "ISHARES U.S. INSURANCE ETF",
+      "subsector": "Assurance"
+    },
+    "ICLN": {
+      "conid": 52170893,
+      "label": "Énergie propre",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "ISHARES GLOBAL CLEAN ENERGY",
+      "subsector": "électricité/renouvelables-stockage",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "IDX": {
+      "conid": 229727483,
+      "label": "Indonésie",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "VANECK INDONESIA INDEX ETF"
+    },
+    "IWC": {
+      "conid": 35445810,
+      "label": "Micro-caps US",
+      "group": "themes",
+      "exchange": "ARCA",
+      "name": "ISHARES MICRO-CAP ETF"
+    },
+    "KSA": {
+      "conid": 206663855,
+      "label": "Arabie saoudite",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "ISHRS MSCI SAUDI ARABIA ETF"
+    },
+    "KWEB": {
+      "conid": 132310537,
+      "label": "Chine internet",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "KRANESH CSI CHINA INTERNET"
+    },
+    "LQD": {
+      "conid": 15547816,
+      "label": "Crédit investment grade US",
+      "group": "bonds",
+      "exchange": "ARCA",
+      "name": "ISHR IBX USD INVGD CB ETF-UI"
+    },
+    "MILN": {
+      "conid": 232341597,
+      "label": "Millennials",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "GLOBAL X MILLENNIAL CONSUMER"
+    },
+    "MSOS": {
+      "conid": 443224436,
+      "label": "Cannabis US",
+      "group": "themes",
+      "exchange": "ARCA",
+      "name": "ADVISORSHARES PURE US CANN"
+    },
+    "MTUM": {
+      "conid": 125903832,
+      "label": "Momentum (facteur)",
+      "group": "themes",
+      "exchange": "BATS",
+      "name": "ISHARES MSCI USA MOMENTUM FA"
+    },
+    "NLR": {
+      "conid": 229727461,
+      "label": "Utilities nucléaires (PAS uranium)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "VANECK URANI & NUCLR ETF-USD",
+      "subsector": "électricité/régulées (mal nommé « nucléaire »)",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "PEJ": {
+      "conid": 319356972,
+      "label": "Loisirs & divertissement",
+      "group": "themes",
+      "exchange": "ARCA",
+      "name": "INVESCO LEISURE & ENTERTAINM",
+      "groups": [
+        "themes",
+        "industry"
+      ],
+      "subsector": "Loisirs, voyage & restauration"
+    },
+    "PHO": {
+      "conid": 320227626,
+      "label": "Eau",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "INVESCO WATER RESOURCES ETF",
+      "subsector": "Eau"
+    },
+    "PPA": {
+      "conid": 319355952,
+      "label": "Aéro-défense US",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "INVESCO AEROSPACE & DEFENSE",
+      "subsector": "Aéro-défense US"
+    },
+    "PPH": {
+      "conid": 231848993,
+      "label": "Pharma (VanEck)",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "VANECK PHARMACEUTICAL ETF",
+      "subsector": "Pharma US"
+    },
+    "PPLT": {
+      "conid": 334909224,
+      "label": "Platine",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "ABRDN PHYSICAL PLATINUM SHRS"
+    },
+    "SHLD": {
+      "conid": 653579427,
+      "label": "Défense mondiale",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "GLOBAL X DEFENSE TECH ETF",
+      "subsector": "Défense mondiale (tech)"
+    },
+    "SKYY": {
+      "conid": 90617252,
+      "label": "Cloud computing",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "FIRST TRUST CLOUD COMPUTING",
+      "subsector": "Cloud"
+    },
+    "THD": {
+      "conid": 49954177,
+      "label": "Thaïlande",
+      "group": "regions",
+      "exchange": "ARCA",
+      "name": "ISHARES MSCI THAILAND ETF"
+    },
+    "TUR": {
+      "conid": 49954174,
+      "label": "Turquie",
+      "group": "regions",
+      "exchange": "NASDAQ",
+      "name": "ISHARES MSCI TURKEY ETF"
+    },
+    "UFO": {
+      "conid": 360505969,
+      "label": "Espace (Procure)",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "PROCURE SPACE ETF"
+    },
+    "UNG": {
+      "conid": 676612559,
+      "label": "Gaz naturel",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "US NATURAL GAS FUND LP",
+      "groups": [
+        "macro",
+        "energy"
+      ],
+      "subsector": "commodité gaz"
+    },
+    "URNM": {
+      "conid": 558207272,
+      "label": "Uranium (mineurs)",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "SPROTT URANIUM MINERS ETF",
+      "groups": [
+        "macro",
+        "energy"
+      ],
+      "subsector": "nucléaire/uranium"
+    },
+    "USO": {
+      "conid": 418893644,
+      "label": "Pétrole WTI",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "UNITED STATES OIL FUND LP",
+      "groups": [
+        "macro",
+        "energy"
+      ],
+      "subsector": "commodité brut"
+    },
+    "VNM": {
+      "conid": 229725602,
+      "label": "Vietnam",
+      "group": "regions",
+      "exchange": "BATS",
+      "name": "VANECK VIETNAM ETF"
+    },
+    "VNQI": {
+      "conid": 80536912,
+      "label": "Immobilier hors US",
+      "group": "macro",
+      "exchange": "NASDAQ",
+      "name": "VANGUARD GLBL EX-US REAL EST"
+    },
+    "XTN": {
+      "conid": 83434873,
+      "label": "Transports (équipondéré)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "SS SPDR S&P TRANSPORT ETF",
+      "subsector": "Transports"
+    },
+    "LIT": {
+      "conid": 211651695,
+      "label": "Lithium & batteries (Global X)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "GLOBAL X LITHIUM & BATTERY T",
+      "subsector": "Lithium & batteries"
+    },
+    "REMX": {
+      "conid": 415578518,
+      "label": "Terres rares & métaux stratégiques (VanEck)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "VANECK RAR EARTH ND STG-USDI",
+      "subsector": "Terres rares & métaux stratégiques"
+    },
+    "CIFR": {
+      "conid": 511470142,
+      "label": "Cipher Digital (ex-Cipher Mining) — minage + bascule HPC/IA",
+      "group": "crypto",
+      "exchange": "NASDAQ",
+      "name": "CIPHER DIGITAL INC"
+    },
+    "CLSK": {
+      "conid": 395179962,
+      "label": "CleanSpark (mineur bitcoin — mix de revenus NON vérifié)",
+      "group": "crypto",
+      "exchange": "NASDAQ",
+      "name": "CLEANSPARK INC"
+    },
+    "CRCL": {
+      "conid": 789044667,
+      "label": "Circle — émetteur USDC (revenu = intérêts sur réserves, PAS un bêta bitcoin)",
+      "group": "crypto",
+      "exchange": "NYSE",
+      "name": "CIRCLE INTERNET GROUP INC"
+    },
+    "IREN": {
+      "conid": 526906130,
+      "label": "IREN — minage + bascule HPC/IA (71 % du CA visé en HPC)",
+      "group": "crypto",
+      "exchange": "NASDAQ",
+      "name": "IREN LTD"
+    },
+    "MARA": {
+      "conid": 474219659,
+      "label": "MARA Holdings (mineur bitcoin — mix de revenus NON vérifié)",
+      "group": "crypto",
+      "exchange": "NASDAQ",
+      "name": "MARA HOLDINGS INC"
+    },
+    "RIOT": {
+      "conid": 292830677,
+      "label": "Riot Platforms (mineur bitcoin — mix de revenus NON vérifié)",
+      "group": "crypto",
+      "exchange": "NASDAQ",
+      "name": "RIOT PLATFORMS INC"
+    },
+    "MP": {
+      "conid": 455592408,
+      "label": "Terres rares — MP Materials (mine US + aimants, DoD)",
+      "group": "metals",
+      "exchange": "NYSE",
+      "name": "MP MATERIALS CORP"
+    },
+    "LYC": {
+      "conid": 14064364,
+      "label": "Terres rares — Lynas (AUD, 1er producteur hors Chine)",
+      "group": "metals",
+      "exchange": "ASX",
+      "name": "LYNAS RARE EARTHS LTD",
+      "currency": "AUD"
+    },
+    "ETHUSD": {
+      "conid": 465111145,
+      "label": "Ethereum spot (ETH-USD, source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "ETHEREUM USD",
+      "source": "coinbase-spot",
+      "currency": "USD"
+    },
+    "BTCUSD": {
+      "conid": 509872400,
+      "label": "Bitcoin spot (BTC-USD, source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "BITCOIN USD",
+      "source": "coinbase-spot",
+      "currency": "USD"
+    },
+    "SOLUSD": {
+      "conid": 558207379,
+      "label": "Solana spot (SOL-USD, source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "SOLANA USD",
+      "source": "coinbase-spot",
+      "currency": "USD"
+    },
+    "XRPUSD": {
+      "conid": 9900000001,
+      "label": "XRP spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "XRP USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "LTCUSD": {
+      "conid": 9900000002,
+      "label": "LTC spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "LTC USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "BCHUSD": {
+      "conid": 9900000003,
+      "label": "BCH spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "BCH USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "ADAUSD": {
+      "conid": 9900000004,
+      "label": "ADA spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "ADA USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "DOGEUSD": {
+      "conid": 9900000005,
+      "label": "DOGE spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "DOGE USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "DOTUSD": {
+      "conid": 9900000006,
+      "label": "DOT spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "DOT USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "LINKUSD": {
+      "conid": 9900000007,
+      "label": "LINK spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "LINK USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "AVAXUSD": {
+      "conid": 9900000008,
+      "label": "AVAX spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "AVAX USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "POLUSD": {
+      "conid": 9900000009,
+      "label": "POL spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "POL USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "UNIUSD": {
+      "conid": 9900000010,
+      "label": "UNI spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "UNI USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "ATOMUSD": {
+      "conid": 9900000011,
+      "label": "ATOM spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "ATOM USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "XLMUSD": {
+      "conid": 9900000012,
+      "label": "XLM spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "XLM USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "ALGOUSD": {
+      "conid": 9900000013,
+      "label": "ALGO spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "ALGO USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "FILUSD": {
+      "conid": 9900000014,
+      "label": "FIL spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "FIL USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "AAVEUSD": {
+      "conid": 9900000015,
+      "label": "AAVE spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "AAVE USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "SUIUSD": {
+      "conid": 9900000016,
+      "label": "SUI spot (source Coinbase)",
+      "group": "crypto-spot",
+      "exchange": "COINBASE",
+      "name": "SUI USD",
+      "source": "coinbase-spot",
+      "currency": "USD",
+      "synthetic_conid": true
+    },
+    "VIX": {
+      "conid": 13455763,
+      "label": "Volatilité implicite S&P 500 (CBOE)",
+      "group": "volatility"
+    },
+    "VIX3M": {
+      "conid": 47511905,
+      "label": "Volatilité implicite S&P 500 93 jours (CBOE) — structure par terme vs VIX",
+      "group": "volatility"
+    },
+    "IRX": {
+      "conid": 416748,
+      "label": "Rendement T-bill 13 sem. (proxy taux directeur Fed, CBOE ×10)",
+      "group": "rates"
+    },
+    "FVX": {
+      "conid": 416730,
+      "label": "Rendement 5 ans US (CBOE ×10)",
+      "group": "rates"
+    },
+    "TNX": {
+      "conid": 416921,
+      "label": "Rendement 10 ans US (CBOE ×10) — taux d actualisation du livre",
+      "group": "rates"
+    },
+    "TYX": {
+      "conid": 416933,
+      "label": "Rendement 30 ans US (CBOE ×10)",
+      "group": "rates"
+    },
+    "INDS": {
+      "conid": 317730379,
+      "label": "REIT industriel & logistique (Pacer)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "PACER INDUSTRIAL REAL ESTATE",
+      "subsector": "REIT industriel & logistique"
+    },
+    "IYZ": {
+      "conid": 9579981,
+      "label": "Infra réseau/optique US — ⚠ PAS un ETF télécom : CSCO 22,8 % + ANET 12,0 % = 34,8 %, réseau/optique 47,6 %, opérateurs seulement 23,1 % (mesuré 25/07) ; contient SPCX (SpaceX, NON coté) 2,46 %",
+      "group": "industry",
+      "exchange": "BATS",
+      "name": "ISHARES US TELECOMMUNICATION",
+      "subsector": "infra-ia"
+    },
+    "PBJ": {
+      "conid": 319356963,
+      "label": "Alimentation & boissons (Invesco)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "INVESCO FOOD & BEVERAGE ETF",
+      "subsector": "Alimentation & boissons"
+    },
+    "REM": {
+      "conid": 253190564,
+      "label": "REIT hypothécaire (iShares)",
+      "group": "industry",
+      "exchange": "BATS",
+      "name": "ISHARES MORTGAGE REAL ESTATE",
+      "subsector": "REIT hypothécaire"
+    },
+    "REZ": {
+      "conid": 44053719,
+      "label": "REIT résidentiel & multi-secteur (iShares)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "ISHARS RES AND MULTI REALES",
+      "subsector": "REIT résidentiel"
+    },
+    "SRVR": {
+      "conid": 317730372,
+      "label": "REIT data-centers & tours (Pacer)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "PACER DATA & INFRASTRUCTURE",
+      "subsector": "REIT data-centers & tours"
+    },
+    "CEG": {
+      "conid": 538132976,
+      "label": "Constellation Energy (merchant nucléaire) — candidat topic utilities",
+      "group": "energy",
+      "groups": [
+        "energy"
+      ],
+      "subsector": "électricité/merchant"
+    },
+    "VST": {
+      "conid": 254457731,
+      "label": "Vistra (merchant gaz/nucléaire) — candidat topic utilities",
+      "group": "energy",
+      "groups": [
+        "energy"
+      ],
+      "subsector": "électricité/merchant"
+    },
+    "CCJ": {
+      "conid": 1447060,
+      "label": "Cameco (uranium pure-play)",
+      "group": "energy",
+      "groups": [
+        "energy",
+        "industry"
+      ],
+      "subsector": "nucléaire/uranium"
+    },
+    "OKLO": {
+      "conid": 500073396,
+      "label": "Oklo (bellwether nucléaire-tech/SMR)",
+      "group": "energy",
+      "groups": [
+        "energy",
+        "industry"
+      ],
+      "subsector": "nucléaire/nucléaire-tech"
+    },
+    "FLNC": {
+      "conid": 523222620,
+      "label": "Fluence (bellwether stockage)",
+      "group": "energy",
+      "groups": [
+        "energy",
+        "industry"
+      ],
+      "subsector": "électricité/renouvelables-stockage"
+    },
+    "LEU": {
+      "conid": 168391375,
+      "label": "Centrus (bellwether enrichissement)",
+      "group": "energy",
+      "groups": [
+        "energy",
+        "industry"
+      ],
+      "subsector": "nucléaire/enrichissement-fuel"
+    },
+    "AAL": {
+      "conid": 139673266,
+      "label": "American Airlines",
+      "group": "transport",
+      "exchange": "NASDAQ",
+      "name": "AMERICAN AIRLINES GROUP INC"
+    },
+    "ODFL": {
+      "conid": 272667,
+      "label": "Old Dominion (LTL)",
+      "group": "transport",
+      "exchange": "NASDAQ",
+      "name": "OLD DOMINION FREIGHT LINE"
+    },
+    "UAL": {
+      "conid": 79498203,
+      "label": "United Airlines",
+      "group": "transport",
+      "exchange": "NASDAQ",
+      "name": "UNITED AIRLINES HOLDINGS INC"
+    },
+    "UBER": {
+      "conid": 365207014,
+      "label": "Uber (ground mobility)",
+      "group": "transport",
+      "exchange": "NYSE",
+      "name": "UBER TECHNOLOGIES INC"
+    },
+    "IONQ": {
+      "conid": 517593749,
+      "label": "IonQ (trapped-ion pure-play)",
+      "group": "quantum",
+      "exchange": "NYSE",
+      "name": "IONQ INC"
+    },
+    "QBTS": {
+      "conid": 578031277,
+      "label": "D-Wave Quantum (annealing pure-play)",
+      "group": "quantum",
+      "exchange": "NYSE",
+      "name": "D-WAVE QUANTUM INC"
+    },
+    "RGTI": {
+      "conid": 547605251,
+      "label": "Rigetti (supraconducteur pure-play)",
+      "group": "quantum",
+      "exchange": "NASDAQ",
+      "name": "RIGETTI COMPUTING INC"
+    },
+    "ENFR": {
+      "conid": 137736437,
+      "label": "Midstream infra RIC (Alerian AMEI)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "ALERIAN ENERGY INFRASTRUCTUR",
+      "subsector": "pétrole (bloc)",
+      "groups": [
+        "industry",
+        "energy"
+      ]
+    },
+    "ABCL": {
+      "conid": 459919952,
+      "label": "AbCellera (plateforme Ac + pipeline propre)",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "ABCELLERA BIOLOGICS INC"
+    },
+    "EVX": {
+      "conid": 229726303,
+      "label": "Déchets & services environnementaux",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "VANECK ENVIRONMENTAL SERVICE"
+    },
+    "WEAT": {
+      "conid": 828938322,
+      "label": "Blé (Teucrium)",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "TEUCRIUM WHEAT FUND",
+      "groups": [
+        "macro"
+      ],
+      "subsector": "commodité blé"
+    },
+    "MAL": {
+      "conid": 51599056,
+      "label": "Magellan Aerospace (aéro-défense CA, CAD)",
+      "group": "themes",
+      "exchange": "TSE",
+      "name": "MAGELLAN AEROSPACE CORP",
+      "groups": [
+        "themes"
+      ],
+      "subsector": "aéro-défense",
+      "currency": "CAD"
+    },
+    "AM": {
+      "conid": 512412072,
+      "label": "Dassault Aviation (Rafale, EUR)",
+      "group": "themes",
+      "exchange": "SBF",
+      "name": "DASSAULT AVIATION SA",
+      "groups": [
+        "themes",
+        "defense"
+      ],
+      "subsector": "europe",
+      "currency": "EUR"
+    },
+    "RTX": {
+      "conid": 415342104,
+      "label": "RTX Corp (Raytheon, prime US)",
+      "group": "themes",
+      "exchange": "NYSE",
+      "name": "RTX CORP",
+      "groups": [
+        "themes",
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "ACHR": {
+      "conid": 514640214,
+      "label": "Archer Aviation Inc-A",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "ARCHER AVIATION INC-A",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "evtol"
+    },
+    "AIR": {
+      "conid": 29612256,
+      "label": "Airbus Se",
+      "group": "defense",
+      "exchange": "SBF",
+      "name": "AIRBUS SE",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "BA": {
+      "conid": 4762,
+      "label": "Boeing Co/The",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "BOEING CO/THE",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "CACI": {
+      "conid": 267197,
+      "label": "Caci International Inc -Cl A",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "CACI INTERNATIONAL INC -CL A",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "services-gov"
+    },
+    "DSY": {
+      "conid": 500760943,
+      "label": "Dassault Systemes Se",
+      "group": "defense",
+      "exchange": "SBF",
+      "name": "DASSAULT SYSTEMES SE",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "hors-défense (logiciel)"
+    },
+    "ESLT": {
+      "conid": 6478305,
+      "label": "Elbit Systems Ltd",
+      "group": "defense",
+      "exchange": "NASDAQ",
+      "name": "ELBIT SYSTEMS LTD",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "EVEX": {
+      "conid": 560751549,
+      "label": "Eve Holding Inc",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "EVE HOLDING INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "evtol"
+    },
+    "EVTL": {
+      "conid": 727981234,
+      "label": "Vertical Aerospace Ltd",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "VERTICAL AEROSPACE LTD",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "evtol"
+    },
+    "GD": {
+      "conid": 7496,
+      "label": "General Dynamics Corp",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "GENERAL DYNAMICS CORP",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "HO": {
+      "conid": 917799,
+      "label": "Thales Sa",
+      "group": "defense",
+      "exchange": "SBF",
+      "name": "THALES SA",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "HON": {
+      "conid": 892744244,
+      "label": "Honeywell International Inc",
+      "group": "defense",
+      "exchange": "NASDAQ",
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "JOBY": {
+      "conid": 507188246,
+      "label": "Joby Aviation Inc",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "JOBY AVIATION INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "evtol"
+    },
+    "KTOS": {
+      "conid": 68492173,
+      "label": "Kratos Defense & Security",
+      "group": "defense",
+      "exchange": "NASDAQ",
+      "name": "KRATOS DEFENSE & SECURITY",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "LDOS": {
+      "conid": 134280621,
+      "label": "Leidos Holdings Inc",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "LEIDOS HOLDINGS INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "services-gov"
+    },
+    "LHX": {
+      "conid": 371886040,
+      "label": "L3Harris Technologies Inc",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "L3HARRIS TECHNOLOGIES INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "LMT": {
+      "conid": 611191,
+      "label": "Lockheed Martin Corp",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "LOCKHEED MARTIN CORP",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "MPTI": {
+      "conid": 578561396,
+      "label": "M-Tron Industries Inc",
+      "group": "defense",
+      "exchange": "AMEX",
+      "name": "M-TRON INDUSTRIES INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "NOC": {
+      "conid": 10376,
+      "label": "Northrop Grumman Corp",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "NORTHROP GRUMMAN CORP",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "SAF": {
+      "conid": 1322028,
+      "label": "Safran Sa",
+      "group": "defense",
+      "exchange": "SBF",
+      "name": "SAFRAN SA",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "TDG": {
+      "conid": 38285434,
+      "label": "Transdigm Group Inc",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "TRANSDIGM GROUP INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "TXT": {
+      "conid": 13101,
+      "label": "Textron Inc",
+      "group": "defense",
+      "exchange": "NYSE",
+      "name": "TEXTRON INC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "primes"
+    },
+    "RHM": {
+      "conid": 15085,
+      "label": "Rheinmetall Ag",
+      "group": "defense",
+      "exchange": "IBIS",
+      "name": "RHEINMETALL AG",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "BA.": {
+      "conid": 908964,
+      "label": "Bae Systems Plc",
+      "group": "defense",
+      "exchange": "LSE",
+      "name": "BAE SYSTEMS PLC",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "LDO": {
+      "conid": 35162453,
+      "label": "Leonardo Spa",
+      "group": "defense",
+      "exchange": "BVME",
+      "name": "LEONARDO SPA",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "SAAB": {
+      "conid": 696509457,
+      "label": "Saab Ab-B (Francfort)",
+      "group": "defense",
+      "exchange": "FWB2",
+      "name": "SAAB AB-B (Francfort)",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "KOG": {
+      "conid": 789031694,
+      "label": "Kongsberg Gruppen Asa",
+      "group": "defense",
+      "exchange": "OSE",
+      "name": "KONGSBERG GRUPPEN ASA",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "HAG": {
+      "conid": 447545377,
+      "label": "Hensoldt Ag",
+      "group": "defense",
+      "exchange": "IBIS",
+      "name": "HENSOLDT AG",
+      "groups": [
+        "defense"
+      ],
+      "subsector": "europe"
+    },
+    "HSAI": {
+      "conid": 613031001,
+      "label": "Hesai — lidar n°1 humanoïde (ADR chinois, VIE)",
+      "group": "robotics",
+      "exchange": "NASDAQ",
+      "name": "HESAI GROUP"
+    },
+    "BMY": {
+      "conid": 5111,
+      "label": "Bristol-Myers Squibb (pharma large)",
+      "group": "health",
+      "exchange": "NYSE",
+      "name": "BRISTOL-MYERS SQUIBB CO"
+    },
+    "MMM": {
+      "conid": 9720,
+      "label": "3M (conglomérat industriel)",
+      "group": "industry",
+      "exchange": "NYSE",
+      "name": "3M CO"
+    },
+    "V": {
+      "conid": 49462172,
+      "label": "Visa (paiements)",
+      "group": "sectors",
+      "exchange": "NYSE",
+      "name": "VISA INC-CLASS A SHARES"
+    },
+    "CWCO": {
+      "conid": 13017988,
+      "label": "Consolidated Water (dessalement/eau)",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "CONSOLIDATED WATER CO-ORD SH"
+    },
+    "MOTG": {
+      "conid": 339976289,
+      "label": "VanEck Morningstar Global Wide Moat",
+      "group": "themes",
+      "exchange": "BATS",
+      "name": "VANECK MSTAR GL WIDE MOAT"
+    },
+    "MRK": {
+      "conid": 70101545,
+      "label": "Merck & Co (pharma large)",
+      "group": "health",
+      "exchange": "NYSE",
+      "name": "MERCK & CO INC"
+    },
+    "NDAQ": {
+      "conid": 29380756,
+      "label": "Nasdaq Inc (opérateur de marché)",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "NASDAQ INC"
+    },
+    "NNE": {
+      "conid": 701518202,
+      "label": "Nano Nuclear Energy (SMR, pré-revenus)",
+      "group": "energy",
+      "exchange": "NASDAQ",
+      "name": "NANO NUCLEAR ENERGY INC"
+    },
+    "O": {
+      "conid": 10672,
+      "label": "Realty Income (REIT net lease)",
+      "group": "themes",
+      "exchange": "NYSE",
+      "name": "REALTY INCOME CORP"
+    },
+    "SWK": {
+      "conid": 73354293,
+      "label": "Stanley Black & Decker (outillage)",
+      "group": "industry",
+      "exchange": "NYSE",
+      "name": "STANLEY BLACK & DECKER INC"
+    },
+    "SHOP": {
+      "conid": 195014116,
+      "label": "Shopify (commerce en ligne, SaaS)",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "SHOPIFY INC",
+      "history_conid": 195426111,
+      "history_note": "Série de cotation TRONQUÉE (transfert NYSE→NASDAQ mars 2025) : les mesures techniques se prennent sur la cotation TSE continue (SHOP.TO, CAD). La ligne TRADEABLE reste celle-ci, au NASDAQ, en USD."
+    },
+    "SHOP.TO": {
+      "conid": 195426111,
+      "label": "Shopify — cotation TSE (CAD), historique continu depuis 2015",
+      "group": "themes",
+      "exchange": "TSE",
+      "name": "SHOPIFY INC - CLASS A",
+      "groups": [
+        "themes"
+      ],
+      "subsector": "logiciel/e-commerce",
+      "note": "HISTORIQUE seulement. Le conid NASDAQ (SHOP, 195014116) ne porte que l'après-transfert de cotation de mars 2025 — 16 barres mensuelles, inutilisable pour l'AT (piège « série TROUÉE », précédent Cybin). Séries en CAD : jamais dans une colonne « $ ». La ligne TRADEABLE reste SHOP au NASDAQ."
+    },
+    "NEE": {
+      "conid": 75960201,
+      "label": "NextEra Energy (utility régulée FPL + renouvelables)",
+      "group": "energy",
+      "exchange": "NYSE",
+      "name": "NEXTERA ENERGY INC"
+    },
+    "MPLX": {
+      "conid": 116339790,
+      "label": "MPLX LP — midstream Marathon (LP → K-1, §1446)",
+      "group": "energy",
+      "exchange": "NYSE",
+      "name": "MPLX LP"
+    },
+    "MOAT": {
+      "conid": 229728900,
+      "label": "VanEck Morningstar Wide Moat US (réf. de MOTG)",
+      "group": "themes",
+      "exchange": "BATS",
+      "name": "VANECK MORNINGSTAR WIDE MOAT"
+    },
+    "CRM": {
+      "conid": 29624264,
+      "label": "Salesforce — Agentforce, l'attaque frontale sur l'agent d'entreprise",
+      "group": "industry",
+      "exchange": "NYSE",
+      "name": "SALESFORCE INC"
+    },
+    "FRSH": {
+      "conid": 515658485,
+      "label": "Freshworks — ITSM milieu de marche, seul pure player cote du segment",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "FRESHWORKS INC-CL A"
+    },
+    "NOW": {
+      "conid": 109911821,
+      "label": "ServiceNow — plateforme de workflow d'entreprise (split 5:1 le 2025-12-17)",
+      "group": "industry",
+      "exchange": "NYSE",
+      "name": "SERVICENOW INC"
+    },
+    "TEAM": {
+      "conid": 589316251,
+      "label": "Atlassian — Jira Service Management, l'attaque par le bas sur l'ITSM",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "ATLASSIAN CORP-CL A"
+    },
+    "FTXG": {
+      "conid": 248755965,
+      "label": "Alimentation & boissons (First Trust Nasdaq)",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "FIRST TRUST NASDAQ FOOD & BE"
+    },
+    "IBUY": {
+      "conid": 230540237,
+      "label": "Vente en ligne (Amplify Online Retail — modifié équipondéré)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "AMPLIFY ONLINE RETAIL ETF",
+      "subsector": "Vente en ligne"
+    },
+    "ONLN": {
+      "conid": 325910389,
+      "label": "Vente en ligne (ProShares Online Retail)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "PROSHARES ONLINE RETAIL ETF"
+    },
+    "RSPD": {
+      "conid": 319359360,
+      "label": "Conso discrétionnaire équipondérée (Invesco) — instrument de MESURE",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "INVESCO S&P 500 EQUAL WEIGHT"
+    },
+    "RSPS": {
+      "conid": 319359339,
+      "label": "Conso de base équipondérée (Invesco) — instrument de MESURE",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "INVESCO S&P 500 EQUAL WEIGHT"
+    },
+    "BKNG": {
+      "conid": 308728373,
+      "label": "Booking Holdings",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "BOOKING HOLDINGS INC"
+    },
+    "CROP": {
+      "conid": 544928161,
+      "label": "AgTech & alimentation (Global X UCITS, Milan) — MÊME fonds que KROP",
+      "group": "industry",
+      "exchange": "BVME.ETF",
+      "name": "GX AGTECH & FOOD INNOV UCITS"
+    },
+    "CZA": {
+      "conid": 319359329,
+      "label": "Mid-cap US (Invesco Zacks)",
+      "group": "market",
+      "exchange": "ARCA",
+      "name": "INVESCO ZACKS MID-CAP ETF"
+    },
+    "EXPE": {
+      "conid": 98542021,
+      "label": "Expedia Group",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "EXPEDIA GROUP INC"
+    },
+    "KROP": {
+      "conid": 811021456,
+      "label": "AgTech & alimentation (Global X, US)",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "GLOBAL X AGTECH & FOOD INNOV"
+    },
+    "MA": {
+      "conid": 38685693,
+      "label": "Mastercard",
+      "group": "industry",
+      "exchange": "NYSE",
+      "name": "MASTERCARD INC"
+    },
+    "PTON": {
+      "conid": 385087203,
+      "label": "Peloton Interactive",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "PELOTON INTERACTIVE INC-A"
+    },
+    "SCHW": {
+      "conid": 11905,
+      "label": "Charles Schwab",
+      "group": "industry",
+      "exchange": "NYSE",
+      "name": "SCHWAB (CHARLES) CORP"
+    },
+    "SERV": {
+      "conid": 689676896,
+      "label": "Serve Robotics",
+      "group": "robotics",
+      "subsector": "livraison autonome"
+    },
+    "ABBN": {
+      "conid": 2682965,
+      "label": "ABB Ltd",
+      "group": "industry",
+      "subsector": "automation industrielle",
+      "exchange": "EBS",
+      "name": "ABB LTD-REG"
+    },
+    "HLX": {
+      "conid": 38251658,
+      "label": "Helix Energy Solutions Group",
+      "group": "energy",
+      "subsector": "services offshore",
+      "exchange": "NYSE",
+      "name": "HELIX ENERGY SOLUTIONS GROUP"
+    },
+    "ABSI": {
+      "conid": 504239576,
+      "label": "AbSci — découverte de médicaments IA",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "ABSCI CORP"
+    },
+    "CDNA": {
+      "conid": 160758513,
+      "label": "CareDx — diagnostics de transplantation",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "CAREDX INC"
+    },
+    "CMOD": {
+      "conid": 262067279,
+      "label": "CMOD",
+      "group": "macro",
+      "exchange": "LSEETF",
+      "name": "INVESCO BLOOMBERG COMMODITY UCITS ETF"
+    },
+    "DSV": {
+      "conid": 897526152,
+      "label": "DSV",
+      "group": "metals",
+      "exchange": "TSE",
+      "name": "DISCOVERY MINING LTD"
+    },
+    "ERF": {
+      "conid": 455926540,
+      "label": "ERF",
+      "group": "health",
+      "exchange": "SBF",
+      "name": "EUROFINS SCIENTIFIC SE"
+    },
+    "FM": {
+      "conid": 14890726,
+      "label": "FM",
+      "group": "metals",
+      "exchange": "TSE",
+      "name": "FIRST QUANTUM MINERALS LTD"
+    },
+    "GILD": {
+      "conid": 269753,
+      "label": "GILD",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "GILEAD SCIENCES INC"
+    },
+    "PDBC": {
+      "conid": 320227565,
+      "label": "PDBC",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "INVESCO OPTIMUM YIELD DIVERSIFIED COMMODITY STRATEGY NO K-1 ETF"
+    },
+    "RSPM": {
+      "conid": 319359380,
+      "label": "RSPM",
+      "group": "sectors",
+      "exchange": "ARCA",
+      "name": "INVESCO S&P 500 EQUAL WEIGHT MATERIALS ETF"
+    },
+    "TLX": {
+      "conid": 115333930,
+      "label": "TLX",
+      "group": "financials",
+      "exchange": "IBIS",
+      "name": "TALANX AG"
+    },
+    "VEGI": {
+      "conid": 101780386,
+      "label": "Agro-industrie mondiale (iShares actions)",
+      "group": "industry",
+      "exchange": "ARCA",
+      "name": "ISHARES MSCI AGRICULTURE PRO"
+    },
+    "HLAG": {
+      "conid": 211919516,
+      "label": "Hapag-Lloyd",
+      "group": "transport",
+      "exchange": "IBIS",
+      "name": "HAPAG-LLOYD AG"
+    },
+    "SPCX": {
+      "conid": 890493863,
+      "label": "SpaceX — lancement, Starlink et infrastructure spatiale",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "SPACE EXPLORATION TECHN-CL A"
+    },
+    "ABT": {
+      "conid": 4065,
+      "label": "Abbott — medtech et diagnostics",
+      "group": "health",
+      "exchange": "NYSE",
+      "name": "ABBOTT LABORATORIES ."
+    },
+    "AI": {
+      "conid": 459113767,
+      "label": "C3.ai — logiciel d'IA d'entreprise",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "C3.AI INC-A"
+    },
+    "AMD": {
+      "conid": 4391,
+      "label": "AMD — CPU et GPU",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "ADVANCED MICRO DEVICES"
+    },
+    "AMLIF": {
+      "conid": 287350709,
+      "label": "American Lithium (OTC Pink, CAD)",
+      "group": "metals",
+      "exchange": "PINK",
+      "name": "AMERICAN LITHIUM CORP"
+    },
+    "AMPL": {
+      "conid": 516928558,
+      "label": "Amplitude — analytique produit",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "AMPLITUDE INC-CLASS A"
+    },
+    "CAN": {
+      "conid": 391525016,
+      "label": "Canaan — puces de minage",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "CANAAN INC."
+    },
+    "CNXU": {
+      "conid": 885305496,
+      "label": "Conexeu Sciences — cotation directe, pré-revenu",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "CONEXEU SCIENCES INC"
+    },
+    "CRDO": {
+      "conid": 541265127,
+      "label": "Credo Technology — connectivité interne",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "CREDO TECHNOLOGY GROUP HOLDI"
+    },
+    "DRAM": {
+      "conid": 870556708,
+      "label": "Roundhill Memory ETF (BATS)",
+      "group": "sectors",
+      "exchange": "BATS",
+      "name": "ROUNDHILL MEMORY ETF"
+    },
+    "FIX": {
+      "conid": 6607708,
+      "label": "Comfort Systems USA — CVC et électrique",
+      "group": "industry",
+      "exchange": "NYSE",
+      "name": "COMFORT SYSTEMS USA INC"
+    },
+    "HPE": {
+      "conid": 209411798,
+      "label": "Hewlett Packard Enterprise — serveurs",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "HEWLETT PACKARD ENTERPRISE"
+    },
+    "ISRG": {
+      "conid": 9063285,
+      "label": "Intuitive Surgical — robotique chirurgicale",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "INTUITIVE SURGICAL INC"
+    },
+    "IYE": {
+      "conid": 10190340,
+      "label": "iShares U.S. Energy ETF (ARCA)",
+      "group": "sectors",
+      "exchange": "ARCA",
+      "name": "ISHARES U.S. ENERGY ETF"
+    },
+    "KLAC": {
+      "conid": 270957,
+      "label": "KLA — métrologie de semi-conducteurs",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "KLA CORP"
+    },
+    "MRAM": {
+      "conid": 251176725,
+      "label": "Everspin — mémoire MRAM",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "EVERSPIN TECHNOLOGIES INC"
+    },
+    "MU": {
+      "conid": 9939,
+      "label": "Micron — mémoire DRAM et NAND",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "MICRON TECHNOLOGY INC"
+    },
+    "STM": {
+      "conid": 12460,
+      "label": "STMicroelectronics (ADR)",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "STMICROELECTRONICS NV-NY SHS"
+    },
+    "TOPT": {
+      "conid": 737382114,
+      "label": "iShares Top 20 US Stocks ETF (ARCA)",
+      "group": "sectors",
+      "exchange": "ARCA",
+      "name": "ISHARES TOP 20 US STOCKS ETF"
+    },
+    "TSAT": {
+      "conid": 527803231,
+      "label": "Telesat — satellites LEO",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "TELESAT CORP"
+    },
+    "VPG": {
+      "conid": 76669040,
+      "label": "Vishay Precision — capteurs",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "VISHAY PRECISION GROUP"
+    },
+    "6861": {
+      "conid": 14017040,
+      "label": "Keyence",
+      "group": "tech",
+      "exchange": "TSEJ",
+      "name": "KEYENCE CORP"
+    },
+    "AAPL": {
+      "conid": 265598,
+      "label": "Apple",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "APPLE INC"
+    },
+    "ACM": {
+      "conid": 780983782,
+      "label": "Allied Critical Metals",
+      "group": "metals",
+      "exchange": "PURE",
+      "name": "ALLIED CRITICAL METALS INC"
+    },
+    "ALAB": {
+      "conid": 692196414,
+      "label": "Astera Labs",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "ASTERA LABS INC"
+    },
+    "ANET": {
+      "conid": 740948854,
+      "label": "Arista Networks",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "ARISTA NETWORKS INC"
+    },
+    "AVGO": {
+      "conid": 313130367,
+      "label": "Broadcom",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "BROADCOM INC"
+    },
+    "BSX": {
+      "conid": 5270,
+      "label": "Boston Scientific",
+      "group": "health",
+      "exchange": "NYSE",
+      "name": "BOSTON SCIENTIFIC CORP"
+    },
+    "CAI": {
+      "conid": 792312081,
+      "label": "Caris Life Sciences",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "CARIS LIFE SCIENCES INC"
+    },
+    "CBRS": {
+      "conid": 882732191,
+      "label": "Cerebras Systems",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "CEREBRAS SYSTEMS INC"
+    },
+    "CGNX": {
+      "conid": 267547,
+      "label": "Cognex",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "COGNEX CORP"
+    },
+    "CRWV": {
+      "conid": 771759702,
+      "label": "CoreWeave",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "COREWEAVE INC-CL A"
+    },
+    "ETN": {
+      "conid": 118017869,
+      "label": "Eaton",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "EATON CORP PLC"
+    },
+    "GRAL": {
+      "conid": 708088152,
+      "label": "GRAIL",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "GRAIL INC"
+    },
+    "LSCC": {
+      "conid": 271320,
+      "label": "Lattice Semiconductor",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "LATTICE SEMICONDUCTOR CORP"
+    },
+    "MDT": {
+      "conid": 181387075,
+      "label": "Medtronic",
+      "group": "health",
+      "exchange": "NYSE",
+      "name": "MEDTRONIC PLC"
+    },
+    "META": {
+      "conid": 107113386,
+      "label": "Meta",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "META PLATFORMS INC-CLASS A"
+    },
+    "NBIS": {
+      "conid": 88819736,
+      "label": "Nebius",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "NEBIUS GROUP NV"
+    },
+    "NTRA": {
+      "conid": 198950253,
+      "label": "Natera",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "NATERA INC"
+    },
+    "NVDA": {
+      "conid": 4815747,
+      "label": "NVIDIA",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "NVIDIA CORP"
+    },
+    "NVTS": {
+      "conid": 522128117,
+      "label": "Navitas Semiconductor",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "NAVITAS SEMICONDUCTOR CORP"
+    },
+    "QCOM": {
+      "conid": 273544,
+      "label": "Qualcomm",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "QUALCOMM INC"
+    },
+    "SU": {
+      "conid": 29612196,
+      "label": "Schneider Electric",
+      "group": "tech",
+      "exchange": "SBF",
+      "name": "SCHNEIDER ELECTRIC SE"
+    },
+    "TEM": {
+      "conid": 709237125,
+      "label": "Tempus AI",
+      "group": "health",
+      "exchange": "NASDAQ",
+      "name": "TEMPUS AI INC-CL A"
+    },
+    "TSM": {
+      "conid": 6223250,
+      "label": "TSMC",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR"
+    },
+    "VRT": {
+      "conid": 402783527,
+      "label": "Vertiv",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "VERTIV HOLDINGS CO-A"
+    },
+    "AAOI": {
+      "conid": 135423662,
+      "label": "Applied Optoelectronics",
+      "group": "quantum",
+      "exchange": "NASDAQ",
+      "name": "APPLIED OPTOELECTRONICS INC"
+    },
+    "APLD": {
+      "conid": 556067819,
+      "label": "Applied Digital",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "APPLIED DIGITAL CORP"
+    },
+    "CORZ": {
+      "conid": 679998205,
+      "label": "Core Scientific",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "CORE SCIENTIFIC INC"
+    },
+    "FN": {
+      "conid": 76615083,
+      "label": "Fabrinet",
+      "group": "quantum",
+      "exchange": "NYSE",
+      "name": "FABRINET"
+    },
+    "GLW": {
+      "conid": 7655,
+      "label": "Corning",
+      "group": "quantum",
+      "exchange": "NYSE",
+      "name": "CORNING INC"
+    },
+    "GOOGL": {
+      "conid": 208813719,
+      "label": "Alphabet",
+      "group": "quantum",
+      "exchange": "NASDAQ",
+      "name": "ALPHABET INC-CL A"
+    },
+    "HUBB": {
+      "conid": 216386790,
+      "label": "Hubbell",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "HUBBELL INC"
+    },
+    "IBM": {
+      "conid": 8314,
+      "label": "IBM",
+      "group": "quantum",
+      "exchange": "NYSE",
+      "name": "INTL BUSINESS MACHINES CORP"
+    },
+    "INTC": {
+      "conid": 270639,
+      "label": "Intel",
+      "group": "quantum",
+      "exchange": "NASDAQ",
+      "name": "INTEL CORP"
+    },
+    "LITE": {
+      "conid": 201113895,
+      "label": "Lumentum",
+      "group": "quantum",
+      "exchange": "NASDAQ",
+      "name": "LUMENTUM HOLDINGS INC"
+    },
+    "ON": {
+      "conid": 8677881,
+      "label": "onsemi",
+      "group": "tech",
+      "exchange": "NASDAQ",
+      "name": "ON SEMICONDUCTOR"
+    },
+    "POET": {
+      "conid": 547618418,
+      "label": "POET Technologies",
+      "group": "quantum",
+      "exchange": "NASDAQ",
+      "name": "POET TECHNOLOGIES INC"
+    },
+    "PWR": {
+      "conid": 6608432,
+      "label": "Quanta Services",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "QUANTA SERVICES INC"
+    },
+    "QUBT": {
+      "conid": 324651164,
+      "label": "Quantum Computing Inc",
+      "group": "quantum",
+      "exchange": "NASDAQ",
+      "name": "QUANTUM COMPUTING INC"
+    },
+    "BRKR": {
+      "conid": 9905742,
+      "label": "Bruker",
+      "group": "energy",
+      "exchange": "NASDAQ",
+      "name": "BRUKER CORP"
+    },
+    "BWXT": {
+      "conid": 196689572,
+      "label": "BWX Technologies",
+      "group": "energy",
+      "exchange": "NYSE",
+      "name": "BWX TECHNOLOGIES INC"
+    },
+    "CVX": {
+      "conid": 5684,
+      "label": "Chevron",
+      "group": "energy",
+      "exchange": "NYSE",
+      "name": "CHEVRON CORP"
+    },
+    "DJT": {
+      "conid": 517641765,
+      "label": "Trump Media / TAE Technologies",
+      "group": "energy",
+      "exchange": "NASDAQ",
+      "name": "TRUMP MEDIA & TECHNOLOGY GRO"
+    },
+    "SMR": {
+      "conid": 559289446,
+      "label": "NuScale Power",
+      "group": "energy",
+      "exchange": "NYSE",
+      "name": "NUSCALE POWER CORP"
+    },
+    "TEP": {
+      "conid": 1322000,
+      "label": "Teleperformance SE",
+      "group": "industry",
+      "exchange": "SBF",
+      "name": "TELEPERFORMANCE"
+    },
+    "PL": {
+      "conid": 530906124,
+      "label": "Planet Labs PBC",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "PLANET LABS PBC"
+    },
+    "NEO": {
+      "conid": 30214424,
+      "label": "NeoGenomics — diagnostic oncologique et MRD",
+      "group": "health",
+      "subsector": "Diagnostic oncologique / biopsie liquide"
+    },
+    "FLGT": {
+      "conid": 249323303,
+      "label": "Fulgent Genetics — diagnostic génomique",
+      "group": "health",
+      "subsector": "Diagnostic génomique / biopsie liquide"
+    },
+    "MYGN": {
+      "conid": 4646771,
+      "label": "Myriad Genetics — diagnostic génétique et oncologie",
+      "group": "health",
+      "subsector": "Diagnostic génétique / oncologie"
+    },
+    "VCYT": {
+      "conid": 137537411,
+      "label": "Veracyte — diagnostic moléculaire oncologique",
+      "group": "health",
+      "subsector": "Diagnostic moléculaire / oncologie"
+    },
+    "ABBV": {
+      "conid": 118089500,
+      "name": "AbbVie Inc.",
+      "label": "AbbVie Inc.",
+      "exchange": "NYSE",
+      "group": "health"
+    },
+    "AMGN": {
+      "conid": 266145,
+      "name": "Amgen Inc.",
+      "label": "Amgen Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "DNA": {
+      "conid": 718507605,
+      "name": "Ginkgo Bioworks Holdings, Inc.",
+      "label": "Ginkgo Bioworks Holdings, Inc.",
+      "exchange": "NYSE",
+      "group": "health"
+    },
+    "JNJ": {
+      "conid": 8719,
+      "name": "Johnson & Johnson",
+      "label": "Johnson & Johnson",
+      "exchange": "NYSE",
+      "group": "health"
+    },
+    "KOD": {
+      "conid": 335906881,
+      "name": "Kodiak Sciences Inc.",
+      "label": "Kodiak Sciences Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "LLY": {
+      "conid": 9160,
+      "name": "Eli Lilly and Company",
+      "label": "Eli Lilly and Company",
+      "exchange": "NYSE",
+      "group": "health"
+    },
+    "MIR": {
+      "conid": 521961990,
+      "name": "Mirion Technologies, Inc.",
+      "label": "Mirion Technologies, Inc.",
+      "exchange": "NYSE",
+      "group": "industry"
+    },
+    "PFE": {
+      "conid": 11031,
+      "name": "Pfizer Inc.",
+      "label": "Pfizer Inc.",
+      "exchange": "NYSE",
+      "group": "health"
+    },
+    "RXRX": {
+      "conid": 482017113,
+      "name": "Recursion Pharmaceuticals, Inc.",
+      "label": "Recursion Pharmaceuticals, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "SUPN": {
+      "conid": 106853221,
+      "name": "Supernus Pharmaceuticals, Inc.",
+      "label": "Supernus Pharmaceuticals, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "TMO": {
+      "conid": 12869,
+      "name": "Thermo Fisher Scientific Inc.",
+      "label": "Thermo Fisher Scientific Inc.",
+      "exchange": "NYSE",
+      "group": "health"
+    },
+    "UNH": {
+      "conid": 13272,
+      "name": "UnitedHealth Group Inc.",
+      "label": "UnitedHealth Group Inc.",
+      "exchange": "NYSE",
+      "group": "health"
+    },
+    "ZYME": {
+      "conid": 589640494,
+      "name": "Zymeworks Inc.",
+      "label": "Zymeworks Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "DFTX": {
+      "conid": 845905488,
+      "name": "Definium Therapeutics, Inc.",
+      "label": "Definium Therapeutics, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "DRUG": {
+      "conid": 641842650,
+      "name": "Bright Minds Biosciences Inc.",
+      "label": "Bright Minds Biosciences Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "ENVB": {
+      "conid": 826119271,
+      "name": "Enveric Biosciences, Inc.",
+      "label": "Enveric Biosciences, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "GHRS": {
+      "conid": 498661851,
+      "name": "GH Research PLC",
+      "label": "GH Research PLC",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "HELP": {
+      "conid": 929774755,
+      "name": "Cybin Inc. (marque Helus Pharma)",
+      "label": "Cybin Inc. (marque Helus Pharma)",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "IGC": {
+      "conid": 125693625,
+      "name": "IGC Pharma, Inc.",
+      "label": "IGC Pharma, Inc.",
+      "exchange": "AMEX",
+      "group": "health"
+    },
+    "IXHL": {
+      "conid": 858465700,
+      "name": "Incannex Healthcare Inc.",
+      "label": "Incannex Healthcare Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "KTTA": {
+      "conid": 675122973,
+      "name": "Pasithea Therapeutics Corp.",
+      "label": "Pasithea Therapeutics Corp.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "NBIX": {
+      "conid": 4815347,
+      "name": "Neurocrine Biosciences, Inc.",
+      "label": "Neurocrine Biosciences, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "NEUP": {
+      "conid": 750199783,
+      "name": "Neuphoria Therapeutics Inc.",
+      "label": "Neuphoria Therapeutics Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "NUMIF": {
+      "conid": 500029636,
+      "name": "Numinus Wellness Inc.",
+      "label": "Numinus Wellness Inc.",
+      "exchange": "PINK",
+      "group": "health"
+    },
+    "PBM": {
+      "conid": 846773110,
+      "name": "Psyence Biomedical Ltd.",
+      "label": "Psyence Biomedical Ltd.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "QNTM": {
+      "conid": 722493614,
+      "name": "Quantum BioPharma Ltd.",
+      "label": "Quantum BioPharma Ltd.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "RLMD": {
+      "conid": 385549233,
+      "name": "Relmada Therapeutics, Inc.",
+      "label": "Relmada Therapeutics, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "SILO": {
+      "conid": 888523903,
+      "name": "Silo Pharma, Inc.",
+      "label": "Silo Pharma, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "STIM": {
+      "conid": 324062325,
+      "name": "Neuronetics, Inc.",
+      "label": "Neuronetics, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "PACB": {
+      "conid": 80410754,
+      "name": "Pacific Biosciences of California, Inc.",
+      "label": "Pacific Biosciences of California, Inc.",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "RLAY": {
+      "conid": 434693577,
+      "name": "RELAY THERAPEUTICS INC",
+      "label": "RELAY THERAPEUTICS INC",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "VRTX": {
+      "conid": 275850,
+      "name": "VERTEX PHARMACEUTICALS INC",
+      "label": "VERTEX PHARMACEUTICALS INC",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "XNCR": {
+      "conid": 139508766,
+      "name": "XENCOR INC",
+      "label": "XENCOR INC",
+      "exchange": "NASDAQ",
+      "group": "health"
+    },
+    "GLEN": {
+      "conid": 88286963,
+      "label": "Glencore (mines et négoce diversifiés)",
+      "group": "metals",
+      "exchange": "LSE",
+      "name": "GLENCORE PLC"
+    },
+    "HYGH": {
+      "conid": 153090099,
+      "label": "Crédit haut rendement US couvert en taux (iShares HYGH)",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "ISHARES INT RATE HEDG HY ETF"
+    },
+    "RVX": {
+      "conid": 41492901,
+      "label": "Volatilité implicite Russell 2000 (CBOE)",
+      "group": "volatility",
+      "exchange": "CBOE",
+      "name": "Russell 2000 Volatility Index"
+    },
+    "FAST": {
+      "conid": 269120,
+      "label": "Fastenal Company",
+      "group": "industry",
+      "exchange": "NASDAQ",
+      "name": "FASTENAL CO"
+    },
+    "9697": {
+      "conid": 14019244,
+      "label": "Capcom",
+      "group": "consumer",
+      "exchange": "TSEJ",
+      "name": "CAPCOM CO LTD"
+    },
+    "CAP": {
+      "conid": 29612147,
+      "label": "Capgemini",
+      "group": "tech",
+      "exchange": "SBF",
+      "name": "CAPGEMINI SE"
+    },
+    "COP": {
+      "conid": 10885,
+      "label": "ConocoPhillips",
+      "group": "energy",
+      "exchange": "NYSE",
+      "name": "CONOCOPHILLIPS"
+    },
+    "GCT": {
+      "conid": 579848128,
+      "label": "GigaCloud Technology",
+      "group": "consumer",
+      "exchange": "NASDAQ",
+      "name": "GIGACLOUD TECHNOLOGY INC"
+    },
+    "RBLX": {
+      "conid": 476026060,
+      "label": "Roblox",
+      "group": "tech",
+      "exchange": "NYSE",
+      "name": "ROBLOX CORP -CLASS A"
+    },
+    "VSXY": {
+      "conid": 502415513,
+      "label": "Victoria's Secret",
+      "group": "consumer",
+      "exchange": "NYSE",
+      "name": "VICTORIA'S SECRET & CO"
+    },
+    "W": {
+      "conid": 168812158,
+      "label": "Wayfair",
+      "group": "consumer",
+      "exchange": "NYSE",
+      "name": "WAYFAIR INC- CLASS A"
+    },
+    "XOM": {
+      "conid": 895178251,
+      "label": "Exxon Mobil",
+      "group": "energy",
+      "exchange": "NYSE",
+      "name": "EXXONMOBIL HOLDINGS CORP"
+    },
+    "HERO": {
+      "conid": 389399755,
+      "label": "Jeux vidéo & esport (Global X)",
+      "group": "themes",
+      "exchange": "NASDAQ",
+      "name": "GLOBAL X VIDEO GAMES& ESPORT"
+    },
+    "GSG": {
+      "conid": 40066344,
+      "label": "GSG",
+      "group": "macro",
+      "exchange": "ARCA",
+      "name": "ISHARES S&P GSCI COMMODITY I"
+    },
+    "RVTY": {
+      "conid": 6737,
+      "name": "Revvity, Inc.",
+      "label": "Revvity, Inc.",
+      "exchange": "NYSE",
+      "group": "health"
+    }
+  }
+}

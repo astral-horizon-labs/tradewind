@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "note": "Alertes de RÉGIME livrées avec la méthode (2026-10-17) : seuils de marché pré-engagés, sens et exposition par catégorie, sans les décisions ni les mesures d'un livre. Un livre sans tripwires.json les lit ici ; le sien les reprend avec ses propres textes.",
+  "tripwires": [
+    {
+      "id": "xbi-spy-break",
+      "kind": "ratio",
+      "num": "XBI",
+      "den": "SPY",
+      "bar": "1W",
+      "window": 10,
+      "below": 1.0,
+      "release_closes": 2,
+      "method": "memory",
+      "added": "2026-10-30",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "exposure": [
+        "therapeutic",
+        "drug-discovery",
+        "synthetic-biology"
+      ],
+      "label": "Biotech face au marché",
+      "exposure_note": "Toute la biotech : thérapeutique, découverte de médicaments, biologie synthétique.",
+      "meaning": "La biotech mène-t-elle le marché ? Le ratio XBI/SPY (biotech équipondérée contre S&P 500) se compare à sa propre moyenne sur dix semaines. Une clôture hebdo sous cette moyenne dit non : son panier ne monte plus clairement, aucune nouvelle entrée en biotech. L'alerte se lève après deux clôtures hebdo consécutives au-dessus."
+    },
+    {
+      "id": "xbi-xlv-break",
+      "kind": "ratio",
+      "num": "XBI",
+      "den": "XLV",
+      "bar": "1W",
+      "window": 10,
+      "below": 1.0,
+      "release_closes": 2,
+      "method": "memory",
+      "added": "2026-10-30",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "exposure": [
+        "therapeutic",
+        "drug-discovery"
+      ],
+      "label": "Biotech face à la santé",
+      "exposure_note": "Les lignes de biotech clinique et de découverte de médicaments. XLV, la santé large, n'est pas comptée : la bascule la favorise.",
+      "meaning": "Dans la santé, l'argent prend-il du risque ? Le ratio XBI/XLV se compare à sa moyenne sur dix semaines. Une clôture hebdo dessous dit que l'argent de la santé quitte la biotech pour les grandes valeurs défensives : aucun nouveau setup clinique. L'alerte se lève après deux clôtures hebdo consécutives au-dessus."
+    },
+    {
+      "id": "sbio-xbi-break",
+      "kind": "ratio",
+      "num": "SBIO",
+      "den": "XBI",
+      "bar": "1W",
+      "window": 10,
+      "below": 1.0,
+      "release_closes": 2,
+      "method": "memory",
+      "added": "2026-10-30",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "exposure": [
+        "therapeutic",
+        "drug-discovery"
+      ],
+      "label": "Risque clinique",
+      "exposure_note": "Les lignes de biotech clinique et de découverte de médicaments, celles qui portent un risque d'essai.",
+      "meaning": "Le marché paie-t-il le risque clinique ? Le ratio SBIO/XBI (biotech en phase 2-3 contre biotech large) se compare à sa moyenne sur dix semaines. Une clôture hebdo dessous dit que le risque d'essai n'est plus payé : aucun nouveau setup clinique. L'alerte se lève après deux clôtures hebdo consécutives au-dessus."
+    },
+    {
+      "id": "smh-reprise",
+      "kind": "close",
+      "symbol": "SMH",
+      "bar": "1W",
+      "above": 620.0,
+      "method": "memory",
+      "added": "2026-07-18",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Semi-conducteurs — reprise",
+      "exposure_note": "Les lignes de technologie et les ETF technologiques (catégories tech et etf-tech).",
+      "meaning": "Au-dessus de 620, les semi-conducteurs effacent la peur de surcapacité de l'été : la tendance IA repart. Le signal tient tant que la clôture hebdo reste au-dessus.",
+      "exposure": [
+        "tech",
+        "etf-tech"
+      ]
+    },
+    {
+      "id": "smh-capitulation",
+      "kind": "close",
+      "symbol": "SMH",
+      "bar": "1W",
+      "below": 506.0,
+      "method": "memory",
+      "added": "2026-07-18",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Semi-conducteurs — capitulation",
+      "exposure_note": "Les lignes de technologie et les ETF technologiques (catégories tech et etf-tech).",
+      "meaning": "Sous 506, les semi-conducteurs cassent leur base d'avril : la correction devient une vraie baisse, et ta technologie la subit.",
+      "exposure": [
+        "tech",
+        "etf-tech"
+      ]
+    },
+    {
+      "id": "vix-regime-peur",
+      "kind": "close",
+      "symbol": "VIX",
+      "bar": "1W",
+      "above": 28,
+      "method": "memory",
+      "added": "2026-07-23",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Peur sur le S&P 500 (VIX)",
+      "exposure_note": "Un choc de volatilité touche tout le livre : aucune ligne n'est mise à part.",
+      "meaning": "Le VIX mesure le prix de la protection contre une baisse du S&P 500 sur 30 jours. Le S&P 500 est porté par ses méga-capitalisations : un VIX calme ne dit rien de la biotech ni des petites valeurs. Au-dessus de 28, même les grandes valeurs ont peur, comme dans les 5 % de semaines les plus tendues."
+    },
+    {
+      "id": "vix-terme-backwardation",
+      "kind": "ratio",
+      "num": "VIX",
+      "den": "VIX3M",
+      "bar": "1W",
+      "above": 1.0,
+      "method": "memory",
+      "added": "2026-07-23",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Panique immédiate sur le S&P 500 (VIX ÷ VIX 3 mois)",
+      "exposure_note": "Un choc de volatilité touche tout le livre : aucune ligne n'est mise à part.",
+      "meaning": "Compare la peur à 30 jours à la peur à 3 mois : c'est la FORME de la peur, pas son niveau. Normalement la crainte lointaine est plus forte et le rapport reste sous 1. Au-dessus de 1, la panique immédiate dépasse la crainte future : un choc aigu, qui arrive souvent avant le niveau et retombe vite."
+    },
+    {
+      "id": "tnx-plafond-regime",
+      "kind": "close",
+      "symbol": "TNX",
+      "bar": "1W",
+      "above": 50.0,
+      "method": "memory",
+      "added": "2026-07-23",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "exposure": [
+        "therapeutic",
+        "drug-discovery",
+        "etf-health",
+        "etf-realestate",
+        "reit",
+        "diagnostics",
+        "liquid-biopsy",
+        "cancer-diagnostics",
+        "transplant-diagnostics",
+        "genetic-diagnostics",
+        "autoimmune-diagnostics",
+        "nuclear-diagnostics",
+        "sequencing",
+        "single-cell-spatial",
+        "synthetic-biology",
+        "lab-instruments",
+        "bioprocessing"
+      ],
+      "label": "Taux 10 ans — plafond",
+      "display": {
+        "factor": 0.1,
+        "unit": "%"
+      },
+      "exposure_note": "Les lignes sensibles aux taux : biotech clinique, outils et diagnostic, ETF santé et immobilier coté.",
+      "meaning": "Le taux à 10 ans américain n'avait jamais clôturé une semaine au-dessus de 5 % en 15 ans. Au-dessus, l'argent coûte durablement plus cher : vent contraire pour la biotech, la santé et l'immobilier."
+    },
+    {
+      "id": "tnx-plancher-detente",
+      "kind": "close",
+      "symbol": "TNX",
+      "bar": "1W",
+      "below": 40.0,
+      "method": "memory",
+      "added": "2026-07-25",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "exposure": [
+        "therapeutic",
+        "drug-discovery",
+        "etf-health",
+        "etf-realestate",
+        "reit"
+      ],
+      "label": "Taux 10 ans — détente",
+      "display": {
+        "factor": 0.1,
+        "unit": "%"
+      },
+      "exposure_note": "Les lignes sensibles aux taux : biotech clinique, ETF santé et immobilier coté.",
+      "meaning": "Sous 4 %, les taux se détendent franchement : vent porteur pour la biotech, la santé et l'immobilier."
+    },
+    {
+      "id": "hygh-plancher-credit",
+      "kind": "close",
+      "symbol": "HYGH",
+      "bar": "1W",
+      "below": 84.6,
+      "method": "memory",
+      "added": "2026-10-06",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Crédit haut rendement",
+      "exposure_note": "Un choc de crédit touche tout le livre : aucune ligne n'est mise à part.",
+      "meaning": "HYGH est un fonds d'obligations à haut rendement, celles des entreprises les plus endettées, couvert contre le risque de taux : son cours suit donc l'écart de crédit, la prime que ces entreprises paient au-dessus de l'État, et presque pas le taux à 10 ans. Quand il baisse, les prêteurs exigent davantage pour financer les emprunteurs fragiles. Sous 84,6 en clôture hebdomadaire, il casse le plancher tenu depuis 2024 : le crédit reprice le risque, souvent avant les actions. Pour la biotech clinique, c'est la fenêtre de financement qui se referme : augmentations de capital plus chères, voire impossibles."
+    },
+    {
+      "id": "livre-baisse-sommet",
+      "kind": "book",
+      "bar": "1D",
+      "below": -25.0,
+      "method": "round",
+      "added": "2026-10-08",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Mon livre — baisse depuis le sommet",
+      "display": {
+        "unit": "%"
+      },
+      "exposure_note": "Ton livre entier, mesuré sans les dépôts et retraits (ligne « sans flux »).",
+      "meaning": "La seule mesure de peur qui te concerne directement : de combien ton livre a reculé depuis son meilleur niveau. Au-delà du seuil (−25 % par défaut), réexaminer sa structure."
+    },
+    {
+      "id": "rvx-regime-peur",
+      "kind": "close",
+      "symbol": "RVX",
+      "bar": "1W",
+      "above": 36.0,
+      "method": "memory",
+      "added": "2026-10-08",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Peur sur les petites capitalisations (RVX)",
+      "exposure_note": "Un choc de volatilité sur les petites valeurs touche tout le livre : aucune ligne n'est mise à part.",
+      "meaning": "Le RVX est le VIX du Russell 2000 : la peur sur les petites capitalisations, plus proche de ton livre que le S&P 500. Sa médiane est 21 ; au-dessus de 36, on est dans les 5 % de semaines les plus tendues depuis 2011."
+    },
+    {
+      "id": "queue-largeur-petites-cuivre",
+      "kind": "count",
+      "bar": "1W",
+      "legs": [
+        {
+          "num": "RSP",
+          "den": "SPY"
+        },
+        {
+          "num": "IWM",
+          "den": "SPY"
+        },
+        {
+          "num": "CPER",
+          "den": "GLD"
+        }
+      ],
+      "window": 10,
+      "leg_below": 1.0,
+      "release_closes": 2,
+      "above": 2,
+      "method": "memory",
+      "added": "2026-11-03",
+      "action": "Confronter les lignes touchées à leur plan : aucune vente sur ce seul signal, les sorties sont celles des plans.",
+      "scope": "regime",
+      "label": "Risque de chute du marché (largeur, petites capis, cuivre)",
+      "exposure_note": "Une chute du marché touche tout le livre : aucune ligne n'est mise à part.",
+      "meaning": "Trois questions à la fois, chacune contre sa moyenne sur dix semaines : le S&P équipondéré suit-il le S&P (RSP/SPY) ? les petites capitalisations suivent-elles (IWM/SPY) ? le cuivre mène-t-il l'or (CPER/GLD) ? Quand les trois disent non, la hausse ne repose plus que sur quelques géants et sur la peur. Mesuré sur 2012-2026 : les trois ensemble 35 % du temps, et SPY a chuté d'au moins 5 % dans les 13 semaines suivantes 16,5 % des fois, contre 6,8 % le reste du temps. La médiane bouge peu : c'est un risque de chute, pas une direction. Combinaison choisie après avoir vu les chiffres : elle se juge sur ce qu'elle annonce à partir du 2026-11-03."
+    }
+  ]
+}
