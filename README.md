@@ -10,8 +10,8 @@ Brokers account through its Flex report, read-only, and gives your assistant:
   add), tracked at every weekly close, with its review dates and its history;
 - the risk of each holding and of the whole book if every exit is hit, holdings
   without an exit first;
-- relative strength against SPY or against the holding's basket, and 83 market baskets
-  ranked by strength;
+- the 83 market baskets ranked against SPY after each close, the members of each ranked
+  by strength, and relative strength against SPY or against the holding's basket;
 - your NAV over time and your drawdowns, measured without deposits and withdrawals;
 - market regime alerts, read as a move with a direction, not as a red light.
 

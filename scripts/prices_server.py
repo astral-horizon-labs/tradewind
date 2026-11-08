@@ -26,6 +26,8 @@ SNAPSHOT_EVERY_DAYS = 7
 WORKERS = 8
 TIMEOUT = 60
 
+MARKET_PATH = "/v1/market/baskets.json"
+
 
 class ServerError(RuntimeError):
     """Réponse refusée ou injoignable : rendue comme valeur par les commandes."""
@@ -86,6 +88,12 @@ class Client:
 
     def get_snapshot(self):
         return self._request("GET", "/v1/snapshot")
+
+    def put_market(self, payload):
+        self._request("PUT", MARKET_PATH, payload, hashlib.sha256(payload).hexdigest())
+
+    def get_market(self):
+        return self._request("GET", MARKET_PATH)
 
 
 def local_series(directory=None):
@@ -159,13 +167,30 @@ def publish(client=None, *, directory=None, snapshot=None, today=None):
             sent_snapshot = True
     except ServerError as error:
         return f"PUBLICATION ÉCHOUÉE — {error}"
+    market = publish_market(client, directory, today)
     text = (f"{len(outgoing) - len(failures)}/{len(outgoing)} série(s) publiée(s) sur {len(local)}"
             if outgoing else f"aucune série changée sur {len(local)}")
     if sent_snapshot:
         text += ", instantané republié"
     if failures:
         text += f" — {len(failures)} refus, dont {failures[0]}"
+    if market:
+        text += f", {market}"
     return text
+
+
+def publish_market(client, directory, today):
+    """Calcule et publie le classement des paniers (`market_ranking`) ; rend une phrase,"""
+    import market_ranking
+
+    ranking = market_ranking.build(pathlib.Path(directory or data_root.prices_dir()), today)
+    if ranking is None:
+        return ""
+    try:
+        client.put_market(json.dumps(ranking, ensure_ascii=False).encode("utf-8"))
+    except ServerError as error:
+        return f"classement des paniers REFUSÉ — {error}"
+    return f"classement des {len(ranking['baskets'])} paniers publié (semaine du {ranking['last_settled_week']})"
 
 
 def _lock():

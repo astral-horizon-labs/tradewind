@@ -12,8 +12,9 @@ read-only, and gives you, inside your assistant:
   `plan_history`);
 - what each holding costs if it goes to its exit, and the whole book if every exit is
   hit, holdings without an exit first (`position_risk`, `book_risk`);
-- relative strength against SPY or against the holding's basket (`relative_strength`),
-  and 83 market baskets with their members ranked by strength (`basket`);
+- the 83 market baskets ranked against SPY, computed on our server after each close
+  (`basket_ranking`), the members of one basket ranked by strength (`basket`), and
+  relative strength against SPY or against the holding's basket (`relative_strength`);
 - your NAV over time and your drawdowns, without deposits and withdrawals (`nav_history`,
   `drawdowns`, two optional queries);
 - the market regime alerts (`regime_alerts`).

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import datetime
 import json
+import os
 import pathlib
 import sys
 
@@ -28,9 +29,12 @@ for folder in (ROOT / "scripts", pathlib.Path(__file__).resolve().parent):
     if str(folder) not in sys.path:
         sys.path.insert(0, str(folder))
 
+import atomic_file  # noqa: E402  # type: ignore[import-not-found]
 import client_book  # noqa: E402
 import client_prices  # noqa: E402
 import data_root  # noqa: E402  # type: ignore[import-not-found]
+import prices_server  # noqa: E402  # type: ignore[import-not-found]
+from market_ranking import change_pct, equal_weight  # noqa: E402,F401  # type: ignore[import-not-found]
 
 BASKETS_FILE = ROOT / "references" / "baskets.json"
 BENCHMARK = "SPY"
@@ -38,6 +42,9 @@ WINDOWS = (4, 13, 26, 52)
 SMA_WEEKS = 10
 #: Au-delà, un panier se lit sur ses premiers membres : le serveur plafonne chaque clé.
 MAX_MEMBERS = 40
+RANKING_FILE = "market-baskets.json"
+#: Le classement se republie après chaque collecte : six heures suffisent.
+RANKING_MAX_AGE_S = 6 * 3600
 
 
 def seed() -> dict:
@@ -95,33 +102,6 @@ def weekly_closes(conid: int, getter, now: datetime.datetime) -> tuple[dict[str,
         return {}, [], found["error"]
     weeks = client_prices.settled_weeks(found["series"], now.date(), weeks=10_000)
     return {week["week"]: week["c"] for week in weeks}, weeks, None
-
-
-def change_pct(closes: list[float], weeks: int) -> float | None:
-    if len(closes) <= weeks or not closes[-weeks - 1]:
-        return None
-    return round((closes[-1] / closes[-weeks - 1] - 1) * 100, 2)
-
-
-def equal_weight(series: list[dict[str, float]]) -> dict[str, float]:
-    """Indice équipondéré, base 100, des semaines communes à au moins la moitié des membres.
-
-    Chaque semaine, l'indice avance de la moyenne des rendements des membres présents
-    les deux semaines : un membre entré en cours de route ne fait pas de saut."""
-    weeks = sorted({week for closes in series for week in closes})
-    index, level, previous = {}, 100.0, None
-    for week in weeks:
-        present = [closes for closes in series if week in closes]
-        if len(present) * 2 < len(series):
-            continue
-        if previous is not None:
-            moves = [closes[week] / closes[previous] - 1 for closes in present
-                     if previous in closes and closes[previous]]
-            if moves:
-                level *= 1 + sum(moves) / len(moves)
-        index[week] = level
-        previous = week
-    return index
 
 
 def ratio_bars(numerator: dict[str, float], denominator: dict[str, float], weeks: int) -> list[dict]:
@@ -264,3 +244,37 @@ def basket(query: str, getter=None, *, now: datetime.datetime | None = None) -> 
             "basket_vs_spy": summary, "members_by_13w_strength": rows,
             "notes": [f"members without a series on our server, left out: {', '.join(missing)}"] if missing else [],
             "next": "relative_strength(symbol, against=\"basket\") draws a member against this basket"}
+
+
+def ranking(client=None, *, now: datetime.datetime | None = None) -> dict:
+    """Le classement de tous les paniers face au S&P 500, calculé par le poste qui collecte
+    (`scripts/market_ranking.py`) et lu en une requête sur notre serveur ; gardé six heures."""
+    now = now or client_book.now_utc()
+    path = client_book.state_dir() / RANKING_FILE
+    fresh = path.exists() and now.timestamp() - path.stat().st_mtime < RANKING_MAX_AGE_S
+    stale = None
+    if not fresh:
+        if client is None:
+            client, error = client_prices.server_client(client_book.prices_config())
+            if error:
+                return {"error": error}
+        try:
+            payload = client.get_market()
+            json.loads(payload)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            atomic_file.write_text(path, payload.decode("utf-8"))
+            os.utime(path, (now.timestamp(), now.timestamp()))
+        except prices_server.ServerError as error:
+            stale = client_book.english(str(error))
+        except (ValueError, UnicodeDecodeError):
+            stale = "the server returned an unreadable ranking"
+    if not path.exists():
+        if stale and "HTTP 404" in stale:
+            return {"error": "no basket ranking on our server yet"}
+        return {"error": f"basket ranking unavailable: {stale}"}
+    found = json.loads(path.read_text(encoding="utf-8"))
+    if stale:
+        found["notes"] = [f"today's fetch failed, showing the copy fetched earlier: {stale}"]
+    found["next"] = ("basket(name) ranks one basket's members; relative_strength(symbol, "
+                     "against=\"basket\") draws a member against its basket")
+    return found

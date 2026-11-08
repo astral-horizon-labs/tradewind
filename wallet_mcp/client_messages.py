@@ -188,6 +188,8 @@ RULES: tuple[tuple[str, str], ...] = (
     (r"instantané trop lourd", "snapshot too large"),
     (r"empreinte SHA-256 différente du contenu", "SHA-256 digest does not match the content"),
     (r"pas une série de marché", "not a market series"),
+    (r"pas un classement de marché", "not a market ranking"),
+    (r"classement trop lourd", "ranking too large"),
     (r"gzip attendu", "gzip expected"),
     (r"clé absente ou refusée", "key missing or refused"),
     (r"clé en lecture seule", "read-only key"),

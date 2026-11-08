@@ -56,6 +56,8 @@ Rules:
   `relative_strength` against its basket or SPY: the image first, the figures that come
   with it second. The current week is not drawn. `weekly_chart` also draws a symbol the
   user does not hold (an idea, a basket member).
+- From the market down to the stock: for a new idea, `basket_ranking` first (which
+  baskets lead SPY), then `basket` for the leaders inside one, then the stock's chart.
 - A holding is judged against its market first: rising less than its basket or SPY means
   the market is not carrying the bet, even in a rise.
 - Risk is the money lost if a holding goes to its exit (`position_risk`, `book_risk`). A
@@ -170,6 +172,12 @@ def basket(name_or_symbol: str) -> dict:
     """Un panier, nommé ou désigné par un membre : membres classés par force sur 13
     semaines, et le panier équipondéré face au S&P 500. Un nom inconnu liste les paniers."""
     return client_market.basket(name_or_symbol)
+
+
+@mcp.tool(description='Every market basket (83) ranked against SPY on settled weekly closes: the equal-weight basket\'s spread over 4, 13, 26 and 52 weeks, its ratio to SPY against its 10-week average, the direction of that ratio over five weeks, and its three strongest and weakest members over 13 weeks. Computed on our server after each close, read in one request. Start here to find the baskets that lead before choosing a stock.')
+def basket_ranking() -> dict:
+    """Les 83 paniers classés face au S&P 500, calculés par notre serveur après chaque clôture."""
+    return client_market.ranking()
 
 
 @mcp.tool(description='What a holding costs if it goes to its nearest exit: the exit threshold and its distance, the loss in base currency and as a share of the book, and the P&L left at the exit. A holding without a plan or without an exit has unbounded risk.')

@@ -46,6 +46,12 @@ SeriesGetter = Callable[[str], bytes]
 
 def server_getter(config: dict) -> tuple[SeriesGetter | None, str | None]:
     """La fonction qui lit une série sur notre serveur, ou l'erreur de réglage."""
+    client, error = server_client(config)
+    return (client.get_series if client else None), error
+
+
+def server_client(config: dict) -> tuple[prices_server.Client | None, str | None]:
+    """Le client de notre serveur de prix, ou l'erreur de réglage."""
     url = config.get("prices_url") or DEFAULT_URL
     key = config.get("prices_key")
     if not key and config.get("prices_key_file"):
@@ -56,8 +62,7 @@ def server_getter(config: dict) -> tuple[SeriesGetter | None, str | None]:
     if not url or not key:
         return None, ("no price server key (prices_key in client.json): run "
                       "`python3 wallet_mcp/install_client.py` again, it obtains one by itself")
-    client = prices_server.Client(url.rstrip("/"), key)
-    return client.get_series, None
+    return prices_server.Client(url.rstrip("/"), key), None
 
 
 def series(conid: int, folder: pathlib.Path, getter: SeriesGetter,
