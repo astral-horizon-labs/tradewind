@@ -52,6 +52,10 @@ FIELDS = (  # (clé, drapeau, question, secret, obligatoire) ; question None : j
     ("token", "token", "Flex Web Service token", True, True),
     ("query_id", "query_id", "Flex query ID for positions (LOT)", False, True),
     ("query_id_cash", "query_id_cash", "Cash Report query ID (optional, for NAV)", False, False),
+    ("query_id_nav", "query_id_nav",
+     "NAV in Base query ID (optional, for NAV history and drawdowns)", False, False),
+    ("query_id_cashtx", "query_id_cashtx",
+     "Cash Transactions query ID (optional, deposits and withdrawals)", False, False),
     ("base_currency", "base_currency", "Account base currency (optional, e.g. USD)", False, False),
     ("prices_url", "prices_url", None, False, False),
     ("prices_key", "prices_key", None, True, False),
@@ -95,7 +99,7 @@ def collect(args, current: dict, ask: bool) -> tuple[dict, list[str]]:
     """La configuration fusionnée, et les champs obligatoires encore vides."""
     merged = dict(current)
     for key, flag, question, secret, _ in FIELDS:
-        given = getattr(args, flag)
+        given = getattr(args, flag, None)
         if given:
             merged[key] = given.strip()
         elif ask and question and not merged.get(key):

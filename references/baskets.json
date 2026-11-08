@@ -1,0 +1,5938 @@
+{
+ "LIFE SCIENCE TOOLS & DX": [
+  {"conid": 382846993, "symbol": "TXG", "tv": "NASDAQ:TXG", "exchange": "NASDAQ", "name": "10X GENOMICS INC-CLASS A"},
+  {"conid": 339974449, "symbol": "TWST", "tv": "NASDAQ:TWST", "exchange": "NASDAQ", "name": "TWIST BIOSCIENCE CORP"},
+  {"conid": 9869443, "symbol": "ILMN", "tv": "NASDAQ:ILMN", "exchange": "NASDAQ", "name": "ILLUMINA INC"},
+  {"conid": 6442, "symbol": "DHR", "tv": "NYSE:DHR", "exchange": "NYSE", "name": "DANAHER CORP"},
+  {"conid": 12869, "symbol": "TMO", "tv": "NYSE:TMO", "exchange": "NYSE", "name": "THERMO FISHER SCIENTIFIC INC"},
+  {"conid": 1715006, "symbol": "A", "tv": "NYSE:A", "exchange": "NYSE", "name": "AGILENT TECHNOLOGIES INC"},
+  {"conid": 6477908, "symbol": "MTD", "tv": "NYSE:MTD", "exchange": "NYSE", "name": "METTLER-TOLEDO INTERNATIONAL"},
+  {"conid": 1448494, "symbol": "WAT", "tv": "NYSE:WAT", "exchange": "NYSE", "name": "WATERS CORP"},
+  {"conid": 6737, "symbol": "RVTY", "tv": "NYSE:RVTY", "exchange": "NYSE", "name": "REVVITY INC"},
+  {"conid": 9905742, "symbol": "BRKR", "tv": "NASDAQ:BRKR", "exchange": "NASDAQ", "name": "BRUKER CORP"},
+  {"conid": 273816, "symbol": "RGEN", "tv": "NASDAQ:RGEN", "exchange": "NASDAQ", "name": "REPLIGEN CORP"},
+  {"conid": 840414918, "symbol": "QGEN", "tv": "NYSE:QGEN", "exchange": "NYSE", "name": "QIAGEN N.V."},
+  {"conid": 80410754, "symbol": "PACB", "tv": "NASDAQ:PACB", "exchange": "NASDAQ", "name": "PACIFIC BIOSCIENCES OF CALIF"}
+ ],
+ "AEROSPACE & DEFENSE": [
+  {
+   "conid": 514640214,
+   "symbol": "ACHR",
+   "tv": "NYSE:ACHR",
+   "exchange": "NYSE",
+   "name": "ARCHER AVIATION INC-A"
+  },
+  {
+   "conid": 29612256,
+   "symbol": "AIR",
+   "tv": "EURONEXT:AIR",
+   "exchange": "SBF",
+   "name": "AIRBUS SE"
+  },
+  {
+   "conid": 4762,
+   "symbol": "BA",
+   "tv": "NYSE:BA",
+   "exchange": "NYSE",
+   "name": "BOEING CO/THE"
+  },
+  {
+   "conid": 267197,
+   "symbol": "CACI",
+   "tv": "NYSE:CACI",
+   "exchange": "NYSE",
+   "name": "CACI INTERNATIONAL INC -CL A"
+  },
+  {
+   "conid": 500760943,
+   "symbol": "DSY",
+   "tv": "EURONEXT:DSY",
+   "exchange": "SBF",
+   "name": "DASSAULT SYSTEMES SE"
+  },
+  {
+   "conid": 6478305,
+   "symbol": "ESLT",
+   "tv": "NASDAQ:ESLT",
+   "exchange": "NASDAQ",
+   "name": "ELBIT SYSTEMS LTD"
+  },
+  {
+   "conid": 560751549,
+   "symbol": "EVEX",
+   "tv": "NYSE:EVEX",
+   "exchange": "NYSE",
+   "name": "EVE HOLDING INC"
+  },
+  {
+   "conid": 727981234,
+   "symbol": "EVTL",
+   "tv": "NYSE:EVTL",
+   "exchange": "NYSE",
+   "name": "VERTICAL AEROSPACE LTD"
+  },
+  {
+   "conid": 7496,
+   "symbol": "GD",
+   "tv": "NYSE:GD",
+   "exchange": "NYSE",
+   "name": "GENERAL DYNAMICS CORP"
+  },
+  {
+   "conid": 917799,
+   "symbol": "HO",
+   "tv": "EURONEXT:HO",
+   "exchange": "SBF",
+   "name": "THALES SA"
+  },
+  {
+   "conid": 892744244,
+   "symbol": "HON",
+   "tv": "NASDAQ:HON",
+   "exchange": "NASDAQ",
+   "name": "HONEYWELL INTERNATIONAL INC"
+  },
+  {
+   "conid": 507188246,
+   "symbol": "JOBY",
+   "tv": "NYSE:JOBY",
+   "exchange": "NYSE",
+   "name": "JOBY AVIATION INC"
+  },
+  {
+   "conid": 68492173,
+   "symbol": "KTOS",
+   "tv": "NASDAQ:KTOS",
+   "exchange": "NASDAQ",
+   "name": "KRATOS DEFENSE & SECURITY"
+  },
+  {
+   "conid": 134280621,
+   "symbol": "LDOS",
+   "tv": "NYSE:LDOS",
+   "exchange": "NYSE",
+   "name": "LEIDOS HOLDINGS INC"
+  },
+  {
+   "conid": 371886040,
+   "symbol": "LHX",
+   "tv": "NYSE:LHX",
+   "exchange": "NYSE",
+   "name": "L3HARRIS TECHNOLOGIES INC"
+  },
+  {
+   "conid": 611191,
+   "symbol": "LMT",
+   "tv": "NYSE:LMT",
+   "exchange": "NYSE",
+   "name": "LOCKHEED MARTIN CORP"
+  },
+  {
+   "conid": 578561396,
+   "symbol": "MPTI",
+   "tv": "AMEX:MPTI",
+   "exchange": "AMEX",
+   "name": "M-TRON INDUSTRIES INC"
+  },
+  {
+   "conid": 10376,
+   "symbol": "NOC",
+   "tv": "NYSE:NOC",
+   "exchange": "NYSE",
+   "name": "NORTHROP GRUMMAN CORP"
+  },
+  {
+   "conid": 415342104,
+   "symbol": "RTX",
+   "tv": "NYSE:RTX",
+   "exchange": "NYSE",
+   "name": "RTX CORP"
+  },
+  {
+   "conid": 1322028,
+   "symbol": "SAF",
+   "tv": "EURONEXT:SAF",
+   "exchange": "SBF",
+   "name": "SAFRAN SA"
+  },
+  {
+   "conid": 38285434,
+   "symbol": "TDG",
+   "tv": "NYSE:TDG",
+   "exchange": "NYSE",
+   "name": "TRANSDIGM GROUP INC"
+  },
+  {
+   "conid": 13101,
+   "symbol": "TXT",
+   "tv": "NYSE:TXT",
+   "exchange": "NYSE",
+   "name": "TEXTRON INC"
+  },
+  {
+   "conid": 15085,
+   "symbol": "RHM",
+   "tv": "XETR:RHM",
+   "exchange": "IBIS",
+   "name": "RHEINMETALL AG"
+  },
+  {
+   "conid": 908964,
+   "symbol": "BA.",
+   "tv": "LSE:BA.",
+   "exchange": "LSE",
+   "name": "BAE SYSTEMS PLC"
+  },
+  {
+   "conid": 35162453,
+   "symbol": "LDO",
+   "tv": "MIL:LDO",
+   "exchange": "BVME",
+   "name": "LEONARDO SPA"
+  },
+  {
+   "conid": 696509457,
+   "symbol": "SAAB",
+   "tv": "FWB:SDV1",
+   "exchange": "FWB2",
+   "name": "SAAB AB-B (Francfort)"
+  },
+  {
+   "conid": 789031694,
+   "symbol": "KOG",
+   "tv": "OSL:KOG",
+   "exchange": "OSE",
+   "name": "KONGSBERG GRUPPEN ASA"
+  },
+  {
+   "conid": 447545377,
+   "symbol": "HAG",
+   "tv": "XETR:HAG",
+   "exchange": "IBIS",
+   "name": "HENSOLDT AG"
+  },
+  {
+   "conid": 512412072,
+   "symbol": "AM",
+   "tv": "EURONEXT:AM",
+   "exchange": "SBF",
+   "name": "DASSAULT AVIATION SA"
+  }
+ ],
+ "AI": [
+  {
+   "conid": 530965695,
+   "symbol": "BBAI",
+   "tv": "NYSE:BBAI",
+   "exchange": "NYSE",
+   "name": "BIGBEAR.AI HOLDINGS INC"
+  },
+  {
+   "conid": 399765349,
+   "symbol": "DUOT",
+   "tv": "NASDAQ:DUOT",
+   "exchange": "NASDAQ",
+   "name": "DUOS TECHNOLOGIES GROUP INC"
+  },
+  {
+   "conid": 503286174,
+   "symbol": "EVLV",
+   "tv": "NASDAQ:EVLV",
+   "exchange": "NASDAQ",
+   "name": "EVOLV TECHNOLOGIES HOLDINGS"
+  },
+  {
+   "conid": 363426492,
+   "symbol": "REKR",
+   "tv": "NASDAQ:REKR",
+   "exchange": "NASDAQ",
+   "name": "REKOR SYSTEMS INC"
+  },
+  {
+   "conid": 804980564,
+   "symbol": "WYFI",
+   "tv": "NASDAQ:WYFI",
+   "exchange": "NASDAQ",
+   "name": "WHITEFIBER INC"
+  }
+ ],
+ "AUTOMOBILE": [
+  {
+   "conid": 257312287,
+   "symbol": "002594",
+   "tv": "SZSE:002594",
+   "exchange": "SEHKSZSE",
+   "name": "BYD CO LTD -A"
+  },
+  {
+   "conid": 42475790,
+   "symbol": "175",
+   "tv": "HKEX:175",
+   "exchange": "SEHK",
+   "name": "GEELY AUTOMOBILE HOLDINGS LT"
+  },
+  {
+   "conid": 323608988,
+   "symbol": "1810",
+   "tv": "HKEX:1810",
+   "exchange": "SEHK",
+   "name": "XIAOMI CORP-CLASS B"
+  },
+  {
+   "conid": 587216697,
+   "symbol": "9863",
+   "tv": "HKEX:9863",
+   "exchange": "SEHK",
+   "name": "ZHEJIANG LEAPMOTOR TECHNOL-H"
+  },
+  {
+   "conid": 436980133,
+   "symbol": "LI",
+   "tv": "NASDAQ:LI",
+   "exchange": "NASDAQ",
+   "name": "LI AUTO INC - ADR"
+  },
+  {
+   "conid": 332794741,
+   "symbol": "NIO",
+   "tv": "NYSE:NIO",
+   "exchange": "NYSE",
+   "name": "NIO INC - ADR"
+  },
+  {
+   "conid": 1321761,
+   "symbol": "PEUG",
+   "tv": "EURONEXT:PEUG",
+   "exchange": "SBF",
+   "name": "PEUGEOT INVEST"
+  },
+  {
+   "conid": 837425602,
+   "symbol": "PSNY",
+   "tv": "NASDAQ:PSNY",
+   "exchange": "NASDAQ",
+   "name": "POLESTAR AUTOMOTIVE-CL A ADS"
+  },
+  {
+   "conid": 215461594,
+   "symbol": "RACE",
+   "tv": "MIL:RACE",
+   "exchange": "BVME",
+   "name": "FERRARI NV"
+  },
+  {
+   "conid": 525768800,
+   "symbol": "RIVN",
+   "tv": "NASDAQ:RIVN",
+   "exchange": "NASDAQ",
+   "name": "RIVIAN AUTOMOTIVE INC-A"
+  },
+  {
+   "conid": 29612183,
+   "symbol": "RNO",
+   "tv": "EURONEXT:RNO",
+   "exchange": "SBF",
+   "name": "RENAULT SA"
+  },
+  {
+   "conid": 76792991,
+   "symbol": "TSLA",
+   "tv": "NASDAQ:TSLA",
+   "exchange": "NASDAQ",
+   "name": "TESLA INC"
+  },
+  {
+   "conid": 14232,
+   "symbol": "VOW",
+   "tv": "XETR:VOW",
+   "exchange": "IBIS",
+   "name": "VOLKSWAGEN AG"
+  },
+  {
+   "conid": 723467866,
+   "symbol": "WRD",
+   "tv": "NASDAQ:WRD",
+   "exchange": "NASDAQ",
+   "name": "WERIDE INC-ADR"
+  },
+  {
+   "conid": 441828902,
+   "symbol": "XPEV",
+   "tv": "NYSE:XPEV",
+   "exchange": "NYSE",
+   "name": "XPENG INC - ADR"
+  }
+ ],
+ "BATTERIES": [
+  {
+   "conid": 54740723,
+   "symbol": "BYDDY",
+   "tv": "OTC:BYDDY",
+   "exchange": "PINK",
+   "name": "BYD CO LTD-UNSPONSORED ADR"
+  },
+  {
+   "conid": 523222620,
+   "symbol": "FLNC",
+   "tv": "NASDAQ:FLNC",
+   "exchange": "NASDAQ",
+   "name": "FLUENCE ENERGY INC"
+  },
+  {
+   "conid": 810758322,
+   "symbol": "LCID",
+   "tv": "NASDAQ:LCID",
+   "exchange": "NASDAQ",
+   "name": "LUCID GROUP INC"
+  },
+  {
+   "conid": 504717050,
+   "symbol": "MVST",
+   "tv": "NASDAQ:MVST",
+   "exchange": "NASDAQ",
+   "name": "MICROVAST HOLDINGS INC"
+  },
+  {
+   "conid": 186910620,
+   "symbol": "NNOMF",
+   "tv": "OTC:NNOMF",
+   "exchange": "PINK",
+   "name": "NANO ONE MATERIALS CORP"
+  },
+  {
+   "conid": 542577742,
+   "symbol": "SES",
+   "tv": "NYSE:SES",
+   "exchange": "NYSE",
+   "name": "SES AI CORP"
+  },
+  {
+   "conid": 531693453,
+   "symbol": "SLDP",
+   "tv": "NASDAQ:SLDP",
+   "exchange": "NASDAQ",
+   "name": "SOLID POWER INC"
+  }
+ ],
+ "CANNABIS": [
+  {
+   "conid": 684987288,
+   "symbol": "ACB",
+   "tv": "NASDAQ:ACB",
+   "exchange": "NASDAQ",
+   "name": "AURORA CANNABIS INC"
+  },
+  {
+   "conid": 673392035,
+   "symbol": "CGC",
+   "tv": "NASDAQ:CGC",
+   "exchange": "NASDAQ",
+   "name": "CANOPY GROWTH CORP"
+  },
+  {
+   "conid": 321324061,
+   "symbol": "GTII",
+   "tv": "CSE:GTII",
+   "exchange": "PURE",
+   "name": "GREEN THUMB INDUSTRIES INC"
+  },
+  {
+   "conid": 654500625,
+   "symbol": "PLTH",
+   "tv": "CSE:PLTH",
+   "exchange": "PURE",
+   "name": "PLANET 13 HOLDINGS INC"
+  },
+  {
+   "conid": 835599999,
+   "symbol": "TLRY",
+   "tv": "NASDAQ:TLRY",
+   "exchange": "NASDAQ",
+   "name": "TILRAY BRANDS INC",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-missing-histories-2026-08-14"
+  },
+  {
+   "conid": 324529562,
+   "symbol": "TSND",
+   "tv": "TSX:TSND",
+   "exchange": "TSE",
+   "name": "TERRASCEND CORP"
+  }
+ ],
+ "COMMERCIAL SERVICES": [
+  {
+   "conid": 308728373,
+   "symbol": "BKNG",
+   "tv": "NASDAQ:BKNG",
+   "exchange": "NASDAQ",
+   "name": "BOOKING HOLDINGS INC"
+  },
+  {
+   "conid": 47010035,
+   "symbol": "BVI",
+   "tv": "EURONEXT:BVI",
+   "exchange": "SBF",
+   "name": "BUREAU VERITAS SA"
+  },
+  {
+   "conid": 517641765,
+   "symbol": "DJT",
+   "tv": "NASDAQ:DJT",
+   "exchange": "NASDAQ",
+   "name": "TRUMP MEDIA & TECHNOLOGY GRO"
+  },
+  {
+   "conid": 455926540,
+   "symbol": "ERF",
+   "tv": "EURONEXT:ERF",
+   "exchange": "SBF",
+   "name": "EUROFINS SCIENTIFIC"
+  },
+  {
+   "conid": 98542021,
+   "symbol": "EXPE",
+   "tv": "NASDAQ:EXPE",
+   "exchange": "NASDAQ",
+   "name": "EXPEDIA GROUP INC"
+  },
+  {
+   "conid": 894040728,
+   "symbol": "FCUV",
+   "tv": "NASDAQ:FCUV",
+   "exchange": "NASDAQ",
+   "name": "FOCUS UNIVERSAL INC"
+  },
+  {
+   "conid": 499621117,
+   "symbol": "PAYO",
+   "tv": "NASDAQ:PAYO",
+   "exchange": "NASDAQ",
+   "name": "PAYONEER GLOBAL INC"
+  },
+  {
+   "conid": 914494680,
+   "symbol": "REAX",
+   "tv": "NASDAQ:REAX",
+   "exchange": "NASDAQ",
+   "name": "REAL REMAX GROUP INC"
+  },
+  {
+   "conid": 195426111,
+   "symbol": "SHOP.TO",
+   "tv": "TSX:SHOP",
+   "exchange": "TSE",
+   "name": "SHOPIFY INC - CLASS A"
+  },
+  {
+   "conid": 331862803,
+   "symbol": "WAVE",
+   "tv": "EURONEXT:WAVE",
+   "exchange": "SBF",
+   "name": "WAVESTONE"
+  }
+ ],
+ "COMMUNICATION": [
+  {
+   "conid": 39966750,
+   "symbol": "BCE",
+   "tv": "NYSE:BCE",
+   "exchange": "NYSE",
+   "name": "BCE INC"
+  },
+  {
+   "conid": 267748,
+   "symbol": "CMCSA",
+   "tv": "NASDAQ:CMCSA",
+   "exchange": "NASDAQ",
+   "name": "COMCAST CORP-CLASS A"
+  },
+  {
+   "conid": 9969533,
+   "symbol": "CRNT",
+   "tv": "NASDAQ:CRNT",
+   "exchange": "NASDAQ",
+   "name": "CERAGON NETWORKS LTD"
+  },
+  {
+   "conid": 2254329,
+   "symbol": "DTEGY",
+   "tv": "OTC:DTEGY",
+   "exchange": "PINK",
+   "name": "DEUTSCHE TELEKOM AG-SPON ADR"
+  },
+  {
+   "conid": 57869558,
+   "symbol": "IDT",
+   "tv": "NYSE:IDT",
+   "exchange": "NYSE",
+   "name": "IDT CORP-CLASS B"
+  },
+  {
+   "conid": 667891544,
+   "symbol": "LBTYA",
+   "tv": "NASDAQ:LBTYA",
+   "exchange": "NASDAQ",
+   "name": "LIBERTY GLOBAL LTD-A"
+  },
+  {
+   "conid": 10537,
+   "symbol": "NTTYY",
+   "tv": "OTC:NTTYY",
+   "exchange": "PINK",
+   "name": "NTT INC - ADR"
+  },
+  {
+   "conid": 4031482,
+   "symbol": "SCMWY",
+   "tv": "OTC:SCMWY",
+   "exchange": "PINK",
+   "name": "SWISSCOM AG-SPONSORED ADR"
+  },
+  {
+   "conid": 37018770,
+   "symbol": "T",
+   "tv": "NYSE:T",
+   "exchange": "NYSE",
+   "name": "AT&T INC"
+  },
+  {
+   "conid": 125980227,
+   "symbol": "TMUS",
+   "tv": "NASDAQ:TMUS",
+   "exchange": "NASDAQ",
+   "name": "T-MOBILE US INC"
+  },
+  {
+   "conid": 4901,
+   "symbol": "VZ",
+   "tv": "NYSE:VZ",
+   "exchange": "NYSE",
+   "name": "VERIZON COMMUNICATIONS INC"
+  }
+ ],
+ "CONSUMER NON-DURABLES": [
+  {
+   "conid": 513880596,
+   "symbol": "BROS",
+   "tv": "NYSE:BROS",
+   "exchange": "NYSE",
+   "name": "DUTCH BROS INC-CLASS A"
+  },
+  {
+   "conid": 910444967,
+   "symbol": "BYND",
+   "tv": "NASDAQ:BYND",
+   "exchange": "NASDAQ",
+   "name": "BEYOND MEAT INC"
+  },
+  {
+   "conid": 4727876,
+   "symbol": "CENT",
+   "tv": "NASDAQ:CENT",
+   "exchange": "NASDAQ",
+   "name": "CENTRAL GARDEN & PET CO"
+  },
+  {
+   "conid": 8894,
+   "symbol": "KO",
+   "tv": "NYSE:KO",
+   "exchange": "NYSE",
+   "name": "COCA-COLA CO/THE"
+  },
+  {
+   "conid": 36790661,
+   "symbol": "LOTB",
+   "tv": "EURONEXT:LOTB",
+   "exchange": "ENEXT.BE",
+   "name": "LOTUS BAKERIES"
+  },
+  {
+   "conid": 196986496,
+   "symbol": "MNST",
+   "tv": "NASDAQ:MNST",
+   "exchange": "NASDAQ",
+   "name": "MONSTER BEVERAGE CORP"
+  },
+  {
+   "conid": 513880603,
+   "symbol": "ONON",
+   "tv": "NYSE:ONON",
+   "exchange": "NYSE",
+   "name": "ON HOLDING AG-CLASS A"
+  },
+  {
+   "conid": 29612116,
+   "symbol": "OR",
+   "tv": "EURONEXT:OR",
+   "exchange": "SBF",
+   "name": "L'OREAL"
+  },
+  {
+   "conid": 11054,
+   "symbol": "PG",
+   "tv": "NYSE:PG",
+   "exchange": "NYSE",
+   "name": "PROCTER & GAMBLE CO/THE"
+  },
+  {
+   "conid": 1321998,
+   "symbol": "RBT",
+   "tv": "EURONEXT:RBT",
+   "exchange": "SBF",
+   "name": "ROBERTET S.A."
+  },
+  {
+   "conid": 1254594,
+   "symbol": "RCO",
+   "tv": "EURONEXT:RCO",
+   "exchange": "SBF",
+   "name": "REMY COINTREAU"
+  },
+  {
+   "conid": 917758,
+   "symbol": "RI",
+   "tv": "EURONEXT:RI",
+   "exchange": "SBF",
+   "name": "PERNOD-RICARD SA"
+  }
+ ],
+ "CONSUMER SERVICES": [
+  {
+   "conid": 459530964,
+   "symbol": "ABNB",
+   "tv": "NASDAQ:ABNB",
+   "exchange": "NASDAQ",
+   "name": "AIRBNB INC-CLASS A"
+  },
+  {
+   "conid": 648081824,
+   "symbol": "AMC",
+   "tv": "NYSE:AMC",
+   "exchange": "NYSE",
+   "name": "AMC ENTERTAINMENT HLDS-CL A"
+  },
+  {
+   "conid": 571595543,
+   "symbol": "BNJ",
+   "tv": "EURONEXT:BNJ",
+   "exchange": "AEB",
+   "name": "BANIJAY GROUP NV"
+  },
+  {
+   "conid": 1408136,
+   "symbol": "BOL",
+   "tv": "EURONEXT:BOL",
+   "exchange": "SBF",
+   "name": "BOLLORE SE"
+  },
+  {
+   "conid": 5365,
+   "symbol": "BYD",
+   "tv": "NYSE:BYD",
+   "exchange": "NYSE",
+   "name": "BOYD GAMING CORP"
+  },
+  {
+   "conid": 6459,
+   "symbol": "DIS",
+   "tv": "NYSE:DIS",
+   "exchange": "NYSE",
+   "name": "WALT DISNEY CO/THE"
+  },
+  {
+   "conid": 155278945,
+   "symbol": "ELIOR",
+   "tv": "EURONEXT:ELIOR",
+   "exchange": "SBF",
+   "name": "ELIOR GROUP"
+  },
+  {
+   "conid": 9408,
+   "symbol": "MCD",
+   "tv": "NYSE:MCD",
+   "exchange": "NYSE",
+   "name": "MC DONALD'S-CORP"
+  },
+  {
+   "conid": 187012617,
+   "symbol": "PARP",
+   "tv": "EURONEXT:PARP",
+   "exchange": "SBF",
+   "name": "GROUPE PARTOUCHE SA-REGR"
+  },
+  {
+   "conid": 274105,
+   "symbol": "SBUX",
+   "tv": "NASDAQ:SBUX",
+   "exchange": "NASDAQ",
+   "name": "STARBUCKS CORP"
+  },
+  {
+   "conid": 1322000,
+   "symbol": "TEP",
+   "tv": "EURONEXT:TEP",
+   "exchange": "SBF",
+   "name": "TELEPERFORMANCE"
+  },
+  {
+   "conid": 251376406,
+   "symbol": "YUMC",
+   "tv": "NYSE:YUMC",
+   "exchange": "NYSE",
+   "name": "YUM CHINA HOLDINGS INC"
+  }
+ ],
+ "CRYPTO": [
+  {
+   "conid": 805705289,
+   "symbol": "BLSH",
+   "tv": "NYSE:BLSH",
+   "exchange": "NYSE",
+   "name": "BULLISH"
+  },
+  {
+   "conid": 481691285,
+   "symbol": "COIN",
+   "tv": "NASDAQ:COIN",
+   "exchange": "NASDAQ",
+   "name": "COINBASE GLOBAL INC -CLASS A"
+  },
+  {
+   "conid": 789044667,
+   "symbol": "CRCL",
+   "tv": "NYSE:CRCL",
+   "exchange": "NYSE",
+   "name": "CIRCLE INTERNET GROUP INC"
+  },
+  {
+   "conid": 813325480,
+   "symbol": "FIGR",
+   "tv": "NASDAQ:FIGR",
+   "exchange": "NASDAQ",
+   "name": "FIGURE TECHNOLOGY SOLUT-CL A"
+  },
+  {
+   "conid": 870986030,
+   "symbol": "KEEL",
+   "tv": "NASDAQ:KEEL",
+   "exchange": "NASDAQ",
+   "name": "KEEL INFRASTRUCTURE CORP"
+  },
+  {
+   "conid": 474219659,
+   "symbol": "MARA",
+   "tv": "NASDAQ:MARA",
+   "exchange": "NASDAQ",
+   "name": "MARA HOLDINGS INC"
+  },
+  {
+   "conid": 292830677,
+   "symbol": "RIOT",
+   "tv": "NASDAQ:RIOT",
+   "exchange": "NASDAQ",
+   "name": "RIOT PLATFORMS INC"
+  },
+  {
+   "conid": 681579639,
+   "symbol": "STEX",
+   "tv": "NASDAQ:STEX",
+   "exchange": "NASDAQ",
+   "name": "STREAMEX CORP"
+  },
+  {
+   "conid": 577724631,
+   "symbol": "SUIG",
+   "tv": "NASDAQ:SUIG",
+   "exchange": "NASDAQ",
+   "name": "SUI GROUP HOLDINGS LTD"
+  },
+  {
+   "conid": 212671971,
+   "symbol": "XYZ",
+   "tv": "NYSE:XYZ",
+   "exchange": "NYSE",
+   "name": "BLOCK INC"
+  }
+ ],
+ "CYBER SECUTITY": [
+  {
+   "conid": 146405187,
+   "symbol": "ATEN",
+   "tv": "NYSE:ATEN",
+   "exchange": "NYSE",
+   "name": "A10 NETWORKS INC"
+  },
+  {
+   "conid": 4172987,
+   "symbol": "CHKP",
+   "tv": "NASDAQ:CHKP",
+   "exchange": "NASDAQ",
+   "name": "CHECK POINT SOFTWARE TECH"
+  },
+  {
+   "conid": 511811243,
+   "symbol": "CLBT",
+   "tv": "NASDAQ:CLBT",
+   "exchange": "NASDAQ",
+   "name": "CELLEBRITE DI LTD"
+  },
+  {
+   "conid": 370757467,
+   "symbol": "CRWD",
+   "tv": "NASDAQ:CRWD",
+   "exchange": "NASDAQ",
+   "name": "CROWDSTRIKE HOLDINGS INC - A"
+  },
+  {
+   "conid": 6248713,
+   "symbol": "FFIV",
+   "tv": "NASDAQ:FFIV",
+   "exchange": "NASDAQ",
+   "name": "F5 INC"
+  },
+  {
+   "conid": 70236214,
+   "symbol": "FTNT",
+   "tv": "NASDAQ:FTNT",
+   "exchange": "NASDAQ",
+   "name": "FORTINET INC"
+  },
+  {
+   "conid": 390332324,
+   "symbol": "GEN",
+   "tv": "NASDAQ:GEN",
+   "exchange": "NASDAQ",
+   "name": "GEN DIGITAL INC"
+  },
+  {
+   "conid": 815043077,
+   "symbol": "NTSK",
+   "tv": "NASDAQ:NTSK",
+   "exchange": "NASDAQ",
+   "name": "NETSKOPE INC-CL A"
+  },
+  {
+   "conid": 110619459,
+   "symbol": "PANW",
+   "tv": "NASDAQ:PANW",
+   "exchange": "NASDAQ",
+   "name": "PALO ALTO NETWORKS INC"
+  },
+  {
+   "conid": 114814349,
+   "symbol": "QLYS",
+   "tv": "NASDAQ:QLYS",
+   "exchange": "NASDAQ",
+   "name": "QUALYS INC"
+  },
+  {
+   "conid": 699030013,
+   "symbol": "RBRK",
+   "tv": "NYSE:RBRK",
+   "exchange": "NYSE",
+   "name": "RUBRIK INC-A"
+  },
+  {
+   "conid": 6196995,
+   "symbol": "RDWR",
+   "tv": "NASDAQ:RDWR",
+   "exchange": "NASDAQ",
+   "name": "RADWARE LTD"
+  },
+  {
+   "conid": 499640681,
+   "symbol": "S",
+   "tv": "NYSE:S",
+   "exchange": "NYSE",
+   "name": "SENTINELONE INC -CLASS A"
+  },
+  {
+   "conid": 327422072,
+   "symbol": "TENB",
+   "tv": "NASDAQ:TENB",
+   "exchange": "NASDAQ",
+   "name": "TENABLE HOLDINGS INC"
+  },
+  {
+   "conid": 6858242,
+   "symbol": "TMICY",
+   "tv": "OTC:TMICY",
+   "exchange": "PINK",
+   "name": "TREND MICRO INC-SPON ADR"
+  },
+  {
+   "conid": 145409766,
+   "symbol": "VRNS",
+   "tv": "NASDAQ:VRNS",
+   "exchange": "NASDAQ",
+   "name": "VARONIS SYSTEMS INC"
+  },
+  {
+   "conid": 310621426,
+   "symbol": "ZS",
+   "tv": "NASDAQ:ZS",
+   "exchange": "NASDAQ",
+   "name": "ZSCALER INC"
+  }
+ ],
+ "DATA CENTER": [
+  {
+   "conid": 692196414,
+   "symbol": "ALAB",
+   "tv": "NASDAQ:ALAB",
+   "exchange": "NASDAQ",
+   "name": "ASTERA LABS INC"
+  },
+  {
+   "conid": 556067819,
+   "symbol": "APLD",
+   "tv": "NASDAQ:APLD",
+   "exchange": "NASDAQ",
+   "name": "APPLIED DIGITAL CORP"
+  },
+  {
+   "conid": 391525016,
+   "symbol": "CAN",
+   "tv": "NASDAQ:CAN",
+   "exchange": "NASDAQ",
+   "name": "CANAAN INC."
+  },
+  {
+   "conid": 511470142,
+   "symbol": "CIFR",
+   "tv": "NASDAQ:CIFR",
+   "exchange": "NASDAQ",
+   "name": "CIPHER DIGITAL INC"
+  },
+  {
+   "conid": 679998205,
+   "symbol": "CORZ",
+   "tv": "NASDAQ:CORZ",
+   "exchange": "NASDAQ",
+   "name": "CORE SCIENTIFIC INC"
+  },
+  {
+   "conid": 541265127,
+   "symbol": "CRDO",
+   "tv": "NASDAQ:CRDO",
+   "exchange": "NASDAQ",
+   "name": "CREDO TECHNOLOGY GROUP HOLDI"
+  },
+  {
+   "conid": 771759702,
+   "symbol": "CRWV",
+   "tv": "NASDAQ:CRWV",
+   "exchange": "NASDAQ",
+   "name": "COREWEAVE INC-CL A"
+  },
+  {
+   "conid": 478483393,
+   "symbol": "DOCN",
+   "tv": "NYSE:DOCN",
+   "exchange": "NYSE",
+   "name": "DIGITALOCEAN HOLDINGS INC"
+  },
+  {
+   "conid": 181764593,
+   "symbol": "EQIX",
+   "tv": "NASDAQ:EQIX",
+   "exchange": "NASDAQ",
+   "name": "EQUINIX INC"
+  },
+  {
+   "conid": 641568851,
+   "symbol": "HIVE",
+   "tv": "NASDAQ:HIVE",
+   "exchange": "NASDAQ",
+   "name": "HIVE DIGITAL TECHNOLOGIES LT"
+  },
+  {
+   "conid": 4813508,
+   "symbol": "INOD",
+   "tv": "NASDAQ:INOD",
+   "exchange": "NASDAQ",
+   "name": "INNODATA INC"
+  },
+  {
+   "conid": 526906130,
+   "symbol": "IREN",
+   "tv": "NASDAQ:IREN",
+   "exchange": "NASDAQ",
+   "name": "IREN LTD"
+  },
+  {
+   "conid": 421139451,
+   "symbol": "KC",
+   "tv": "NASDAQ:KC",
+   "exchange": "NASDAQ",
+   "name": "KINGSOFT CLOUD HOLDINGS-ADR"
+  },
+  {
+   "conid": 88819736,
+   "symbol": "NBIS",
+   "tv": "NASDAQ:NBIS",
+   "exchange": "NASDAQ",
+   "name": "NEBIUS GROUP NV"
+  },
+  {
+   "conid": 521525007,
+   "symbol": "OVH",
+   "tv": "EURONEXT:OVH",
+   "exchange": "SBF",
+   "name": "OVH GROUPE SA"
+  },
+  {
+   "conid": 129156064,
+   "symbol": "TSSI",
+   "tv": "NASDAQ:TSSI",
+   "exchange": "NASDAQ",
+   "name": "TSS INC"
+  },
+  {
+   "conid": 87356334,
+   "symbol": "VNET",
+   "tv": "NASDAQ:VNET",
+   "exchange": "NASDAQ",
+   "name": "VNET GROUP INC-ADR"
+  },
+  {
+   "conid": 402783527,
+   "symbol": "VRT",
+   "tv": "NYSE:VRT",
+   "exchange": "NYSE",
+   "name": "VERTIV HOLDINGS CO-A"
+  }
+ ],
+ "DISTRIBUTION SERVICES": [
+  {
+   "conid": 269120,
+   "symbol": "FAST",
+   "tv": "NASDAQ:FAST",
+   "exchange": "NASDAQ",
+   "name": "FASTENAL CO"
+  },
+  {
+   "conid": 717988170,
+   "symbol": "FERG",
+   "tv": "NYSE:FERG",
+   "exchange": "NYSE",
+   "name": "FERGUSON ENTERPRISES INC"
+  },
+  {
+   "conid": 579848128,
+   "symbol": "GCT",
+   "tv": "NASDAQ:GCT",
+   "exchange": "NASDAQ",
+   "name": "GIGACLOUD TECHNOLOGY INC - A"
+  },
+  {
+   "conid": 7867,
+   "symbol": "GWW",
+   "tv": "NYSE:GWW",
+   "exchange": "NYSE",
+   "name": "WW GRAINGER INC"
+  },
+  {
+   "conid": 337611946,
+   "symbol": "MSC",
+   "tv": "NYSE:MSC",
+   "exchange": "NYSE",
+   "name": "STUDIO CITY INTERNATIONA-ADR"
+  },
+  {
+   "conid": 6608665,
+   "symbol": "WCC",
+   "tv": "NYSE:WCC",
+   "exchange": "NYSE",
+   "name": "WESCO INTERNATIONAL INC"
+  },
+  {
+   "conid": 13904,
+   "symbol": "WSO",
+   "tv": "NYSE:WSO",
+   "exchange": "NYSE",
+   "name": "WATSCO INC"
+  }
+ ],
+ "DRONE": [
+  {
+   "conid": 777710713,
+   "symbol": "AIRO",
+   "tv": "NASDAQ:AIRO",
+   "exchange": "NASDAQ",
+   "name": "AIRO GROUP HOLDINGS INC"
+  },
+  {
+   "conid": 272104927,
+   "symbol": "AXON",
+   "tv": "NASDAQ:AXON",
+   "exchange": "NASDAQ",
+   "name": "AXON ENTERPRISE INC"
+  },
+  {
+   "conid": 725468685,
+   "symbol": "DPRO",
+   "tv": "NASDAQ:DPRO",
+   "exchange": "NASDAQ",
+   "name": "DRAGANFLY INC"
+  },
+  {
+   "conid": 394961312,
+   "symbol": "EH",
+   "tv": "NASDAQ:EH",
+   "exchange": "NASDAQ",
+   "name": "EHANG HOLDINGS LTD-SPS ADR"
+  },
+  {
+   "conid": 502252061,
+   "symbol": "ENVX",
+   "tv": "NASDAQ:ENVX",
+   "exchange": "NASDAQ",
+   "name": "ENOVIX CORP"
+  },
+  {
+   "conid": 455415330,
+   "symbol": "ONDS",
+   "tv": "NASDAQ:ONDS",
+   "exchange": "NASDAQ",
+   "name": "ONDAS INC"
+  },
+  {
+   "conid": 39910117,
+   "symbol": "PARRO",
+   "tv": "EURONEXT:PARRO",
+   "exchange": "SBF",
+   "name": "PARROT SA"
+  },
+  {
+   "conid": 376496231,
+   "symbol": "RCAT",
+   "tv": "NASDAQ:RCAT",
+   "exchange": "NASDAQ",
+   "name": "RED CAT HOLDINGS INC"
+  },
+  {
+   "conid": 733727297,
+   "symbol": "UAVS",
+   "tv": "AMEX:UAVS",
+   "exchange": "AMEX",
+   "name": "AGEAGLE AERIAL SYSTEMS INC"
+  },
+  {
+   "conid": 698227338,
+   "symbol": "UMAC",
+   "tv": "AMEX:UMAC",
+   "exchange": "AMEX",
+   "name": "UNUSUAL MACHINES INC /US"
+  }
+ ],
+ "ELECTRONIC": [
+  {
+   "conid": 135423662,
+   "symbol": "AAOI",
+   "tv": "NASDAQ:AAOI",
+   "exchange": "NASDAQ",
+   "name": "APPLIED OPTOELECTRONICS INC"
+  },
+  {
+   "conid": 713437755,
+   "symbol": "ABDL",
+   "tv": "NSE:ABDL",
+   "exchange": "NSE",
+   "name": "ALLIED BLENDERS & DISTILLERS"
+  },
+  {
+   "conid": 4157,
+   "symbol": "ADI",
+   "tv": "NASDAQ:ADI",
+   "exchange": "NASDAQ",
+   "name": "ANALOG DEVICES INC"
+  },
+  {
+   "conid": 4725941,
+   "symbol": "AEHR",
+   "tv": "NASDAQ:AEHR",
+   "exchange": "NASDAQ",
+   "name": "AEHR TEST SYSTEMS"
+  },
+  {
+   "conid": 326398514,
+   "symbol": "BE",
+   "tv": "NYSE:BE",
+   "exchange": "NYSE",
+   "name": "BLOOM ENERGY CORP- A"
+  },
+  {
+   "conid": 695996615,
+   "symbol": "CLS",
+   "tv": "NYSE:CLS",
+   "exchange": "NYSE",
+   "name": "CELESTICA INC"
+  },
+  {
+   "conid": 15544805,
+   "symbol": "CVV",
+   "tv": "NASDAQ:CVV",
+   "exchange": "NASDAQ",
+   "name": "CVD EQUIPMENT CORP"
+  },
+  {
+   "conid": 647611140,
+   "symbol": "DBD",
+   "tv": "NYSE:DBD",
+   "exchange": "NYSE",
+   "name": "DIEBOLD NIXDORF INC"
+  },
+  {
+   "conid": 346218218,
+   "symbol": "DELL",
+   "tv": "NYSE:DELL",
+   "exchange": "NYSE",
+   "name": "DELL TECHNOLOGIES -C"
+  },
+  {
+   "conid": 50488867,
+   "symbol": "ENLAY",
+   "tv": "OTC:ENLAY",
+   "exchange": "PINK",
+   "name": "ENEL SPA - UNSPON ADR"
+  },
+  {
+   "conid": 41622169,
+   "symbol": "FSLR",
+   "tv": "NASDAQ:FSLR",
+   "exchange": "NASDAQ",
+   "name": "FIRST SOLAR INC"
+  },
+  {
+   "conid": 399913084,
+   "symbol": "GNSS",
+   "tv": "NASDAQ:GNSS",
+   "exchange": "NASDAQ",
+   "name": "GENASYS INC"
+  },
+  {
+   "conid": 76791198,
+   "symbol": "GRMN",
+   "tv": "NYSE:GRMN",
+   "exchange": "NYSE",
+   "name": "GARMIN LTD"
+  },
+  {
+   "conid": 496414757,
+   "symbol": "INDI",
+   "tv": "NASDAQ:INDI",
+   "exchange": "NASDAQ",
+   "name": "INDIE SEMICONDUCTOR INC-A"
+  },
+  {
+   "conid": 72529744,
+   "symbol": "JKS",
+   "tv": "NYSE:JKS",
+   "exchange": "NYSE",
+   "name": "JINKOSOLAR HOLDING CO-ADR"
+  },
+  {
+   "conid": 38552833,
+   "symbol": "MEMS",
+   "tv": "EURONEXT:MEMS",
+   "exchange": "SBF",
+   "name": "MEMSCAP SA"
+  },
+  {
+   "conid": 251176725,
+   "symbol": "MRAM",
+   "tv": "NASDAQ:MRAM",
+   "exchange": "NASDAQ",
+   "name": "EVERSPIN TECHNOLOGIES INC"
+  },
+  {
+   "conid": 808833956,
+   "symbol": "OESX",
+   "tv": "NASDAQ:OESX",
+   "exchange": "NASDAQ",
+   "name": "ORION ENERGY SYSTEMS INC"
+  },
+  {
+   "conid": 29855204,
+   "symbol": "PERR",
+   "tv": "EURONEXT:PERR",
+   "exchange": "SBF",
+   "name": "GERARD PERRIER ELECTRIC"
+  },
+  {
+   "conid": 4817381,
+   "symbol": "RFIL",
+   "tv": "NASDAQ:RFIL",
+   "exchange": "NASDAQ",
+   "name": "RF INDUSTRIES LTD"
+  },
+  {
+   "conid": 15085,
+   "symbol": "RHM",
+   "tv": "XETR:RHM",
+   "exchange": "IBIS",
+   "name": "RHEINMETALL AG"
+  },
+  {
+   "conid": 13891907,
+   "symbol": "SIS",
+   "tv": "XETR:SIS",
+   "exchange": "IBIS",
+   "name": "FIRST SENSOR AG"
+  },
+  {
+   "conid": 29612246,
+   "symbol": "STMPA",
+   "tv": "EURONEXT:STMPA",
+   "exchange": "SBF",
+   "name": "STMICROELECTRONICS NV"
+  },
+  {
+   "conid": 4725203,
+   "symbol": "TATT",
+   "tv": "NASDAQ:TATT",
+   "exchange": "NASDAQ",
+   "name": "TAT TECHNOLOGIES LTD"
+  },
+  {
+   "conid": 6340773,
+   "symbol": "TDY",
+   "tv": "NYSE:TDY",
+   "exchange": "NYSE",
+   "name": "TELEDYNE TECHNOLOGIES INC"
+  },
+  {
+   "conid": 76669040,
+   "symbol": "VPG",
+   "tv": "NYSE:VPG",
+   "exchange": "NYSE",
+   "name": "VISHAY PRECISION GROUP"
+  },
+  {
+   "conid": 121901944,
+   "symbol": "VUZI",
+   "tv": "NASDAQ:VUZI",
+   "exchange": "NASDAQ",
+   "name": "VUZIX CORP"
+  }
+ ],
+ "ENERGY - ELECTRIC UTILITIES": [
+  {
+   "conid": 13181,
+   "symbol": "AEE",
+   "tv": "NYSE:AEE",
+   "exchange": "NYSE",
+   "name": "AMEREN CORP"
+  },
+  {
+   "conid": 114646358,
+   "symbol": "BEP",
+   "tv": "NYSE:BEP",
+   "exchange": "NYSE",
+   "name": "BROOKFIELD RENEWABLE PARTNER"
+  },
+  {
+   "conid": 538132976,
+   "symbol": "CEG",
+   "tv": "NASDAQ:CEG",
+   "exchange": "NASDAQ",
+   "name": "CONSTELLATION ENERGY"
+  },
+  {
+   "conid": 447545380,
+   "symbol": "ENR",
+   "tv": "XETR:ENR",
+   "exchange": "IBIS",
+   "name": "SIEMENS ENERGY AG"
+  },
+  {
+   "conid": 455592457,
+   "symbol": "EOSE",
+   "tv": "NASDAQ:EOSE",
+   "exchange": "NASDAQ",
+   "name": "EOS ENERGY ENTERPRISES INC"
+  },
+  {
+   "conid": 6969,
+   "symbol": "ETR",
+   "tv": "NYSE:ETR",
+   "exchange": "NYSE",
+   "name": "ENTERGY CORP"
+  },
+  {
+   "conid": 691984365,
+   "symbol": "GEV",
+   "tv": "NYSE:GEV",
+   "exchange": "NYSE",
+   "name": "GE VERNOVA INC"
+  },
+  {
+   "conid": 712414332,
+   "symbol": "LB",
+   "tv": "NYSE:LB",
+   "exchange": "NYSE",
+   "name": "LANDBRIDGE CO LLC-A"
+  },
+  {
+   "conid": 75960201,
+   "symbol": "NEE",
+   "tv": "NYSE:NEE",
+   "exchange": "NYSE",
+   "name": "NEXTERA ENERGY INC"
+  },
+  {
+   "conid": 10199,
+   "symbol": "NFG",
+   "tv": "NYSE:NFG",
+   "exchange": "NYSE",
+   "name": "NATIONAL FUEL GAS CO"
+  },
+  {
+   "conid": 543810481,
+   "symbol": "NRGV",
+   "tv": "NYSE:NRGV",
+   "exchange": "NYSE",
+   "name": "ENERGY VAULT HOLDINGS INC"
+  },
+  {
+   "conid": 11005,
+   "symbol": "PEG",
+   "tv": "NYSE:PEG",
+   "exchange": "NYSE",
+   "name": "PUBLIC SERVICE ENTERPRISE GP"
+  },
+  {
+   "conid": 93903658,
+   "symbol": "PSIX",
+   "tv": "NASDAQ:PSIX",
+   "exchange": "NASDAQ",
+   "name": "POWER SOLUTIONS INTERNATIONA"
+  },
+  {
+   "conid": 674590140,
+   "symbol": "TE",
+   "tv": "NYSE:TE",
+   "exchange": "NYSE",
+   "name": "T1 ENERGY INC"
+  },
+  {
+   "conid": 254457731,
+   "symbol": "VST",
+   "tv": "NYSE:VST",
+   "exchange": "NYSE",
+   "name": "VISTRA CORP"
+  }
+ ],
+ "ENERGY OIL & GAS": [
+  {
+   "conid": 10885,
+   "symbol": "COP",
+   "tv": "NYSE:COP",
+   "exchange": "NYSE",
+   "name": "CONOCOPHILLIPS"
+  },
+  {
+   "conid": 452226249,
+   "symbol": "CRC",
+   "tv": "NYSE:CRC",
+   "exchange": "NYSE",
+   "name": "CALIFORNIA RESOURCES CORP"
+  },
+  {
+   "conid": 5684,
+   "symbol": "CVX",
+   "tv": "NYSE:CVX",
+   "exchange": "NYSE",
+   "name": "CHEVRON CORP"
+  },
+  {
+   "conid": 4730124,
+   "symbol": "ENB",
+   "tv": "NYSE:ENB",
+   "exchange": "NYSE",
+   "name": "ENBRIDGE INC"
+  },
+  {
+   "conid": 6890,
+   "symbol": "EOG",
+   "tv": "NYSE:EOG",
+   "exchange": "NYSE",
+   "name": "EOG RESOURCES INC"
+  },
+  {
+   "conid": 6607910,
+   "symbol": "EPD",
+   "tv": "NYSE:EPD",
+   "exchange": "NYSE",
+   "name": "ENTERPRISE PRODUCTS PARTNERS"
+  },
+  {
+   "conid": 57698865,
+   "symbol": "EQT",
+   "tv": "NYSE:EQT",
+   "exchange": "NYSE",
+   "name": "EQT CORP"
+  },
+  {
+   "conid": 145200301,
+   "symbol": "GTT",
+   "tv": "EURONEXT:GTT",
+   "exchange": "SBF",
+   "name": "GAZTRANSPORT ET TECHNIGA SA"
+  },
+  {
+   "conid": 83975037,
+   "symbol": "KMI",
+   "tv": "NYSE:KMI",
+   "exchange": "NYSE",
+   "name": "KINDER MORGAN INC"
+  },
+  {
+   "conid": 89495776,
+   "symbol": "MPC",
+   "tv": "NYSE:MPC",
+   "exchange": "NYSE",
+   "name": "MARATHON PETROLEUM CORP"
+  },
+  {
+   "conid": 116339790,
+   "symbol": "MPLX",
+   "tv": "NYSE:MPLX",
+   "exchange": "NYSE",
+   "name": "MPLX LP"
+  },
+  {
+   "conid": 10188791,
+   "symbol": "NRG",
+   "tv": "NYSE:NRG",
+   "exchange": "NYSE",
+   "name": "NRG ENERGY INC"
+  },
+  {
+   "conid": 921971937,
+   "symbol": "OKE",
+   "tv": "NYSE:OKE",
+   "exchange": "NYSE",
+   "name": "ONEOK INC"
+  },
+  {
+   "conid": 541411967,
+   "symbol": "SHELL",
+   "tv": "EURONEXT:SHELL",
+   "exchange": "AEB",
+   "name": "SHELL PLC"
+  },
+  {
+   "conid": 12200,
+   "symbol": "SLB",
+   "tv": "NYSE:SLB",
+   "exchange": "NYSE",
+   "name": "SLB LTD"
+  },
+  {
+   "conid": 29612193,
+   "symbol": "TTE",
+   "tv": "EURONEXT:TTE",
+   "exchange": "SBF",
+   "name": "TOTALENERGIES SE"
+  },
+  {
+   "conid": 13805,
+   "symbol": "WMB",
+   "tv": "NYSE:WMB",
+   "exchange": "NYSE",
+   "name": "WILLIAMS COS INC"
+  },
+  {
+   "conid": 895178251,
+   "symbol": "XOM",
+   "tv": "NYSE:XOM",
+   "exchange": "NYSE",
+   "name": "EXXONMOBIL HOLDINGS CORP"
+  }
+ ],
+ "FINANCE": [
+  {
+   "conid": 224706714,
+   "symbol": "7186",
+   "tv": "TSE:7186",
+   "exchange": "TSEJ",
+   "name": "YOKOHAMA FINANCIAL GROUP INC"
+  },
+  {
+   "conid": 465119069,
+   "symbol": "AFRM",
+   "tv": "NASDAQ:AFRM",
+   "exchange": "NASDAQ",
+   "name": "AFFIRM HOLDINGS INC"
+  },
+  {
+   "conid": 61319701,
+   "symbol": "AIG",
+   "tv": "NYSE:AIG",
+   "exchange": "NYSE",
+   "name": "AMERICAN INTERNATIONAL GROUP"
+  },
+  {
+   "conid": 729193719,
+   "symbol": "BLK",
+   "tv": "NYSE:BLK",
+   "exchange": "NYSE",
+   "name": "BLACKROCK INC"
+  },
+  {
+   "conid": 280739314,
+   "symbol": "BY",
+   "tv": "NYSE:BY",
+   "exchange": "NYSE",
+   "name": "BYLINE BANCORP INC"
+  },
+  {
+   "conid": 45127739,
+   "symbol": "CME",
+   "tv": "NASDAQ:CME",
+   "exchange": "NASDAQ",
+   "name": "CME GROUP INC"
+  },
+  {
+   "conid": 751352151,
+   "symbol": "DFDV",
+   "tv": "NASDAQ:DFDV",
+   "exchange": "NASDAQ",
+   "name": "DEFI DEVELOPMENT CORP"
+  },
+  {
+   "conid": 76721301,
+   "symbol": "EDEN",
+   "tv": "EURONEXT:EDEN",
+   "exchange": "SBF",
+   "name": "EDENRED"
+  },
+  {
+   "conid": 156871527,
+   "symbol": "ENX",
+   "tv": "EURONEXT:ENX",
+   "exchange": "SBF",
+   "name": "EURONEXT NV"
+  },
+  {
+   "conid": 280739299,
+   "symbol": "ESQ",
+   "tv": "NASDAQ:ESQ",
+   "exchange": "NASDAQ",
+   "name": "ESQUIRE FINANCIAL HOLDINGS I"
+  },
+  {
+   "conid": 258400854,
+   "symbol": "EXO",
+   "tv": "EURONEXT:EXO",
+   "exchange": "AEB",
+   "name": "EXOR NV"
+  },
+  {
+   "conid": 392428133,
+   "symbol": "FINV",
+   "tv": "NYSE:FINV",
+   "exchange": "NYSE",
+   "name": "FINVOLUTION GROUP-ADR"
+  },
+  {
+   "conid": 4627828,
+   "symbol": "GS",
+   "tv": "NYSE:GS",
+   "exchange": "NYSE",
+   "name": "GOLDMAN SACHS GROUP INC"
+  },
+  {
+   "conid": 504546674,
+   "symbol": "HOOD",
+   "tv": "NASDAQ:HOOD",
+   "exchange": "NASDAQ",
+   "name": "ROBINHOOD MARKETS INC - A"
+  },
+  {
+   "conid": 43645865,
+   "symbol": "IBKR",
+   "tv": "NASDAQ:IBKR",
+   "exchange": "NASDAQ",
+   "name": "INTERACTIVE BROKERS GRO-CL A"
+  },
+  {
+   "conid": 47550606,
+   "symbol": "IVZ",
+   "tv": "NYSE:IVZ",
+   "exchange": "NYSE",
+   "name": "INVESCO LTD"
+  },
+  {
+   "conid": 430625913,
+   "symbol": "LMND",
+   "tv": "NYSE:LMND",
+   "exchange": "NYSE",
+   "name": "LEMONADE INC"
+  },
+  {
+   "conid": 38685693,
+   "symbol": "MA",
+   "tv": "NYSE:MA",
+   "exchange": "NYSE",
+   "name": "MASTERCARD INC - A"
+  },
+  {
+   "conid": 6477893,
+   "symbol": "MFIN",
+   "tv": "NASDAQ:MFIN",
+   "exchange": "NASDAQ",
+   "name": "MEDALLION FINANCIAL CORP"
+  },
+  {
+   "conid": 238760490,
+   "symbol": "MONET",
+   "tv": "PSECZ:MONET",
+   "exchange": "PRA",
+   "name": "MONETA MONEY BANK AS"
+  },
+  {
+   "conid": 272110,
+   "symbol": "MSTR",
+   "tv": "NASDAQ:MSTR",
+   "exchange": "NASDAQ",
+   "name": "STRATEGY INC"
+  },
+  {
+   "conid": 29380756,
+   "symbol": "NDAQ",
+   "tv": "NASDAQ:NDAQ",
+   "exchange": "NASDAQ",
+   "name": "NASDAQ INC"
+  },
+  {
+   "conid": 531212348,
+   "symbol": "NU",
+   "tv": "NYSE:NU",
+   "exchange": "NYSE",
+   "name": "NU HOLDINGS LTD/CAYMAN ISL-A"
+  },
+  {
+   "conid": 460320153,
+   "symbol": "OPEN",
+   "tv": "NASDAQ:OPEN",
+   "exchange": "NASDAQ",
+   "name": "OPENDOOR TECHNOLOGIES INC"
+  },
+  {
+   "conid": 503292672,
+   "symbol": "OPFI",
+   "tv": "NYSE:OPFI",
+   "exchange": "NYSE",
+   "name": "OPPFI INC"
+  },
+  {
+   "conid": 199169591,
+   "symbol": "PYPL",
+   "tv": "NASDAQ:PYPL",
+   "exchange": "NASDAQ",
+   "name": "PAYPAL HOLDINGS INC"
+  },
+  {
+   "conid": 438058842,
+   "symbol": "RKT",
+   "tv": "NYSE:RKT",
+   "exchange": "NYSE",
+   "name": "ROCKET COS INC-CLASS A"
+  },
+  {
+   "conid": 11905,
+   "symbol": "SCHW",
+   "tv": "NYSE:SCHW",
+   "exchange": "NYSE",
+   "name": "SCHWAB (CHARLES) CORP"
+  },
+  {
+   "conid": 494162724,
+   "symbol": "SOFI",
+   "tv": "NASDAQ:SOFI",
+   "exchange": "NASDAQ",
+   "name": "SOFI TECHNOLOGIES INC"
+  },
+  {
+   "conid": 802991506,
+   "symbol": "STRC",
+   "tv": "NASDAQ:STRC",
+   "exchange": "NASDAQ",
+   "name": "MICROSTRATEGY INC PERP STRETCH P"
+  },
+  {
+   "conid": 2730980,
+   "symbol": "STT",
+   "tv": "NYSE:STT",
+   "exchange": "NYSE",
+   "name": "STATE STREET CORP"
+  },
+  {
+   "conid": 115333930,
+   "symbol": "TLX",
+   "tv": "XETR:TLX",
+   "exchange": "IBIS",
+   "name": "TALANX AG"
+  },
+  {
+   "conid": 1448559,
+   "symbol": "UPBD",
+   "tv": "NASDAQ:UPBD",
+   "exchange": "NASDAQ",
+   "name": "UPBOUND GROUP INC"
+  },
+  {
+   "conid": 49462172,
+   "symbol": "V",
+   "tv": "NYSE:V",
+   "exchange": "NYSE",
+   "name": "VISA INC-CLASS A SHARES"
+  }
+ ],
+ "INDUSTRIAL SERVICES": [
+  {
+   "conid": 43980401,
+   "symbol": "ACM",
+   "tv": "NYSE:ACM",
+   "exchange": "NYSE",
+   "name": "AECOM"
+  },
+  {
+   "conid": 29612135,
+   "symbol": "AI",
+   "tv": "EURONEXT:AI",
+   "exchange": "SBF",
+   "name": "AIR LIQUIDE SA"
+  },
+  {
+   "conid": 673642579,
+   "symbol": "ALSTI",
+   "tv": "EURONEXT:ALSTI",
+   "exchange": "SBF",
+   "name": "STIF SA"
+  },
+  {
+   "conid": 5437,
+   "symbol": "CAT",
+   "tv": "NYSE:CAT",
+   "exchange": "NYSE",
+   "name": "CATERPILLAR INC"
+  },
+  {
+   "conid": 6820,
+   "symbol": "EME",
+   "tv": "NYSE:EME",
+   "exchange": "NYSE",
+   "name": "EMCOR GROUP INC"
+  },
+  {
+   "conid": 262072228,
+   "symbol": "FTI",
+   "tv": "NYSE:FTI",
+   "exchange": "NYSE",
+   "name": "TECHNIPFMC PLC"
+  },
+  {
+   "conid": 69251199,
+   "symbol": "HEIJM",
+   "tv": "EURONEXT:HEIJM",
+   "exchange": "AEB",
+   "name": "KONINKLIJKE HEIJMANS NV-CVA"
+  },
+  {
+   "conid": 6608432,
+   "symbol": "PWR",
+   "tv": "NYSE:PWR",
+   "exchange": "NYSE",
+   "name": "QUANTA SERVICES INC"
+  },
+  {
+   "conid": 14217,
+   "symbol": "SIE",
+   "tv": "XETR:SIE",
+   "exchange": "IBIS",
+   "name": "SIEMENS AG-REG"
+  },
+  {
+   "conid": 471440851,
+   "symbol": "TE",
+   "tv": "EURONEXT:TE",
+   "exchange": "SBF",
+   "name": "TECHNIP ENERGIES NV"
+  },
+  {
+   "conid": 14894672,
+   "symbol": "VLN",
+   "tv": "TSX:VLN",
+   "exchange": "TSE",
+   "name": "VELAN INC"
+  },
+  {
+   "conid": 661633,
+   "symbol": "WAB",
+   "tv": "NYSE:WAB",
+   "exchange": "NYSE",
+   "name": "WABTEC CORP"
+  }
+ ],
+ "LIDAR": [
+  {
+   "conid": 690184960,
+   "symbol": "AEVA",
+   "tv": "NASDAQ:AEVA",
+   "exchange": "NASDAQ",
+   "name": "AEVA TECHNOLOGIES INC"
+  },
+  {
+   "conid": 613031001,
+   "symbol": "HSAI",
+   "tv": "NASDAQ:HSAI",
+   "exchange": "NASDAQ",
+   "name": "HESAI GROUP"
+  },
+  {
+   "conid": 480646439,
+   "symbol": "INVZ",
+   "tv": "NASDAQ:INVZ",
+   "exchange": "NASDAQ",
+   "name": "INNOVIZ TECHNOLOGIES LTD"
+  },
+  {
+   "conid": 674366989,
+   "symbol": "LIDR",
+   "tv": "NASDAQ:LIDR",
+   "exchange": "NASDAQ",
+   "name": "AEYE INC"
+  },
+  {
+   "conid": 905595520,
+   "symbol": "MVIS",
+   "tv": "NASDAQ:MVIS",
+   "exchange": "NASDAQ",
+   "name": "MICROVISION INC"
+  }
+ ],
+ "LUXE": [
+  {
+   "conid": 90234748,
+   "symbol": "1913",
+   "tv": "HKEX:1913",
+   "exchange": "SEHK",
+   "name": "PRADA S.P.A."
+  },
+  {
+   "conid": 13905850,
+   "symbol": "7762",
+   "tv": "TSE:7762",
+   "exchange": "TSEJ",
+   "name": "CITIZEN WATCH CO LTD"
+  },
+  {
+   "conid": 14017875,
+   "symbol": "8050",
+   "tv": "TSE:8050",
+   "exchange": "TSEJ",
+   "name": "SEIKO GROUP CORP"
+  },
+  {
+   "conid": 15977601,
+   "symbol": "BRBY",
+   "tv": "LSE:BRBY",
+   "exchange": "LSE",
+   "name": "BURBERRY GROUP PLC"
+  },
+  {
+   "conid": 134773421,
+   "symbol": "CFR",
+   "tv": "SIX:CFR",
+   "exchange": "EBS",
+   "name": "CIE FINANCIERE RICHEMO-A REG"
+  },
+  {
+   "conid": 347409760,
+   "symbol": "CPRI",
+   "tv": "NYSE:CPRI",
+   "exchange": "NYSE",
+   "name": "CAPRI HOLDINGS LTD"
+  },
+  {
+   "conid": 1448477,
+   "symbol": "EL",
+   "tv": "NYSE:EL",
+   "exchange": "NYSE",
+   "name": "ESTEE LAUDER COMPANIES-CL A"
+  },
+  {
+   "conid": 29612178,
+   "symbol": "KER",
+   "tv": "EURONEXT:KER",
+   "exchange": "SBF",
+   "name": "KERING"
+  },
+  {
+   "conid": 29612150,
+   "symbol": "MC",
+   "tv": "EURONEXT:MC",
+   "exchange": "SBF",
+   "name": "LVMH MOET HENNESSY LOUIS VUI"
+  },
+  {
+   "conid": 140054327,
+   "symbol": "MONC",
+   "tv": "MIL:MONC",
+   "exchange": "BVME",
+   "name": "MONCLER SPA"
+  },
+  {
+   "conid": 1254605,
+   "symbol": "RMS",
+   "tv": "EURONEXT:RMS",
+   "exchange": "SBF",
+   "name": "HERMES INTL"
+  },
+  {
+   "conid": 53747825,
+   "symbol": "SIG",
+   "tv": "NYSE:SIG",
+   "exchange": "NYSE",
+   "name": "SIGNET JEWELERS LTD"
+  },
+  {
+   "conid": 262815,
+   "symbol": "UHR",
+   "tv": "SIX:UHR",
+   "exchange": "EBS",
+   "name": "SWATCH GROUP AG/THE-BR"
+  },
+  {
+   "conid": 369005276,
+   "symbol": "WOSG",
+   "tv": "LSE:WOSG",
+   "exchange": "LSE",
+   "name": "WATCHES OF SWITZERLAND GROUP"
+  }
+ ],
+ "NEW SPACE": [
+  {
+   "conid": 480745767,
+   "symbol": "ASTS",
+   "tv": "NASDAQ:ASTS",
+   "exchange": "NASDAQ",
+   "name": "AST SPACEMOBILE INC"
+  },
+  {
+   "conid": 201887215,
+   "symbol": "AVIO",
+   "tv": "MIL:AVIO",
+   "exchange": "BVME",
+   "name": "AVIO SPA"
+  },
+  {
+   "conid": 725797137,
+   "symbol": "BKSY",
+   "tv": "NYSE:BKSY",
+   "exchange": "NYSE",
+   "name": "BLACKSKY TECHNOLOGY INC"
+  },
+  {
+   "conid": 804733304,
+   "symbol": "FLY",
+   "tv": "NASDAQ:FLY",
+   "exchange": "NASDAQ",
+   "name": "FIREFLY AEROSPACE INC"
+  },
+  {
+   "conid": 754990,
+   "symbol": "HEI",
+   "tv": "NYSE:HEI",
+   "exchange": "NYSE",
+   "name": "HEICO CORP"
+  },
+  {
+   "conid": 69195736,
+   "symbol": "IRDM",
+   "tv": "NASDAQ:IRDM",
+   "exchange": "NASDAQ",
+   "name": "IRIDIUM COMMUNICATIONS INC"
+  },
+  {
+   "conid": 760582932,
+   "symbol": "KRMN",
+   "tv": "NYSE:KRMN",
+   "exchange": "NYSE",
+   "name": "KARMAN HOLDINGS INC"
+  },
+  {
+   "conid": 613910262,
+   "symbol": "LUNR",
+   "tv": "NASDAQ:LUNR",
+   "exchange": "NASDAQ",
+   "name": "INTUITIVE MACHINES INC"
+  },
+  {
+   "conid": 702882675,
+   "symbol": "MDA",
+   "tv": "TSX:MDA",
+   "exchange": "TSE",
+   "name": "MDA SPACE LTD"
+  },
+  {
+   "conid": 839174082,
+   "symbol": "MNTS",
+   "tv": "NASDAQ:MNTS",
+   "exchange": "NASDAQ",
+   "name": "MOMENTUS INC"
+  },
+  {
+   "conid": 530906124,
+   "symbol": "PL",
+   "tv": "NYSE:PL",
+   "exchange": "NYSE",
+   "name": "PLANET LABS PBC"
+  },
+  {
+   "conid": 512000171,
+   "symbol": "RDW",
+   "tv": "NYSE:RDW",
+   "exchange": "NYSE",
+   "name": "REDWIRE CORP"
+  },
+  {
+   "conid": 787273575,
+   "symbol": "RKLB",
+   "tv": "NASDAQ:RKLB",
+   "exchange": "NASDAQ",
+   "name": "ROCKET LAB CORP"
+  },
+  {
+   "conid": 33222760,
+   "symbol": "SESG",
+   "tv": "EURONEXT:SESG",
+   "exchange": "SBF",
+   "name": "SES"
+  },
+  {
+   "conid": 673368857,
+   "symbol": "SIDU",
+   "tv": "NASDAQ:SIDU",
+   "exchange": "NASDAQ",
+   "name": "SIDUS SPACE INC-CL A"
+  },
+  {
+   "conid": 709229198,
+   "symbol": "SPCE",
+   "tv": "NYSE:SPCE",
+   "exchange": "NYSE",
+   "name": "VIRGIN GALACTIC HOLDINGS INC"
+  },
+  {
+   "conid": 890493863,
+   "symbol": "SPCX",
+   "tv": "NASDAQ:SPCX",
+   "exchange": "NASDAQ",
+   "name": "SPACE EXPLORATION TECHN-CL A"
+  },
+  {
+   "conid": 649389091,
+   "symbol": "SPIR",
+   "tv": "NYSE:SPIR",
+   "exchange": "NYSE",
+   "name": "SPIRE GLOBAL INC"
+  },
+  {
+   "conid": 527803231,
+   "symbol": "TSAT",
+   "tv": "NASDAQ:TSAT",
+   "exchange": "NASDAQ",
+   "name": "TELESAT CORP"
+  },
+  {
+   "conid": 790400443,
+   "symbol": "VOYG",
+   "tv": "NYSE:VOYG",
+   "exchange": "NYSE",
+   "name": "VOYAGER TECHNOLOGIES INC-A"
+  },
+  {
+   "conid": 6746554,
+   "symbol": "VSAT",
+   "tv": "NASDAQ:VSAT",
+   "exchange": "NASDAQ",
+   "name": "VIASAT INC"
+  }
+ ],
+ "NON-ENERGY MINERALS": [
+  {
+   "conid": 257312337,
+   "symbol": "002466",
+   "tv": "SZSE:002466",
+   "exchange": "SEHKSZSE",
+   "name": "TIANQI LITHIUM CORP-A"
+  },
+  {
+   "conid": 165303219,
+   "symbol": "600585",
+   "tv": "SSE:600585",
+   "exchange": "SEHKNTL",
+   "name": "ANHUI CONCH CEMENT CO LTD-A"
+  },
+  {
+   "conid": 55705791,
+   "symbol": "AHCHY",
+   "tv": "OTC:AHCHY",
+   "exchange": "PINK",
+   "name": "CONCH CEMENT-H-UNS ADR"
+  },
+  {
+   "conid": 858150318,
+   "symbol": "ALOY",
+   "tv": "NASDAQ:ALOY",
+   "exchange": "NASDAQ",
+   "name": "REALLOYS INC"
+  },
+  {
+   "conid": 287350709,
+   "symbol": "AMLIF",
+   "tv": "OTC:AMLIF",
+   "exchange": "PINK",
+   "name": "AMERICAN LITHIUM CORP"
+  },
+  {
+   "conid": 604993469,
+   "symbol": "ATLX",
+   "tv": "NASDAQ:ATLX",
+   "exchange": "NASDAQ",
+   "name": "ATLAS LITHIUM INC"
+  },
+  {
+   "conid": 26319054,
+   "symbol": "CALT",
+   "tv": "MIL:CALT",
+   "exchange": "BVME",
+   "name": "CALTAGIRONE SPA"
+  },
+  {
+   "conid": 286030327,
+   "symbol": "CLF",
+   "tv": "NYSE:CLF",
+   "exchange": "NYSE",
+   "name": "CLEVELAND-CLIFFS INC"
+  },
+  {
+   "conid": 733485899,
+   "symbol": "CUPR",
+   "tv": "CSE:CUPR",
+   "exchange": "PURE",
+   "name": "SUPER COPPER CORP"
+  },
+  {
+   "conid": 117834644,
+   "symbol": "CVV",
+   "tv": "ASX:CVV",
+   "exchange": "ASX",
+   "name": "CARAVEL MINERALS LTD"
+  },
+  {
+   "conid": 665383965,
+   "symbol": "CVV",
+   "tv": "TSXV:CVV",
+   "exchange": "VENTURE",
+   "name": "CANALASKA URANIUM LTD"
+  },
+  {
+   "conid": 6257,
+   "symbol": "CX",
+   "tv": "NYSE:CX",
+   "exchange": "NYSE",
+   "name": "CEMEX SAB-SPONS ADR PART CER"
+  },
+  {
+   "conid": 374686175,
+   "symbol": "DMX",
+   "tv": "TSXV:DMX",
+   "exchange": "VENTURE",
+   "name": "DISTRICT METALS CORP"
+  },
+  {
+   "conid": 571812481,
+   "symbol": "ETL",
+   "tv": "TSXV:ETL",
+   "exchange": "VENTURE",
+   "name": "E3 LITHIUM LTD"
+  },
+  {
+   "conid": 724486440,
+   "symbol": "FUU",
+   "tv": "TSXV:FUU",
+   "exchange": "VENTURE",
+   "name": "F3 URANIUM CORP"
+  },
+  {
+   "conid": 14727,
+   "symbol": "HEI",
+   "tv": "XETR:HEI",
+   "exchange": "IBIS",
+   "name": "HEIDELBERG MATERIALS AG"
+  },
+  {
+   "conid": 2682979,
+   "symbol": "HOLN",
+   "tv": "SIX:HOLN",
+   "exchange": "EBS",
+   "name": "HOLCIM LTD"
+  },
+  {
+   "conid": 427745010,
+   "symbol": "INC",
+   "tv": "MIL:INC",
+   "exchange": "BVME",
+   "name": "INNOVATEC SPA"
+  },
+  {
+   "conid": 570487251,
+   "symbol": "IONR",
+   "tv": "NASDAQ:IONR",
+   "exchange": "NASDAQ",
+   "name": "IONEER LTD - ADR"
+  },
+  {
+   "conid": 570106802,
+   "symbol": "LIFT",
+   "tv": "TSXV:LIFT",
+   "exchange": "VENTURE",
+   "name": "LI-FT POWER LTD"
+  },
+  {
+   "conid": 815043082,
+   "symbol": "PMET",
+   "tv": "TSX:PMET",
+   "exchange": "TSE",
+   "name": "PMET RESOURCES INC"
+  },
+  {
+   "conid": 146335741,
+   "symbol": "RCK",
+   "tv": "TSXV:RCK",
+   "exchange": "VENTURE",
+   "name": "ROCK TECH LITHIUM INC"
+  },
+  {
+   "conid": 624756927,
+   "symbol": "SASK",
+   "tv": "TSXV:SASK",
+   "exchange": "VENTURE",
+   "name": "ATHA ENERGY CORP"
+  },
+  {
+   "conid": 812134751,
+   "symbol": "SDST",
+   "tv": "NASDAQ:SDST",
+   "exchange": "NASDAQ",
+   "name": "STARDUST POWER INC"
+  },
+  {
+   "conid": 511477158,
+   "symbol": "SGML",
+   "tv": "NASDAQ:SGML",
+   "exchange": "NASDAQ",
+   "name": "SIGMA LITHIUM CORP"
+  },
+  {
+   "conid": 375664597,
+   "symbol": "TITC",
+   "tv": "EURONEXT:TITC",
+   "exchange": "ENEXT.BE",
+   "name": "TITAN SA"
+  },
+  {
+   "conid": 335899767,
+   "symbol": "WUC",
+   "tv": "CSE:WUC",
+   "exchange": "PURE",
+   "name": "WESTERN URANIUM & VANADIUM C"
+  }
+ ],
+ "MINING": [
+  {
+   "conid": 257310639,
+   "symbol": "002460",
+   "tv": "SZSE:002460",
+   "exchange": "SEHKSZSE",
+   "name": "GANFENG LITHIUM GROUP CO L-A"
+  },
+  {
+   "conid": 42452547,
+   "symbol": "1208",
+   "tv": "HKEX:1208",
+   "exchange": "SEHK",
+   "name": "MMG LTD"
+  },
+  {
+   "conid": 110017618,
+   "symbol": "1258",
+   "tv": "HKEX:1258",
+   "exchange": "SEHK",
+   "name": "CHINA NONFERROUS MINING CORP"
+  },
+  {
+   "conid": 81506181,
+   "symbol": "2099",
+   "tv": "HKEX:2099",
+   "exchange": "SEHK",
+   "name": "CHINA GOLD INTERNATIONAL RES"
+  },
+  {
+   "conid": 165302837,
+   "symbol": "600111",
+   "tv": "SSE:600111",
+   "exchange": "SEHKNTL",
+   "name": "CHINA NORTHERN RARE EARTH -A"
+  },
+  {
+   "conid": 165303062,
+   "symbol": "600362",
+   "tv": "SSE:600362",
+   "exchange": "SEHKNTL",
+   "name": "JIANGXI COPPER CO LTD-A"
+  },
+  {
+   "conid": 576098262,
+   "symbol": "601",
+   "tv": "HKEX:601",
+   "exchange": "SEHK",
+   "name": "RARE EARTH MAGNESIUM TECHNOL"
+  },
+  {
+   "conid": 165303471,
+   "symbol": "601088",
+   "tv": "SSE:601088",
+   "exchange": "SEHKNTL",
+   "name": "CHINA SHENHUA ENERGY CO-A"
+  },
+  {
+   "conid": 165302458,
+   "symbol": "601899",
+   "tv": "SSE:601899",
+   "exchange": "SEHKNTL",
+   "name": "ZIJIN MINING GROUP CO LTD-A"
+  },
+  {
+   "conid": 297973526,
+   "symbol": "603799",
+   "tv": "SSE:603799",
+   "exchange": "SEHKNTL",
+   "name": "ZHEJIANG HUAYOU COBALT CO -A"
+  },
+  {
+   "conid": 165301511,
+   "symbol": "603993",
+   "tv": "SSE:603993",
+   "exchange": "SEHKNTL",
+   "name": "CMOC GROUP LTD-A"
+  },
+  {
+   "conid": 42451390,
+   "symbol": "769",
+   "tv": "HKEX:769",
+   "exchange": "SEHK",
+   "name": "CHINA RARE EARTH HLDGS LTD"
+  },
+  {
+   "conid": 788708135,
+   "symbol": "AAL",
+   "tv": "LSE:AAL",
+   "exchange": "LSE",
+   "name": "ANGLO AMERICAN PLC"
+  },
+  {
+   "conid": 704630251,
+   "symbol": "ABRA",
+   "tv": "TSX:ABRA",
+   "exchange": "TSE",
+   "name": "ABRASILVER RESOURCE CORP"
+  },
+  {
+   "conid": 41855679,
+   "symbol": "AG",
+   "tv": "NYSE:AG",
+   "exchange": "NYSE",
+   "name": "FIRST MAJESTIC SILVER CORP"
+  },
+  {
+   "conid": 737869891,
+   "symbol": "AGAG",
+   "tv": "TSXV:AGAG",
+   "exchange": "VENTURE",
+   "name": "ARGENTA SILVER CORP"
+  },
+  {
+   "conid": 468056568,
+   "symbol": "AMR",
+   "tv": "NYSE:AMR",
+   "exchange": "NYSE",
+   "name": "ALPHA METALLURGICAL RESOURCE"
+  },
+  {
+   "conid": 17628566,
+   "symbol": "ANTO",
+   "tv": "LSE:ANTO",
+   "exchange": "LSE",
+   "name": "ANTOFAGASTA PLC"
+  },
+  {
+   "conid": 814035354,
+   "symbol": "APGO",
+   "tv": "TSXV:APGO",
+   "exchange": "VENTURE",
+   "name": "APOLLO SILVER CORP"
+  },
+  {
+   "conid": 531717707,
+   "symbol": "ARA",
+   "tv": "TSX:ARA",
+   "exchange": "TSE",
+   "name": "ACLARA RESOURCES INC"
+  },
+  {
+   "conid": 277296974,
+   "symbol": "AREC",
+   "tv": "NASDAQ:AREC",
+   "exchange": "NASDAQ",
+   "name": "AMERICAN RESOURCES CORP"
+  },
+  {
+   "conid": 44188332,
+   "symbol": "ARU",
+   "tv": "ASX:ARU",
+   "exchange": "ASX",
+   "name": "ARAFURA RARE EARTHS LTD"
+  },
+  {
+   "conid": 37028040,
+   "symbol": "ASM",
+   "tv": "AMEX:ASM",
+   "exchange": "AMEX",
+   "name": "AVINO SILVER & GOLD MINES"
+  },
+  {
+   "conid": 759563019,
+   "symbol": "BAR",
+   "tv": "CSE:BAR",
+   "exchange": "PURE",
+   "name": "BARRANCO GOLD MINING CORP"
+  },
+  {
+   "conid": 4036812,
+   "symbol": "BHP",
+   "tv": "ASX:BHP",
+   "exchange": "ASX",
+   "name": "BHP GROUP LTD"
+  },
+  {
+   "conid": 476843982,
+   "symbol": "BRC",
+   "tv": "TSXV:BRC",
+   "exchange": "VENTURE",
+   "name": "BLACKROCK SILVER CORP"
+  },
+  {
+   "conid": 271303334,
+   "symbol": "BTU",
+   "tv": "NYSE:BTU",
+   "exchange": "NYSE",
+   "name": "PEABODY ENERGY CORP"
+  },
+  {
+   "conid": 1447060,
+   "symbol": "CCJ",
+   "tv": "NYSE:CCJ",
+   "exchange": "NYSE",
+   "name": "CAMECO CORP"
+  },
+  {
+   "conid": 60532895,
+   "symbol": "CDE",
+   "tv": "NYSE:CDE",
+   "exchange": "NYSE",
+   "name": "COEUR MINING INC"
+  },
+  {
+   "conid": 755303610,
+   "symbol": "COR",
+   "tv": "TSXV:COR",
+   "exchange": "VENTURE",
+   "name": "CAMINO MINERALS CORP"
+  },
+  {
+   "conid": 535283406,
+   "symbol": "CPPMF",
+   "tv": "OTC:CPPMF",
+   "exchange": "PINK",
+   "name": "COPPERNICO METALS INC"
+  },
+  {
+   "conid": 687273967,
+   "symbol": "CRML",
+   "tv": "NASDAQ:CRML",
+   "exchange": "NASDAQ",
+   "name": "CRITICAL METALS CORP"
+  },
+  {
+   "conid": 346748805,
+   "symbol": "DEFN",
+   "tv": "TSXV:DEFN",
+   "exchange": "VENTURE",
+   "name": "DEFENSE METALS CORP"
+  },
+  {
+   "conid": 756915407,
+   "symbol": "DGC",
+   "tv": "TSXV:DGC",
+   "exchange": "VENTURE",
+   "name": "DAURA GOLD CORP"
+  },
+  {
+   "conid": 41983555,
+   "symbol": "DNN",
+   "tv": "AMEX:DNN",
+   "exchange": "AMEX",
+   "name": "DENISON MINES CORP"
+  },
+  {
+   "conid": 897526152,
+   "symbol": "DSV",
+   "tv": "TSX:DSV",
+   "exchange": "TSE",
+   "name": "DISCOVERY MINING LTD"
+  },
+  {
+   "conid": 292735630,
+   "symbol": "ERO",
+   "tv": "TSX:ERO",
+   "exchange": "TSE",
+   "name": "ERO COPPER CORP"
+  },
+  {
+   "conid": 585033148,
+   "symbol": "EU",
+   "tv": "NASDAQ:EU",
+   "exchange": "NASDAQ",
+   "name": "ENCORE ENERGY CORP"
+  },
+  {
+   "conid": 36525494,
+   "symbol": "EXK",
+   "tv": "NYSE:EXK",
+   "exchange": "NYSE",
+   "name": "ENDEAVOUR SILVER CORP"
+  },
+  {
+   "conid": 576945813,
+   "symbol": "FCM",
+   "tv": "LSE:FCM",
+   "exchange": "LSE",
+   "name": "FIRST CLASS METALS PLC"
+  },
+  {
+   "conid": 7089,
+   "symbol": "FCX",
+   "tv": "NYSE:FCX",
+   "exchange": "NYSE",
+   "name": "FREEPORT-MCMORAN INC"
+  },
+  {
+   "conid": 14890726,
+   "symbol": "FM",
+   "tv": "TSX:FM",
+   "exchange": "TSE",
+   "name": "FIRST QUANTUM MINERALS LTD"
+  },
+  {
+   "conid": 614039256,
+   "symbol": "FMET",
+   "tv": "LSE:FMET",
+   "exchange": "LSE",
+   "name": "FULCRUM METALS PLC"
+  },
+  {
+   "conid": 51069466,
+   "symbol": "FRES",
+   "tv": "LSE:FRES",
+   "exchange": "LSE",
+   "name": "FRESNILLO PLC"
+  },
+  {
+   "conid": 494184548,
+   "symbol": "FTEL",
+   "tv": "CSE:FTEL",
+   "exchange": "PURE",
+   "name": "FIRST TELLURIUM CORP"
+  },
+  {
+   "conid": 680620677,
+   "symbol": "FTZFF",
+   "tv": "OTC:FTZFF",
+   "exchange": "PINK",
+   "name": "FITZROY MINERALS INC"
+  },
+  {
+   "conid": 899097811,
+   "symbol": "FVL",
+   "tv": "TSX:FVL",
+   "exchange": "TSE",
+   "name": "FREEGOLD LTD"
+  },
+  {
+   "conid": 88286963,
+   "symbol": "GLEN",
+   "tv": "LSE:GLEN",
+   "exchange": "LSE",
+   "name": "GLENCORE PLC"
+  },
+  {
+   "conid": 32922365,
+   "symbol": "HBM",
+   "tv": "TSX:HBM",
+   "exchange": "TSE",
+   "name": "HUDBAY MINERALS INC"
+  },
+  {
+   "conid": 272561931,
+   "symbol": "HCC",
+   "tv": "NYSE:HCC",
+   "exchange": "NYSE",
+   "name": "WARRIOR MET COAL INC"
+  },
+  {
+   "conid": 541528676,
+   "symbol": "HCH",
+   "tv": "ASX:HCH",
+   "exchange": "ASX",
+   "name": "HOT CHILI LTD"
+  },
+  {
+   "conid": 8027,
+   "symbol": "HL",
+   "tv": "NYSE:HL",
+   "exchange": "NYSE",
+   "name": "HECLA MINING CO"
+  },
+  {
+   "conid": 659766839,
+   "symbol": "HSLV",
+   "tv": "TSX:HSLV",
+   "exchange": "TSE",
+   "name": "HIGHLANDER SILVER CORP"
+  },
+  {
+   "conid": 530906145,
+   "symbol": "IDR",
+   "tv": "AMEX:IDR",
+   "exchange": "AMEX",
+   "name": "IDAHO STRATEGIC RESOURCES IN"
+  },
+  {
+   "conid": 569570281,
+   "symbol": "IE",
+   "tv": "AMEX:IE",
+   "exchange": "AMEX",
+   "name": "IVANHOE ELECTRIC INC / US"
+  },
+  {
+   "conid": 568735689,
+   "symbol": "IPX",
+   "tv": "NASDAQ:IPX",
+   "exchange": "NASDAQ",
+   "name": "IPERIONX LTD - ADR"
+  },
+  {
+   "conid": 133909625,
+   "symbol": "IVN",
+   "tv": "TSX:IVN",
+   "exchange": "TSE",
+   "name": "IVANHOE MINES LTD-CL A"
+  },
+  {
+   "conid": 767280413,
+   "symbol": "KCP",
+   "tv": "TSXV:KCP",
+   "exchange": "VENTURE",
+   "name": "KING COPPER DISCOVERY CORP"
+  },
+  {
+   "conid": 8823,
+   "symbol": "KGC",
+   "tv": "NYSE:KGC",
+   "exchange": "NYSE",
+   "name": "KINROSS GOLD CORP"
+  },
+  {
+   "conid": 13462029,
+   "symbol": "KGH",
+   "tv": "GPW:KGH",
+   "exchange": "WSE",
+   "name": "KGHM POLSKA MIEDZ SA"
+  },
+  {
+   "conid": 141221963,
+   "symbol": "KOD",
+   "tv": "LSE:KOD",
+   "exchange": "LSE",
+   "name": "KODAL MINERALS PLC"
+  },
+  {
+   "conid": 657517509,
+   "symbol": "LAC",
+   "tv": "NYSE:LAC",
+   "exchange": "NYSE",
+   "name": "LITHIUM AMERICAS CORP"
+  },
+  {
+   "conid": 794639085,
+   "symbol": "LIB",
+   "tv": "TSXV:LIB",
+   "exchange": "VENTURE",
+   "name": "LIBERTYSTREAM INFRASTRUCTURE"
+  },
+  {
+   "conid": 177292167,
+   "symbol": "LUG",
+   "tv": "TSX:LUG",
+   "exchange": "TSE",
+   "name": "LUNDIN GOLD INC"
+  },
+  {
+   "conid": 32604529,
+   "symbol": "LUN",
+   "tv": "TSX:LUN",
+   "exchange": "TSE",
+   "name": "LUNDIN MINING CORP"
+  },
+  {
+   "conid": 14064364,
+   "symbol": "LYC",
+   "tv": "ASX:LYC",
+   "exchange": "ASX",
+   "name": "LYNAS RARE EARTHS LTD"
+  },
+  {
+   "conid": 44202634,
+   "symbol": "MEI",
+   "tv": "ASX:MEI",
+   "exchange": "ASX",
+   "name": "METEORIC RESOURCES LTD"
+  },
+  {
+   "conid": 837873857,
+   "symbol": "MNO",
+   "tv": "TSX:MNO",
+   "exchange": "TSE",
+   "name": "MERIDIAN MINING PLC"
+  },
+  {
+   "conid": 455592408,
+   "symbol": "MP",
+   "tv": "NYSE:MP",
+   "exchange": "NYSE",
+   "name": "MP MATERIALS CORP"
+  },
+  {
+   "conid": 364845424,
+   "symbol": "MRZ",
+   "tv": "ASX:MRZ",
+   "exchange": "ASX",
+   "name": "MONT ROYAL RESOURCES LTD"
+  },
+  {
+   "conid": 395717235,
+   "symbol": "MTA",
+   "tv": "AMEX:MTA",
+   "exchange": "AMEX",
+   "name": "METALLA ROYALTY & STREAMING"
+  },
+  {
+   "conid": 620917098,
+   "symbol": "NB",
+   "tv": "NASDAQ:NB",
+   "exchange": "NASDAQ",
+   "name": "NIOCORP DEVELOPMENTS LTD"
+  },
+  {
+   "conid": 96079902,
+   "symbol": "NCX",
+   "tv": "TSXV:NCX",
+   "exchange": "VENTURE",
+   "name": "NORTHISLE COPPER & GOLD INC"
+  },
+  {
+   "conid": 10174,
+   "symbol": "NEM",
+   "tv": "NYSE:NEM",
+   "exchange": "NYSE",
+   "name": "NEWMONT CORP"
+  },
+  {
+   "conid": 299520076,
+   "symbol": "NVA",
+   "tv": "ASX:NVA",
+   "exchange": "ASX",
+   "name": "NOVA MINERALS CORP-CDI"
+  },
+  {
+   "conid": 126537850,
+   "symbol": "NXE",
+   "tv": "TSX:NXE",
+   "exchange": "TSE",
+   "name": "NEXGEN ENERGY LTD"
+  },
+  {
+   "conid": 939494125,
+   "symbol": "OMEX",
+   "tv": "NASDAQ:OMEX",
+   "exchange": "NASDAQ",
+   "name": "ODYSSEY MARINE EXPLORATION"
+  },
+  {
+   "conid": 4816190,
+   "symbol": "PAAS",
+   "tv": "NYSE:PAAS",
+   "exchange": "NYSE",
+   "name": "PAN AMERICAN SILVER CORP"
+  },
+  {
+   "conid": 71294096,
+   "symbol": "PLS",
+   "tv": "ASX:PLS",
+   "exchange": "ASX",
+   "name": "PLS GROUP LTD"
+  },
+  {
+   "conid": 67395995,
+   "symbol": "REEMF",
+   "tv": "OTC:REEMF",
+   "exchange": "PINK",
+   "name": "RARE ELEMENT RESOURCES LTD"
+  },
+  {
+   "conid": 4095586,
+   "symbol": "RIO",
+   "tv": "NYSE:RIO",
+   "exchange": "NYSE",
+   "name": "RIO TINTO PLC-SPON ADR"
+  },
+  {
+   "conid": 889302992,
+   "symbol": "SA",
+   "tv": "NYSE:SA",
+   "exchange": "NYSE",
+   "name": "SEABRIDGE GOLD INC"
+  },
+  {
+   "conid": 275483215,
+   "symbol": "SLI",
+   "tv": "AMEX:SLI",
+   "exchange": "AMEX",
+   "name": "STANDARD LITHIUM LTD"
+  },
+  {
+   "conid": 423932757,
+   "symbol": "SLV",
+   "tv": "CSE:SLV",
+   "exchange": "PURE",
+   "name": "SILVER DOLLAR RESOURCES INC"
+  },
+  {
+   "conid": 511289576,
+   "symbol": "SNWGF",
+   "tv": "OTC:SNWGF",
+   "exchange": "PINK",
+   "name": "SNOWLINE GOLD CORP"
+  },
+  {
+   "conid": 12374,
+   "symbol": "SQM",
+   "tv": "NYSE:SQM",
+   "exchange": "NYSE",
+   "name": "QUIMICA Y MINERA CHIL-SP ADR"
+  },
+  {
+   "conid": 39921623,
+   "symbol": "TECK",
+   "tv": "NYSE:TECK",
+   "exchange": "NYSE",
+   "name": "TECK RESOURCES LTD-CLS B"
+  },
+  {
+   "conid": 512772887,
+   "symbol": "TMC",
+   "tv": "NASDAQ:TMC",
+   "exchange": "NASDAQ",
+   "name": "TMC THE METALS CO INC"
+  },
+  {
+   "conid": 247231770,
+   "symbol": "TMQ",
+   "tv": "TSX:TMQ",
+   "exchange": "TSE",
+   "name": "TRILOGY METALS INC"
+  },
+  {
+   "conid": 459107123,
+   "symbol": "UCU",
+   "tv": "TSXV:UCU",
+   "exchange": "VENTURE",
+   "name": "UCORE RARE METALS INC"
+  },
+  {
+   "conid": 37451201,
+   "symbol": "UEC",
+   "tv": "AMEX:UEC",
+   "exchange": "AMEX",
+   "name": "URANIUM ENERGY CORP"
+  },
+  {
+   "conid": 41654643,
+   "symbol": "URG",
+   "tv": "AMEX:URG",
+   "exchange": "AMEX",
+   "name": "UR-ENERGY INC"
+  },
+  {
+   "conid": 905562385,
+   "symbol": "UROY",
+   "tv": "NASDAQ:UROY",
+   "exchange": "NASDAQ",
+   "name": "URANIUM ROYALTY CORP"
+  },
+  {
+   "conid": 768545231,
+   "symbol": "USAR",
+   "tv": "NASDAQ:USAR",
+   "exchange": "NASDAQ",
+   "name": "USA RARE EARTH INC"
+  },
+  {
+   "conid": 808305615,
+   "symbol": "USAS",
+   "tv": "AMEX:USAS",
+   "exchange": "AMEX",
+   "name": "AMERICAS GOLD AND SILVER COR"
+  },
+  {
+   "conid": 137823153,
+   "symbol": "UUUU",
+   "tv": "AMEX:UUUU",
+   "exchange": "AMEX",
+   "name": "ENERGY FUELS INC"
+  },
+  {
+   "conid": 60581038,
+   "symbol": "VALE",
+   "tv": "NYSE:VALE",
+   "exchange": "NYSE",
+   "name": "VALE SA-SP ADR"
+  },
+  {
+   "conid": 44205405,
+   "symbol": "VML",
+   "tv": "ASX:VML",
+   "exchange": "ASX",
+   "name": "VITAL METALS LTD"
+  },
+  {
+   "conid": 709025637,
+   "symbol": "VZLA",
+   "tv": "AMEX:VZLA",
+   "exchange": "AMEX",
+   "name": "VIZSLA SILVER CORP"
+  },
+  {
+   "conid": 44582452,
+   "symbol": "WHC",
+   "tv": "ASX:WHC",
+   "exchange": "ASX",
+   "name": "WHITEHAVEN COAL LTD"
+  },
+  {
+   "conid": 276051659,
+   "symbol": "WPM",
+   "tv": "TSX:WPM",
+   "exchange": "TSE",
+   "name": "WHEATON PRECIOUS METALS CORP"
+  },
+  {
+   "conid": 109932184,
+   "symbol": "YAL",
+   "tv": "ASX:YAL",
+   "exchange": "ASX",
+   "name": "YANCOAL AUSTRALIA LTD"
+  }
+ ],
+ "PHOTONICS": [
+  {
+   "conid": 44582470,
+   "symbol": "2382",
+   "tv": "HKEX:2382",
+   "exchange": "SEHK",
+   "name": "SUNNY OPTICAL TECH"
+  },
+  {
+   "conid": 39130594,
+   "symbol": "2393",
+   "tv": "TWSE:2393",
+   "exchange": "TWSE",
+   "name": "EVERLIGHT ELECTRONICS CO LTD"
+  },
+  {
+   "conid": 76615083,
+   "symbol": "FN",
+   "tv": "NYSE:FN",
+   "exchange": "NYSE",
+   "name": "FABRINET"
+  },
+  {
+   "conid": 7655,
+   "symbol": "GLW",
+   "tv": "NYSE:GLW",
+   "exchange": "NYSE",
+   "name": "CORNING INC"
+  },
+  {
+   "conid": 201113895,
+   "symbol": "LITE",
+   "tv": "NASDAQ:LITE",
+   "exchange": "NASDAQ",
+   "name": "LUMENTUM HOLDINGS INC"
+  },
+  {
+   "conid": 49462420,
+   "symbol": "LWLG",
+   "tv": "NASDAQ:LWLG",
+   "exchange": "NASDAQ",
+   "name": "LIGHTWAVE LOGIC INC"
+  },
+  {
+   "conid": 547618418,
+   "symbol": "POET",
+   "tv": "NASDAQ:POET",
+   "exchange": "NASDAQ",
+   "name": "POET TECHNOLOGIES INC"
+  },
+  {
+   "conid": 118074725,
+   "symbol": "SSYS",
+   "tv": "NASDAQ:SSYS",
+   "exchange": "NASDAQ",
+   "name": "STRATASYS LTD"
+  }
+ ],
+ "PRODUCER MANUFACTURING": [
+  {
+   "conid": 280799836,
+   "symbol": "002639",
+   "tv": "SZSE:002639",
+   "exchange": "SEHKSZSE",
+   "name": "FUJIAN SNOWMAN GROUP CO-A"
+  },
+  {
+   "conid": 496997503,
+   "symbol": "2155",
+   "tv": "HKEX:2155",
+   "exchange": "SEHK",
+   "name": "MORIMATSU INTERNATIONAL HOLD"
+  },
+  {
+   "conid": 261730640,
+   "symbol": "300502",
+   "tv": "SZSE:300502",
+   "exchange": "CHINEXT",
+   "name": "EOPTOLINK TECHNOLOGY INC L-A"
+  },
+  {
+   "conid": 165302718,
+   "symbol": "600875",
+   "tv": "SSE:600875",
+   "exchange": "SEHKNTL",
+   "name": "DONGFANG ELECTRIC CORP LTD-A"
+  },
+  {
+   "conid": 620588967,
+   "symbol": "601399",
+   "tv": "SSE:601399",
+   "exchange": "SEHKNTL",
+   "name": "SINOMACH HEAVY EQUIPMENT-A"
+  },
+  {
+   "conid": 465157510,
+   "symbol": "688012",
+   "tv": "SSE:688012",
+   "exchange": "SEHKSTAR",
+   "name": "ADVANCED MICRO-FABRICATION-A"
+  },
+  {
+   "conid": 748351585,
+   "symbol": "APTV",
+   "tv": "NYSE:APTV",
+   "exchange": "NYSE",
+   "name": "APTIV PLC"
+  },
+  {
+   "conid": 1254461,
+   "symbol": "ERA",
+   "tv": "EURONEXT:ERA",
+   "exchange": "SBF",
+   "name": "ERAMET"
+  },
+  {
+   "conid": 270210,
+   "symbol": "HNI",
+   "tv": "NYSE:HNI",
+   "exchange": "NYSE",
+   "name": "HNI CORP"
+  },
+  {
+   "conid": 216386790,
+   "symbol": "HUBB",
+   "tv": "NYSE:HUBB",
+   "exchange": "NYSE",
+   "name": "HUBBELL INC"
+  },
+  {
+   "conid": 728481880,
+   "symbol": "KSCP",
+   "tv": "NASDAQ:KSCP",
+   "exchange": "NASDAQ",
+   "name": "KNIGHTSCOPE INC-A"
+  },
+  {
+   "conid": 482880511,
+   "symbol": "SWIM",
+   "tv": "NASDAQ:SWIM",
+   "exchange": "NASDAQ",
+   "name": "LATHAM GROUP INC"
+  },
+  {
+   "conid": 152254665,
+   "symbol": "TGEN",
+   "tv": "AMEX:TGEN",
+   "exchange": "AMEX",
+   "name": "TECOGEN INC/WALTHAM MA"
+  }
+ ],
+ "QUANTUM": [
+  {
+   "conid": 731077882,
+   "symbol": "ARQQ",
+   "tv": "NASDAQ:ARQQ",
+   "exchange": "NASDAQ",
+   "name": "ARQIT QUANTUM INC"
+  },
+  {
+   "conid": 626106921,
+   "symbol": "BTQ",
+   "tv": "NASDAQ:BTQ",
+   "exchange": "NASDAQ",
+   "name": "BTQ TECHNOLOGIES CORP"
+  },
+  {
+   "conid": 777704938,
+   "symbol": "HOLO",
+   "tv": "NASDAQ:HOLO",
+   "exchange": "NASDAQ",
+   "name": "MICROCLOUD HOLOGRAM INC"
+  },
+  {
+   "conid": 517593749,
+   "symbol": "IONQ",
+   "tv": "NYSE:IONQ",
+   "exchange": "NYSE",
+   "name": "IONQ INC"
+  },
+  {
+   "conid": 631370187,
+   "symbol": "LAES",
+   "tv": "NASDAQ:LAES",
+   "exchange": "NASDAQ",
+   "name": "SEALSQ CORP"
+  },
+  {
+   "conid": 799578419,
+   "symbol": "MLGO",
+   "tv": "NASDAQ:MLGO",
+   "exchange": "NASDAQ",
+   "name": "MICROALGO INC"
+  },
+  {
+   "conid": 578031277,
+   "symbol": "QBTS",
+   "tv": "NYSE:QBTS",
+   "exchange": "NYSE",
+   "name": "D-WAVE QUANTUM INC"
+  },
+  {
+   "conid": 774092201,
+   "symbol": "QUBE",
+   "tv": "LSE:QUBE",
+   "exchange": "LSE",
+   "name": "QUANTUM BASE HOLDINGS PLC"
+  },
+  {
+   "conid": 324651164,
+   "symbol": "QUBT",
+   "tv": "NASDAQ:QUBT",
+   "exchange": "NASDAQ",
+   "name": "QUANTUM COMPUTING INC"
+  },
+  {
+   "conid": 547605251,
+   "symbol": "RGTI",
+   "tv": "NASDAQ:RGTI",
+   "exchange": "NASDAQ",
+   "name": "RIGETTI COMPUTING INC"
+  }
+ ],
+ "RETAIL TRADE": [
+  {
+   "conid": 316794245,
+   "symbol": "1833",
+   "tv": "HKEX:1833",
+   "exchange": "SEHK",
+   "name": "PING AN HEALTHCARE AND TECHN"
+  },
+  {
+   "conid": 165302796,
+   "symbol": "600778",
+   "tv": "SSE:600778",
+   "exchange": "SEHKNTL",
+   "name": "XINJIANG YOUHAO GROUP CO L-A"
+  },
+  {
+   "conid": 655294494,
+   "symbol": "AKA",
+   "tv": "NYSE:AKA",
+   "exchange": "NYSE",
+   "name": "AKA BRANDS HOLDING CORP"
+  },
+  {
+   "conid": 3691937,
+   "symbol": "AMZN",
+   "tv": "NASDAQ:AMZN",
+   "exchange": "NASDAQ",
+   "name": "AMAZON.COM INC"
+  },
+  {
+   "conid": 2585399,
+   "symbol": "ANF",
+   "tv": "NYSE:ANF",
+   "exchange": "NYSE",
+   "name": "ABERCROMBIE & FITCH CO-CL A"
+  },
+  {
+   "conid": 497881659,
+   "symbol": "ARAMI",
+   "tv": "EURONEXT:ARAMI",
+   "exchange": "SBF",
+   "name": "ARAMIS GROUP SAS"
+  },
+  {
+   "conid": 166090175,
+   "symbol": "BABA",
+   "tv": "NYSE:BABA",
+   "exchange": "NYSE",
+   "name": "ALIBABA GROUP HOLDING-SP ADR"
+  },
+  {
+   "conid": 4817,
+   "symbol": "BBY",
+   "tv": "NYSE:BBY",
+   "exchange": "NYSE",
+   "name": "BEST BUY CO INC"
+  },
+  {
+   "conid": 29612172,
+   "symbol": "CA",
+   "tv": "EURONEXT:CA",
+   "exchange": "SBF",
+   "name": "CARREFOUR SA"
+  },
+  {
+   "conid": 699383065,
+   "symbol": "CO",
+   "tv": "EURONEXT:CO",
+   "exchange": "SBF",
+   "name": "CASINO GUICHARD PERRACHON"
+  },
+  {
+   "conid": 499640641,
+   "symbol": "DDL",
+   "tv": "NYSE:DDL",
+   "exchange": "NYSE",
+   "name": "DINGDONG CAYMAN LTD -SPN ADR"
+  },
+  {
+   "conid": 466209564,
+   "symbol": "KITS",
+   "tv": "TSX:KITS",
+   "exchange": "TSE",
+   "name": "KITS EYECARE LTD"
+  },
+  {
+   "conid": 45602025,
+   "symbol": "MELI",
+   "tv": "NASDAQ:MELI",
+   "exchange": "NASDAQ",
+   "name": "MERCADOLIBRE INC"
+  },
+  {
+   "conid": 326398585,
+   "symbol": "PDD",
+   "tv": "NASDAQ:PDD",
+   "exchange": "NASDAQ",
+   "name": "PDD HOLDINGS INC"
+  },
+  {
+   "conid": 6858322,
+   "symbol": "TSCO",
+   "tv": "NASDAQ:TSCO",
+   "exchange": "NASDAQ",
+   "name": "TRACTOR SUPPLY COMPANY"
+  },
+  {
+   "conid": 502415513,
+   "symbol": "VSXY",
+   "tv": "NYSE:VSXY",
+   "exchange": "NYSE",
+   "name": "VICTORIA'S SECRET & CO"
+  },
+  {
+   "conid": 168812158,
+   "symbol": "W",
+   "tv": "NYSE:W",
+   "exchange": "NYSE",
+   "name": "WAYFAIR INC- CLASS A"
+  }
+ ],
+ "ROBOTICS": [
+  {
+   "conid": 522709965,
+   "symbol": "2252",
+   "tv": "HKEX:2252",
+   "exchange": "SEHK",
+   "name": "SHANGHAI MICROPORT MEDBOT-H"
+  },
+  {
+   "conid": 641664154,
+   "symbol": "277810",
+   "tv": "KRX:277810",
+   "exchange": "KRX",
+   "name": "RAINBOW ROBOTICS"
+  },
+  {
+   "conid": 286166033,
+   "symbol": "3993",
+   "tv": "TSE:3993",
+   "exchange": "TSEJ",
+   "name": "PKSHA TECHNOLOGY INC"
+  },
+  {
+   "conid": 852106279,
+   "symbol": "455900",
+   "tv": "KRX:455900",
+   "exchange": "KRX",
+   "name": "ANGEL ROBOTICS CO LTD"
+  },
+  {
+   "conid": 131083930,
+   "symbol": "6258",
+   "tv": "TSE:6258",
+   "exchange": "TSEJ",
+   "name": "HIRATA CORP"
+  },
+  {
+   "conid": 14016451,
+   "symbol": "6273",
+   "tv": "TSE:6273",
+   "exchange": "TSEJ",
+   "name": "SMC CORP"
+  },
+  {
+   "conid": 14016601,
+   "symbol": "6383",
+   "tv": "TSE:6383",
+   "exchange": "TSEJ",
+   "name": "DAIFUKU CO LTD"
+  },
+  {
+   "conid": 14016743,
+   "symbol": "6506",
+   "tv": "TSE:6506",
+   "exchange": "TSEJ",
+   "name": "YASKAWA ELECTRIC CORP"
+  },
+  {
+   "conid": 14016810,
+   "symbol": "6645",
+   "tv": "TSE:6645",
+   "exchange": "TSEJ",
+   "name": "OMRON CORP",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-missing-histories-2026-08-14"
+  },
+  {
+   "conid": 14017040,
+   "symbol": "6861",
+   "tv": "TSE:6861",
+   "exchange": "TSEJ",
+   "name": "KEYENCE CORP"
+  },
+  {
+   "conid": 13905758,
+   "symbol": "6954",
+   "tv": "TSE:6954",
+   "exchange": "TSEJ",
+   "name": "FANUC CORP"
+  },
+  {
+   "conid": 2682965,
+   "symbol": "ABBN",
+   "tv": "SIX:ABBN",
+   "exchange": "EBS",
+   "name": "ABB LTD-REG"
+  },
+  {
+   "conid": 870514663,
+   "symbol": "AIIO",
+   "tv": "NASDAQ:AIIO",
+   "exchange": "NASDAQ",
+   "name": "ROBO.AI INC"
+  },
+  {
+   "conid": 519629451,
+   "symbol": "ARBE",
+   "tv": "NASDAQ:ARBE",
+   "exchange": "NASDAQ",
+   "name": "ARBE ROBOTICS LTD"
+  },
+  {
+   "conid": 599374251,
+   "symbol": "ATS",
+   "tv": "TSX:ATS",
+   "exchange": "TSE",
+   "name": "ATS CORP"
+  },
+  {
+   "conid": 522506660,
+   "symbol": "AUTO",
+   "tv": "OSL:AUTO",
+   "exchange": "OSE",
+   "name": "AUTOSTORE HOLDINGS LTD"
+  },
+  {
+   "conid": 42464367,
+   "symbol": "AVAV",
+   "tv": "NASDAQ:AVAV",
+   "exchange": "NASDAQ",
+   "name": "AEROVIRONMENT INC"
+  },
+  {
+   "conid": 5270,
+   "symbol": "BSX",
+   "tv": "NYSE:BSX",
+   "exchange": "NYSE",
+   "name": "BOSTON SCIENTIFIC CORP"
+  },
+  {
+   "conid": 267547,
+   "symbol": "CGNX",
+   "tv": "NASDAQ:CGNX",
+   "exchange": "NASDAQ",
+   "name": "COGNEX CORP"
+  },
+  {
+   "conid": 38251658,
+   "symbol": "HLX",
+   "tv": "NYSE:HOS",
+   "exchange": "NYSE",
+   "name": "HORNBECK OFFSHORE SERVICES (ex-HELIX ENERGY SOLUTIONS)"
+  },
+  {
+   "conid": 9063285,
+   "symbol": "ISRG",
+   "tv": "NASDAQ:ISRG",
+   "exchange": "NASDAQ",
+   "name": "INTUITIVE SURGICAL INC"
+  },
+  {
+   "conid": 52619008,
+   "symbol": "JBTM",
+   "tv": "NYSE:JBTM",
+   "exchange": "NYSE",
+   "name": "JBT MAREL CORP"
+  },
+  {
+   "conid": 483311199,
+   "symbol": "PATH",
+   "tv": "NYSE:PATH",
+   "exchange": "NYSE",
+   "name": "UIPATH INC - CLASS A"
+  },
+  {
+   "conid": 4816398,
+   "symbol": "PEGA",
+   "tv": "NASDAQ:PEGA",
+   "exchange": "NASDAQ",
+   "name": "PEGASYSTEMS INC"
+  },
+  {
+   "conid": 290283075,
+   "symbol": "PNG",
+   "tv": "TSXV:PNG",
+   "exchange": "VENTURE",
+   "name": "KRAKEN ROBOTICS INC"
+  },
+  {
+   "conid": 744874842,
+   "symbol": "PONY",
+   "tv": "NASDAQ:PONY",
+   "exchange": "NASDAQ",
+   "name": "PONY AI INC"
+  },
+  {
+   "conid": 11697,
+   "symbol": "ROK",
+   "tv": "NYSE:ROK",
+   "exchange": "NYSE",
+   "name": "ROCKWELL AUTOMATION INC"
+  },
+  {
+   "conid": 665643508,
+   "symbol": "RR",
+   "tv": "NASDAQ:RR",
+   "exchange": "NASDAQ",
+   "name": "RICHTECH ROBOTICS INC-CL B"
+  },
+  {
+   "conid": 26653065,
+   "symbol": "RSW",
+   "tv": "LSE:RSW",
+   "exchange": "LSE",
+   "name": "RENISHAW PLC"
+  },
+  {
+   "conid": 689676896,
+   "symbol": "SERV",
+   "tv": "NASDAQ:SERV",
+   "exchange": "NASDAQ",
+   "name": "SERVE ROBOTICS INC"
+  },
+  {
+   "conid": 566188877,
+   "symbol": "SYM",
+   "tv": "NASDAQ:SYM",
+   "exchange": "NASDAQ",
+   "name": "SYMBOTIC INC"
+  },
+  {
+   "conid": 6729012,
+   "symbol": "TECN",
+   "tv": "SIX:TECN",
+   "exchange": "EBS",
+   "name": "TECAN GROUP AG-REG"
+  },
+  {
+   "conid": 12729,
+   "symbol": "TER",
+   "tv": "NASDAQ:TER",
+   "exchange": "NASDAQ",
+   "name": "TERADYNE INC"
+  },
+  {
+   "conid": 715353582,
+   "symbol": "XBOT",
+   "tv": "TSXV:XBOT",
+   "exchange": "VENTURE",
+   "name": "REALBOTIX CORP"
+  }
+ ],
+ "SEMICONDUCTORS": [
+  {
+   "conid": 717083470,
+   "symbol": "089030",
+   "tv": "KRX:089030",
+   "exchange": "KRX",
+   "name": "TECHWING INC"
+  },
+  {
+   "conid": 749810606,
+   "symbol": "2577",
+   "tv": "HKEX:2577",
+   "exchange": "SEHK",
+   "name": "INNOSCIENCE SUZHOU TECHNOL-H"
+  },
+  {
+   "conid": 257310372,
+   "symbol": "300274",
+   "tv": "SZSE:300274",
+   "exchange": "CHINEXT",
+   "name": "SUNGROW POWER SUPPLY CO LT-A"
+  },
+  {
+   "conid": 301403341,
+   "symbol": "300308",
+   "tv": "SZSE:300308",
+   "exchange": "CHINEXT",
+   "name": "ZHONGJI INNOLIGHT CO LTD-A"
+  },
+  {
+   "conid": 165303048,
+   "symbol": "600703",
+   "tv": "SSE:600703",
+   "exchange": "SEHKNTL",
+   "name": "SANAN OPTOELECTRONICS CO L-A"
+  },
+  {
+   "conid": 583974170,
+   "symbol": "6526",
+   "tv": "TSE:6526",
+   "exchange": "TSEJ",
+   "name": "SOCIONEXT INC"
+  },
+  {
+   "conid": 465157222,
+   "symbol": "688008",
+   "tv": "SSE:688008",
+   "exchange": "SEHKSTAR",
+   "name": "MONTAGE TECHNOLOGY CO LTD-A"
+  },
+  {
+   "conid": 496999614,
+   "symbol": "688126",
+   "tv": "SSE:688126",
+   "exchange": "SEHKSTAR",
+   "name": "NATIONAL SILICON INDUSTRY -A"
+  },
+  {
+   "conid": 619193152,
+   "symbol": "688256",
+   "tv": "SSE:688256",
+   "exchange": "SEHKSTAR",
+   "name": "CAMBRICON TECHNOLOGIES-A"
+  },
+  {
+   "conid": 619193167,
+   "symbol": "688521",
+   "tv": "SSE:688521",
+   "exchange": "SEHKSTAR",
+   "name": "VERISILICON MICROELECTRONI-A"
+  },
+  {
+   "conid": 13905840,
+   "symbol": "7751",
+   "tv": "TSE:7751",
+   "exchange": "TSEJ",
+   "name": "CANON INC"
+  },
+  {
+   "conid": 598714460,
+   "symbol": "ALMU",
+   "tv": "NASDAQ:ALMU",
+   "exchange": "NASDAQ",
+   "name": "AELUMA INC"
+  },
+  {
+   "conid": 4391,
+   "symbol": "AMD",
+   "tv": "NASDAQ:AMD",
+   "exchange": "NASDAQ",
+   "name": "ADVANCED MICRO DEVICES"
+  },
+  {
+   "conid": 117902840,
+   "symbol": "ASML",
+   "tv": "NASDAQ:ASML",
+   "exchange": "NASDAQ",
+   "name": "ASML HOLDING NV-NY REG SHS"
+  },
+  {
+   "conid": 313130367,
+   "symbol": "AVGO",
+   "tv": "NASDAQ:AVGO",
+   "exchange": "NASDAQ",
+   "name": "BROADCOM INC"
+  },
+  {
+   "conid": 269577540,
+   "symbol": "BEL",
+   "tv": "NSE:BEL",
+   "exchange": "NSE",
+   "name": "BHARAT ELECTRONICS LTD"
+  },
+  {
+   "conid": 882732191,
+   "symbol": "CBRS",
+   "tv": "NASDAQ:CBRS",
+   "exchange": "NASDAQ",
+   "name": "CEREBRAS SYSTEMS INC - A"
+  },
+  {
+   "conid": 4728453,
+   "symbol": "COHU",
+   "tv": "NASDAQ:COHU",
+   "exchange": "NASDAQ",
+   "name": "COHU INC"
+  },
+  {
+   "conid": 164667099,
+   "symbol": "HAVELLS",
+   "tv": "NSE:HAVELLS",
+   "exchange": "NSE",
+   "name": "HAVELLS INDIA LTD"
+  },
+  {
+   "conid": 270957,
+   "symbol": "KLAC",
+   "tv": "NASDAQ:KLAC",
+   "exchange": "NASDAQ",
+   "name": "KLA CORP"
+  },
+  {
+   "conid": 271320,
+   "symbol": "LSCC",
+   "tv": "NASDAQ:LSCC",
+   "exchange": "NASDAQ",
+   "name": "LATTICE SEMICONDUCTOR CORP"
+  },
+  {
+   "conid": 36794737,
+   "symbol": "MELE",
+   "tv": "EURONEXT:MELE",
+   "exchange": "ENEXT.BE",
+   "name": "MELEXIS NV"
+  },
+  {
+   "conid": 9939,
+   "symbol": "MU",
+   "tv": "NASDAQ:MU",
+   "exchange": "NASDAQ",
+   "name": "MICRON TECHNOLOGY INC"
+  },
+  {
+   "conid": 4815747,
+   "symbol": "NVDA",
+   "tv": "NASDAQ:NVDA",
+   "exchange": "NASDAQ",
+   "name": "NVIDIA CORP"
+  },
+  {
+   "conid": 522128117,
+   "symbol": "NVTS",
+   "tv": "NASDAQ:NVTS",
+   "exchange": "NASDAQ",
+   "name": "NAVITAS SEMICONDUCTOR CORP"
+  },
+  {
+   "conid": 77791077,
+   "symbol": "NXPI",
+   "tv": "NASDAQ:NXPI",
+   "exchange": "NASDAQ",
+   "name": "NXP SEMICONDUCTORS NV"
+  },
+  {
+   "conid": 8677881,
+   "symbol": "ON",
+   "tv": "NASDAQ:ON",
+   "exchange": "NASDAQ",
+   "name": "ON SEMICONDUCTOR"
+  },
+  {
+   "conid": 273544,
+   "symbol": "QCOM",
+   "tv": "NASDAQ:QCOM",
+   "exchange": "NASDAQ",
+   "name": "QUALCOMM INC"
+  },
+  {
+   "conid": 12460,
+   "symbol": "STM",
+   "tv": "NYSE:STM",
+   "exchange": "NYSE",
+   "name": "STMICROELECTRONICS NV-NY SHS"
+  },
+  {
+   "conid": 4726021,
+   "symbol": "SWKS",
+   "tv": "NASDAQ:SWKS",
+   "exchange": "NASDAQ",
+   "name": "SKYWORKS SOLUTIONS INC"
+  },
+  {
+   "conid": 6223250,
+   "symbol": "TSM",
+   "tv": "NYSE:TSM",
+   "exchange": "NYSE",
+   "name": "TAIWAN SEMICONDUCTOR-SP ADR"
+  }
+ ],
+ "STORAGE / RAM": [
+  {
+   "conid": 748329349,
+   "symbol": "285A",
+   "tv": "TSE:285A",
+   "exchange": "TSEJ",
+   "name": "KIOXIA HOLDINGS CORP"
+  },
+  {
+   "conid": 4568,
+   "symbol": "ARW",
+   "tv": "NYSE:ARW",
+   "exchange": "NYSE",
+   "name": "ARROW ELECTRONICS INC"
+  },
+  {
+   "conid": 491932113,
+   "symbol": "STX",
+   "tv": "NASDAQ:STX",
+   "exchange": "NASDAQ",
+   "name": "SEAGATE TECHNOLOGY HOLDINGS"
+  },
+  {
+   "conid": 13681,
+   "symbol": "WDC",
+   "tv": "NASDAQ:WDC",
+   "exchange": "NASDAQ",
+   "name": "WESTERN DIGITAL CORP"
+  }
+ ],
+ "TECH": [
+  {
+   "conid": 491788005,
+   "symbol": "2618",
+   "tv": "HKEX:2618",
+   "exchange": "SEHK",
+   "name": "JD LOGISTICS INC"
+  },
+  {
+   "conid": 152791428,
+   "symbol": "700",
+   "tv": "HKEX:700",
+   "exchange": "SEHK",
+   "name": "TENCENT HOLDINGS LTD"
+  },
+  {
+   "conid": 265598,
+   "symbol": "AAPL",
+   "tv": "NASDAQ:AAPL",
+   "exchange": "NASDAQ",
+   "name": "APPLE INC"
+  },
+  {
+   "conid": 321202935,
+   "symbol": "ADYEN",
+   "tv": "EURONEXT:ADYEN",
+   "exchange": "AEB",
+   "name": "ADYEN NV"
+  },
+  {
+   "conid": 740948854,
+   "symbol": "ANET",
+   "tv": "NYSE:ANET",
+   "exchange": "NYSE",
+   "name": "ARISTA NETWORKS INC"
+  },
+  {
+   "conid": 767901404,
+   "symbol": "ATO",
+   "tv": "EURONEXT:ATO",
+   "exchange": "SBF",
+   "name": "ATOS GROUP"
+  },
+  {
+   "conid": 35359385,
+   "symbol": "BIDU",
+   "tv": "NASDAQ:BIDU",
+   "exchange": "NASDAQ",
+   "name": "BAIDU INC - SPON ADR"
+  },
+  {
+   "conid": 311571413,
+   "symbol": "BILI",
+   "tv": "NASDAQ:BILI",
+   "exchange": "NASDAQ",
+   "name": "BILIBILI INC-SPONSORED ADR"
+  },
+  {
+   "conid": 29612147,
+   "symbol": "CAP",
+   "tv": "EURONEXT:CAP",
+   "exchange": "SBF",
+   "name": "CAPGEMINI SE"
+  },
+  {
+   "conid": 395179962,
+   "symbol": "CLSK",
+   "tv": "NASDAQ:CLSK",
+   "exchange": "NASDAQ",
+   "name": "CLEANSPARK INC"
+  },
+  {
+   "conid": 29624264,
+   "symbol": "CRM",
+   "tv": "NYSE:CRM",
+   "exchange": "NYSE",
+   "name": "SALESFORCE INC"
+  },
+  {
+   "conid": 268084,
+   "symbol": "CSCO",
+   "tv": "NASDAQ:CSCO",
+   "exchange": "NASDAQ",
+   "name": "CISCO SYSTEMS INC"
+  },
+  {
+   "conid": 388709073,
+   "symbol": "DAO",
+   "tv": "NYSE:DAO",
+   "exchange": "NYSE",
+   "name": "YOUDAO INC - ADR"
+  },
+  {
+   "conid": 376427905,
+   "symbol": "DT",
+   "tv": "NYSE:DT",
+   "exchange": "NYSE",
+   "name": "DYNATRACE INC"
+  },
+  {
+   "conid": 505002183,
+   "symbol": "DUOL",
+   "tv": "NASDAQ:DUOL",
+   "exchange": "NASDAQ",
+   "name": "DUOLINGO"
+  },
+  {
+   "conid": 269280,
+   "symbol": "FICO",
+   "tv": "NYSE:FICO",
+   "exchange": "NYSE",
+   "name": "FAIR ISAAC CORP"
+  },
+  {
+   "conid": 802794976,
+   "symbol": "FIG",
+   "tv": "NYSE:FIG",
+   "exchange": "NYSE",
+   "name": "FIGMA INC-CL A"
+  },
+  {
+   "conid": 37866641,
+   "symbol": "FIS",
+   "tv": "NYSE:FIS",
+   "exchange": "NYSE",
+   "name": "FIDELITY NATIONAL INFO SERV"
+  },
+  {
+   "conid": 147887136,
+   "symbol": "FIVN",
+   "tv": "NASDAQ:FIVN",
+   "exchange": "NASDAQ",
+   "name": "FIVE9 INC"
+  },
+  {
+   "conid": 366131373,
+   "symbol": "FSLY",
+   "tv": "NASDAQ:FSLY",
+   "exchange": "NASDAQ",
+   "name": "FASTLY INC - CLASS A"
+  },
+  {
+   "conid": 188986978,
+   "symbol": "GDDY",
+   "tv": "NYSE:GDDY",
+   "exchange": "NYSE",
+   "name": "GODADDY INC - CLASS A"
+  },
+  {
+   "conid": 208813719,
+   "symbol": "GOOGL",
+   "tv": "NASDAQ:GOOGL",
+   "exchange": "NASDAQ",
+   "name": "ALPHABET INC-CL A"
+  },
+  {
+   "conid": 520512263,
+   "symbol": "GTLB",
+   "tv": "NASDAQ:GTLB",
+   "exchange": "NASDAQ",
+   "name": "GITLAB INC-CL A"
+  },
+  {
+   "conid": 209411798,
+   "symbol": "HPE",
+   "tv": "NYSE:HPE",
+   "exchange": "NYSE",
+   "name": "HEWLETT PACKARD ENTERPRISE"
+  },
+  {
+   "conid": 169544810,
+   "symbol": "HUBS",
+   "tv": "NYSE:HUBS",
+   "exchange": "NYSE",
+   "name": "HUBSPOT INC"
+  },
+  {
+   "conid": 8314,
+   "symbol": "IBM",
+   "tv": "NYSE:IBM",
+   "exchange": "NYSE",
+   "name": "INTL BUSINESS MACHINES CORP"
+  },
+  {
+   "conid": 45090369,
+   "symbol": "IDCC",
+   "tv": "NASDAQ:IDCC",
+   "exchange": "NASDAQ",
+   "name": "INTERDIGITAL INC"
+  },
+  {
+   "conid": 270639,
+   "symbol": "INTC",
+   "tv": "NASDAQ:INTC",
+   "exchange": "NASDAQ",
+   "name": "INTEL CORP"
+  },
+  {
+   "conid": 532274461,
+   "symbol": "IOT",
+   "tv": "NYSE:IOT",
+   "exchange": "NYSE",
+   "name": "SAMSARA INC-CL A"
+  },
+  {
+   "conid": 152486141,
+   "symbol": "JD",
+   "tv": "NASDAQ:JD",
+   "exchange": "NASDAQ",
+   "name": "JD.COM INC-ADR"
+  },
+  {
+   "conid": 360310571,
+   "symbol": "JMIA",
+   "tv": "NYSE:JMIA",
+   "exchange": "NYSE",
+   "name": "JUMIA TECHNOLOGIES AG-ADR"
+  },
+  {
+   "conid": 29855441,
+   "symbol": "LBIRD",
+   "tv": "EURONEXT:LBIRD",
+   "exchange": "SBF",
+   "name": "LUMIBIRD"
+  },
+  {
+   "conid": 107113386,
+   "symbol": "META",
+   "tv": "NASDAQ:META",
+   "exchange": "NASDAQ",
+   "name": "META PLATFORMS INC-CLASS A"
+  },
+  {
+   "conid": 430755197,
+   "symbol": "MGNI",
+   "tv": "NASDAQ:MGNI",
+   "exchange": "NASDAQ",
+   "name": "MAGNITE INC"
+  },
+  {
+   "conid": 47101335,
+   "symbol": "MSCI",
+   "tv": "NYSE:MSCI",
+   "exchange": "NYSE",
+   "name": "MSCI INC"
+  },
+  {
+   "conid": 272093,
+   "symbol": "MSFT",
+   "tv": "NASDAQ:MSFT",
+   "exchange": "NASDAQ",
+   "name": "MICROSOFT CORP"
+  },
+  {
+   "conid": 6580387,
+   "symbol": "NEM",
+   "tv": "XETR:NEM",
+   "exchange": "IBIS",
+   "name": "NEMETSCHEK SE"
+  },
+  {
+   "conid": 382633646,
+   "symbol": "NET",
+   "tv": "NYSE:NET",
+   "exchange": "NYSE",
+   "name": "CLOUDFLARE INC - CLASS A"
+  },
+  {
+   "conid": 15124833,
+   "symbol": "NFLX",
+   "tv": "NASDAQ:NFLX",
+   "exchange": "NASDAQ",
+   "name": "NETFLIX INC"
+  },
+  {
+   "conid": 9541698,
+   "symbol": "NTES",
+   "tv": "NASDAQ:NTES",
+   "exchange": "NASDAQ",
+   "name": "NETEASE INC-ADR"
+  },
+  {
+   "conid": 272356196,
+   "symbol": "OKTA",
+   "tv": "NASDAQ:OKTA",
+   "exchange": "NASDAQ",
+   "name": "OKTA INC"
+  },
+  {
+   "conid": 272800,
+   "symbol": "ORCL",
+   "tv": "NYSE:ORCL",
+   "exchange": "NYSE",
+   "name": "ORACLE CORP"
+  },
+  {
+   "conid": 208813725,
+   "symbol": "P",
+   "tv": "NYSE:P",
+   "exchange": "NYSE",
+   "name": "EVERPURE INC-A"
+  },
+  {
+   "conid": 272942,
+   "symbol": "PAYX",
+   "tv": "NASDAQ:PAYX",
+   "exchange": "NASDAQ",
+   "name": "PAYCHEX INC"
+  },
+  {
+   "conid": 444857009,
+   "symbol": "PLTR",
+   "tv": "NASDAQ:PLTR",
+   "exchange": "NASDAQ",
+   "name": "PALANTIR TECHNOLOGIES INC-A"
+  },
+  {
+   "conid": 692025016,
+   "symbol": "RDDT",
+   "tv": "NYSE:RDDT",
+   "exchange": "NYSE",
+   "name": "REDDIT INC-CL A"
+  },
+  {
+   "conid": 3804335,
+   "symbol": "SAP",
+   "tv": "NYSE:SAP",
+   "exchange": "NYSE",
+   "name": "SAP SE-SPONSORED ADR"
+  },
+  {
+   "conid": 731466419,
+   "symbol": "SMCI",
+   "tv": "NASDAQ:SMCI",
+   "exchange": "NASDAQ",
+   "name": "SUPER MICRO COMPUTER INC"
+  },
+  {
+   "conid": 558869874,
+   "symbol": "SOUN",
+   "tv": "NASDAQ:SOUN",
+   "exchange": "NASDAQ",
+   "name": "SOUNDHOUND AI INC-A"
+  },
+  {
+   "conid": 2953285,
+   "symbol": "UBI",
+   "tv": "EURONEXT:UBI",
+   "exchange": "SBF",
+   "name": "UBISOFT ENTERTAINMENT"
+  },
+  {
+   "conid": 722705694,
+   "symbol": "ZENA",
+   "tv": "NASDAQ:ZENA",
+   "exchange": "NASDAQ",
+   "name": "ZENATECH INC"
+  }
+ ],
+ "TRANSPORTATION": [
+  {
+   "conid": 332623976,
+   "symbol": "3690",
+   "tv": "HKEX:3690",
+   "exchange": "SEHK",
+   "name": "MEITUAN-CLASS B"
+  },
+  {
+   "conid": 165303188,
+   "symbol": "600004",
+   "tv": "SSE:600004",
+   "exchange": "SEHKNTL",
+   "name": "GUANGZHOU BAIYUN INTERNATI-A"
+  },
+  {
+   "conid": 1321980,
+   "symbol": "DBG",
+   "tv": "EURONEXT:DBG",
+   "exchange": "SBF",
+   "name": "DERICHEBOURG"
+  },
+  {
+   "conid": 10749447,
+   "symbol": "DHL",
+   "tv": "XETR:DHL",
+   "exchange": "IBIS",
+   "name": "DHL GROUP"
+  },
+  {
+   "conid": 498843743,
+   "symbol": "GE",
+   "tv": "NYSE:GE",
+   "exchange": "NYSE",
+   "name": "GENERAL ELECTRIC"
+  },
+  {
+   "conid": 211919516,
+   "symbol": "HLAG",
+   "tv": "XETR:HLAG",
+   "exchange": "IBIS",
+   "name": "HAPAG-LLOYD AG"
+  },
+  {
+   "conid": 105926934,
+   "symbol": "IDL",
+   "tv": "EURONEXT:IDL",
+   "exchange": "SBF",
+   "name": "ID LOGISTICS GROUP"
+  },
+  {
+   "conid": 359130923,
+   "symbol": "LYFT",
+   "tv": "NASDAQ:LYFT",
+   "exchange": "NASDAQ",
+   "name": "LYFT INC-A"
+  },
+  {
+   "conid": 272667,
+   "symbol": "ODFL",
+   "tv": "NASDAQ:ODFL",
+   "exchange": "NASDAQ",
+   "name": "OLD DOMINION FREIGHT LINE"
+  },
+  {
+   "conid": 6756338,
+   "symbol": "STF",
+   "tv": "EURONEXT:STF",
+   "exchange": "SBF",
+   "name": "STEF"
+  },
+  {
+   "conid": 29612196,
+   "symbol": "SU",
+   "tv": "EURONEXT:SU",
+   "exchange": "SBF",
+   "name": "SCHNEIDER ELECTRIC SE"
+  },
+  {
+   "conid": 79498203,
+   "symbol": "UAL",
+   "tv": "NASDAQ:UAL",
+   "exchange": "NASDAQ",
+   "name": "UNITED AIRLINES HOLDINGS INC"
+  },
+  {
+   "conid": 365207014,
+   "symbol": "UBER",
+   "tv": "NYSE:UBER",
+   "exchange": "NYSE",
+   "name": "UBER TECHNOLOGIES INC"
+  }
+ ],
+ "PSYCHEDELICS & CNS": [
+
+  {
+   "conid": 845905488,
+   "symbol": "DFTX",
+   "tv": "NASDAQ:DFTX",
+   "exchange": "NASDAQ",
+   "name": "DEFINIUM THERAPEUTICS INC"
+  },
+  {
+   "conid": 446091350,
+   "symbol": "CMPS",
+   "tv": "NASDAQ:CMPS",
+   "exchange": "NASDAQ",
+   "name": "COMPASS PATHWAYS PLC"
+  },
+  {
+   "conid": 694151583,
+   "symbol": "NRXP",
+   "tv": "NASDAQ:NRXP",
+   "exchange": "NASDAQ",
+   "name": "NRX PHARMACEUTICALS INC"
+  },
+  {
+   "conid": 929774755,
+   "symbol": "HELP",
+   "tv": "NASDAQ:HELP",
+   "exchange": "NASDAQ",
+   "name": "HELUS PHARMA INC"
+  },
+  {
+   "conid": 385549233,
+   "symbol": "RLMD",
+   "tv": "NASDAQ:RLMD",
+   "exchange": "NASDAQ",
+   "name": "RELMADA THERAPEUTICS INC"
+  },
+  {
+   "conid": 498661851,
+   "symbol": "GHRS",
+   "tv": "NASDAQ:GHRS",
+   "exchange": "NASDAQ",
+   "name": "GH RESEARCH PLC"
+  },
+  {
+   "conid": 4815347,
+   "symbol": "NBIX",
+   "tv": "NASDAQ:NBIX",
+   "exchange": "NASDAQ",
+   "name": "NEUROCRINE BIOSCIENCES INC"
+  },
+  {
+   "conid": 118089500,
+   "symbol": "ABBV",
+   "tv": "NYSE:ABBV",
+   "exchange": "NYSE",
+   "name": "ABBVIE INC"
+  },
+  {
+   "conid": 641842650,
+   "symbol": "DRUG",
+   "tv": "NASDAQ:DRUG",
+   "exchange": "NASDAQ",
+   "name": "BRIGHT MINDS BIOSCIENCES INC"
+  },
+  {
+   "conid": 681352407,
+   "symbol": "ANRO",
+   "tv": "NYSE:ANRO",
+   "exchange": "NYSE",
+   "name": "ALTO NEUROSCIENCE INC"
+  },
+  {
+   "conid": 94892734,
+   "symbol": "ALKS",
+   "tv": "NASDAQ:ALKS",
+   "exchange": "NASDAQ",
+   "name": "ALKERMES PLC"
+  },
+  {
+   "conid": 8719,
+   "symbol": "JNJ",
+   "tv": "NYSE:JNJ",
+   "exchange": "NYSE",
+   "name": "JOHNSON & JOHNSON"
+  },
+  {
+   "conid": 324062325,
+   "symbol": "STIM",
+   "tv": "NASDAQ:STIM",
+   "exchange": "NASDAQ",
+   "name": "NEURONETICS INC"
+  },
+  {
+   "conid": 106853221,
+   "symbol": "SUPN",
+   "tv": "NASDAQ:SUPN",
+   "exchange": "NASDAQ",
+   "name": "SUPERNUS PHARMACEUTICALS INC"
+  },
+  {
+   "conid": 750199783,
+   "symbol": "NEUP",
+   "tv": "NASDAQ:NEUP",
+   "exchange": "NASDAQ",
+   "name": "NEUPHORIA THERAPEUTICS INC"
+  },
+  {
+   "conid": 722493614,
+   "symbol": "QNTM",
+   "tv": "NASDAQ:QNTM",
+   "exchange": "NASDAQ",
+   "name": "QUANTUM BIOPHARMA-B SUB VOT"
+  },
+  {
+   "conid": 885010445,
+   "symbol": "OPTH",
+   "tv": "NASDAQ:OPTH",
+   "exchange": "NASDAQ",
+   "name": "OPTIMI HEALTH CORP"
+  },
+  {
+   "conid": 9160,
+   "symbol": "LLY",
+   "tv": "NYSE:LLY",
+   "exchange": "NYSE",
+   "name": "ELI LILLY & CO"
+  },
+  {
+   "conid": 675122973,
+   "symbol": "KTTA",
+   "tv": "NASDAQ:KTTA",
+   "exchange": "NASDAQ",
+   "name": "PASITHEA THERAPEUTICS CORP"
+  },
+  {
+   "conid": 500029636,
+   "symbol": "NUMIF",
+   "tv": "PINK:NUMIF",
+   "exchange": "PINK",
+   "name": "NUMINUS WELLNESS INC"
+  },
+  {
+   "conid": 846773110,
+   "symbol": "PBM",
+   "tv": "NASDAQ:PBM",
+   "exchange": "NASDAQ",
+   "name": "PSYENCE BIOMEDICAL LTD"
+  },
+  {
+   "conid": 888523903,
+   "symbol": "SILO",
+   "tv": "NASDAQ:SILO",
+   "exchange": "NASDAQ",
+   "name": "SILO PHARMA INC"
+  },
+  {
+   "conid": 858465700,
+   "symbol": "IXHL",
+   "tv": "NASDAQ:IXHL",
+   "exchange": "NASDAQ",
+   "name": "INCANNEX HEALTHCARE INC"
+  },
+  {
+   "conid": 125693625,
+   "symbol": "IGC",
+   "tv": "AMEX:IGC",
+   "exchange": "AMEX",
+   "name": "IGC PHARMA INC"
+  },
+  {
+   "conid": 635441634,
+   "symbol": "VTGN",
+   "tv": "NASDAQ:VTGN",
+   "exchange": "NASDAQ",
+   "name": "VISTAGEN THERAPEUTICS INC"
+  },
+  {
+   "conid": 826119271,
+   "symbol": "ENVB",
+   "tv": "NASDAQ:ENVB",
+   "exchange": "NASDAQ",
+   "name": "ENVERIC BIOSCIENCES INC"
+  }
+ ],
+ "SANTE MEGACAP (TOP20 DE VHT)": [
+  {
+   "conid": 9160,
+   "symbol": "LLY",
+   "tv": "NYSE:LLY",
+   "exchange": "NYSE",
+   "name": "ELI LILLY & CO"
+  },
+  {
+   "conid": 8719,
+   "symbol": "JNJ",
+   "tv": "NYSE:JNJ",
+   "exchange": "NYSE",
+   "name": "JOHNSON & JOHNSON"
+  },
+  {
+   "conid": 118089500,
+   "symbol": "ABBV",
+   "tv": "NYSE:ABBV",
+   "exchange": "NYSE",
+   "name": "ABBVIE INC"
+  },
+  {
+   "conid": 13272,
+   "symbol": "UNH",
+   "tv": "NYSE:UNH",
+   "exchange": "NYSE",
+   "name": "UNITEDHEALTH GROUP INC"
+  },
+  {
+   "conid": 70101545,
+   "symbol": "MRK",
+   "tv": "NYSE:MRK",
+   "exchange": "NYSE",
+   "name": "MERCK & CO INC"
+  },
+  {
+   "conid": 266145,
+   "symbol": "AMGN",
+   "tv": "NASDAQ:AMGN",
+   "exchange": "NASDAQ",
+   "name": "AMGEN INC"
+  },
+  {
+   "conid": 12869,
+   "symbol": "TMO",
+   "tv": "NYSE:TMO",
+   "exchange": "NYSE",
+   "name": "THERMO FISHER SCIENTIFIC INC"
+  },
+  {
+   "conid": 4065,
+   "symbol": "ABT",
+   "tv": "NYSE:ABT",
+   "exchange": "NYSE",
+   "name": "ABBOTT LABORATORIES ."
+  },
+  {
+   "conid": 269753,
+   "symbol": "GILD",
+   "tv": "NASDAQ:GILD",
+   "exchange": "NASDAQ",
+   "name": "GILEAD SCIENCES INC"
+  },
+  {
+   "conid": 9063285,
+   "symbol": "ISRG",
+   "tv": "NASDAQ:ISRG",
+   "exchange": "NASDAQ",
+   "name": "INTUITIVE SURGICAL INC"
+  },
+  {
+   "conid": 11031,
+   "symbol": "PFE",
+   "tv": "NYSE:PFE",
+   "exchange": "NYSE",
+   "name": "PFIZER INC"
+  },
+  {
+   "conid": 2585769,
+   "symbol": "CVS",
+   "tv": "NYSE:CVS",
+   "exchange": "NYSE",
+   "name": "CVS HEALTH CORP"
+  },
+  {
+   "conid": 275850,
+   "symbol": "VRTX",
+   "tv": "NASDAQ:VRTX",
+   "exchange": "NASDAQ",
+   "name": "VERTEX PHARMACEUTICALS INC"
+  },
+  {
+   "conid": 6442,
+   "symbol": "DHR",
+   "tv": "NYSE:DHR",
+   "exchange": "NYSE",
+   "name": "DANAHER CORP"
+  },
+  {
+   "conid": 5111,
+   "symbol": "BMY",
+   "tv": "NYSE:BMY",
+   "exchange": "NYSE",
+   "name": "BRISTOL-MYERS SQUIBB CO"
+  },
+  {
+   "conid": 4430948,
+   "symbol": "SYK",
+   "tv": "NYSE:SYK",
+   "exchange": "NYSE",
+   "name": "STRYKER CORP"
+  },
+  {
+   "conid": 181387075,
+   "symbol": "MDT",
+   "tv": "NYSE:MDT",
+   "exchange": "NYSE",
+   "name": "MEDTRONIC PLC"
+  },
+  {
+   "conid": 9657,
+   "symbol": "MCK",
+   "tv": "NYSE:MCK",
+   "exchange": "NYSE",
+   "name": "MCKESSON CORP"
+  },
+  {
+   "conid": 173962302,
+   "symbol": "ELV",
+   "tv": "NYSE:ELV",
+   "exchange": "NYSE",
+   "name": "ELEVANCE HEALTH INC"
+  },
+  {
+   "conid": 346403540,
+   "symbol": "CI",
+   "tv": "NYSE:CI",
+   "exchange": "NYSE",
+   "name": "THE CIGNA GROUP"
+  }
+ ],
+ "LIQUID BIOPSY / MRD": [
+  {
+   "conid": 335906876,
+   "symbol": "GH",
+   "tv": "NASDAQ:GH",
+   "exchange": "NASDAQ",
+   "name": "GUARDANT HEALTH INC"
+  },
+  {
+   "conid": 9869443,
+   "symbol": "ILMN",
+   "tv": "NASDAQ:ILMN",
+   "exchange": "NASDAQ",
+   "name": "ILLUMINA INC"
+  },
+  {
+   "conid": 339974449,
+   "symbol": "TWST",
+   "tv": "NASDAQ:TWST",
+   "exchange": "NASDAQ",
+   "name": "TWIST BIOSCIENCE CORP"
+  },
+  {
+   "conid": 708088152,
+   "symbol": "GRAL",
+   "tv": "NASDAQ:GRAL",
+   "exchange": "NASDAQ",
+   "name": "GRAIL INC"
+  },
+  {
+   "conid": 198950253,
+   "symbol": "NTRA",
+   "tv": "NASDAQ:NTRA",
+   "exchange": "NASDAQ",
+   "name": "NATERA INC"
+  },
+  {
+   "conid": 137537411,
+   "symbol": "VCYT",
+   "tv": "NASDAQ:VCYT",
+   "exchange": "NASDAQ",
+   "name": "VERACYTE INC"
+  },
+  {
+   "conid": 30214424,
+   "symbol": "NEO",
+   "tv": "NASDAQ:NEO",
+   "exchange": "NASDAQ",
+   "name": "NEOGENOMICS INC"
+  },
+  {
+   "conid": 160758513,
+   "symbol": "CDNA",
+   "tv": "NASDAQ:CDNA",
+   "exchange": "NASDAQ",
+   "name": "CAREDX INC"
+  },
+  {
+   "conid": 249323303,
+   "symbol": "FLGT",
+   "tv": "NASDAQ:FLGT",
+   "exchange": "NASDAQ",
+   "name": "FULGENT GENETICS INC"
+  },
+  {
+   "conid": 4646771,
+   "symbol": "MYGN",
+   "tv": "NASDAQ:MYGN",
+   "exchange": "NASDAQ",
+   "name": "MYRIAD GENETICS INC"
+  },
+  {
+   "conid": 709237125,
+   "symbol": "TEM",
+   "tv": "NASDAQ:TEM",
+   "exchange": "NASDAQ",
+   "name": "TEMPUS AI INC-CL A"
+  },
+  {"conid": 792312081, "symbol": "CAI", "tv": "NASDAQ:CAI", "exchange": "NASDAQ", "name": "CARIS LIFE SCIENCES INC"}
+ ],
+ "NUCLEAR SMR": [
+  {
+   "conid": 500073396,
+   "symbol": "OKLO",
+   "tv": "NYSE:OKLO",
+   "exchange": "NYSE",
+   "name": "OKLO INC"
+  },
+  {
+   "conid": 559289446,
+   "symbol": "SMR",
+   "tv": "NYSE:SMR",
+   "exchange": "NYSE",
+   "name": "NUSCALE POWER CORP"
+  },
+  {
+   "conid": 701518202,
+   "symbol": "NNE",
+   "tv": "NASDAQ:NNE",
+   "exchange": "NASDAQ",
+   "name": "NANO NUCLEAR ENERGY INC"
+  },
+  {
+   "conid": 387870428,
+   "symbol": "LTBR",
+   "tv": "NASDAQ:LTBR",
+   "exchange": "NASDAQ",
+   "name": "LIGHTBRIDGE CORP"
+  }
+ ],
+ "NUCLEAR URANIUM MINERS": [
+  {
+   "conid": 1447060,
+   "symbol": "CCJ",
+   "tv": "NYSE:CCJ",
+   "exchange": "NYSE",
+   "name": "CAMECO CORP"
+  },
+  {
+   "conid": 204774537,
+   "symbol": "NXE",
+   "tv": "NYSE:NXE",
+   "exchange": "NYSE",
+   "name": "NEXGEN ENERGY LTD"
+  },
+  {
+   "conid": 37451201,
+   "symbol": "UEC",
+   "tv": "AMEX:UEC",
+   "exchange": "AMEX",
+   "name": "URANIUM ENERGY CORP"
+  },
+  {
+   "conid": 41983555,
+   "symbol": "DNN",
+   "tv": "AMEX:DNN",
+   "exchange": "AMEX",
+   "name": "DENISON MINES CORP"
+  },
+  {
+   "conid": 137823153,
+   "symbol": "UUUU",
+   "tv": "AMEX:UUUU",
+   "exchange": "AMEX",
+   "name": "ENERGY FUELS INC"
+  }
+ ],
+ "NUCLEAR FUEL & INFRA": [
+  {
+   "conid": 168391375,
+   "symbol": "LEU",
+   "tv": "NYSE:LEU",
+   "exchange": "NYSE",
+   "name": "CENTRUS ENERGY CORP-CLASS A"
+  },
+  {
+   "conid": 592234878,
+   "symbol": "ASPI",
+   "tv": "NASDAQ:ASPI",
+   "exchange": "NASDAQ",
+   "name": "ASP ISOTOPES INC"
+  },
+  {
+   "conid": 196689572,
+   "symbol": "BWXT",
+   "tv": "NYSE:BWXT",
+   "exchange": "NYSE",
+   "name": "BWX TECHNOLOGIES INC"
+  },
+  {
+   "conid": 4700220,
+   "symbol": "SLX",
+   "tv": "ASX:SLX",
+   "exchange": "ASX",
+   "name": "SILEX SYSTEMS LTD",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-baskets-2026-08-14"
+  }
+ ],
+ "OIL MAJORS": [
+  {
+   "conid": 895178251,
+   "symbol": "XOM",
+   "tv": "NYSE:XOM",
+   "exchange": "NYSE",
+   "name": "EXXONMOBIL HOLDINGS CORP"
+  },
+  {
+   "conid": 5684,
+   "symbol": "CVX",
+   "tv": "NYSE:CVX",
+   "exchange": "NYSE",
+   "name": "CHEVRON CORP"
+  },
+  {
+   "conid": 10885,
+   "symbol": "COP",
+   "tv": "NYSE:COP",
+   "exchange": "NYSE",
+   "name": "CONOCOPHILLIPS"
+  },
+  {
+   "conid": 541411967,
+   "symbol": "SHELL",
+   "tv": "EURONEXT:SHELL",
+   "exchange": "AEB",
+   "name": "SHELL PLC"
+  },
+  {
+   "conid": 29612193,
+   "symbol": "TTE",
+   "tv": "EURONEXT:TTE",
+   "exchange": "SBF",
+   "name": "TOTALENERGIES SE"
+  }
+ ],
+ "OIL E&P": [
+  {
+   "conid": 6890,
+   "symbol": "EOG",
+   "tv": "NYSE:EOG",
+   "exchange": "NYSE",
+   "name": "EOG RESOURCES INC"
+  },
+  {
+   "conid": 57698865,
+   "symbol": "EQT",
+   "tv": "NYSE:EQT",
+   "exchange": "NYSE",
+   "name": "EQT CORP"
+  },
+  {
+   "conid": 452226249,
+   "symbol": "CRC",
+   "tv": "NYSE:CRC",
+   "exchange": "NYSE",
+   "name": "CALIFORNIA RESOURCES CORP"
+  },
+  {
+   "conid": 115441080,
+   "symbol": "FANG",
+   "tv": "NASDAQ:FANG",
+   "exchange": "NASDAQ",
+   "name": "DIAMONDBACK ENERGY INC",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-baskets-2026-08-14"
+  }
+ ],
+ "OIL SERVICES": [
+  {
+   "conid": 12200,
+   "symbol": "SLB",
+   "tv": "NYSE:SLB",
+   "exchange": "NYSE",
+   "name": "SLB LTD"
+  },
+  {
+   "conid": 7890,
+   "symbol": "HAL",
+   "tv": "NYSE:HAL",
+   "exchange": "NYSE",
+   "name": "HALLIBURTON CO"
+  },
+  {
+   "conid": 281316445,
+   "symbol": "BKR",
+   "tv": "NASDAQ:BKR",
+   "exchange": "NASDAQ",
+   "name": "BAKER HUGHES CO"
+  },
+  {
+   "conid": 262072228,
+   "symbol": "FTI",
+   "tv": "NYSE:FTI",
+   "exchange": "NYSE",
+   "name": "TECHNIPFMC PLC",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-baskets-2026-08-14"
+  }
+ ],
+ "OIL MIDSTREAM": [
+  {
+   "conid": 4730124,
+   "symbol": "ENB",
+   "tv": "NYSE:ENB",
+   "exchange": "NYSE",
+   "name": "ENBRIDGE INC"
+  },
+  {
+   "conid": 6607910,
+   "symbol": "EPD",
+   "tv": "NYSE:EPD",
+   "exchange": "NYSE",
+   "name": "ENTERPRISE PRODUCTS PARTNERS"
+  },
+  {
+   "conid": 83975037,
+   "symbol": "KMI",
+   "tv": "NYSE:KMI",
+   "exchange": "NYSE",
+   "name": "KINDER MORGAN INC"
+  },
+  {
+   "conid": 116339790,
+   "symbol": "MPLX",
+   "tv": "NYSE:MPLX",
+   "exchange": "NYSE",
+   "name": "MPLX LP"
+  },
+  {
+   "conid": 921971937,
+   "symbol": "OKE",
+   "tv": "NYSE:OKE",
+   "exchange": "NYSE",
+   "name": "ONEOK INC"
+  },
+  {
+   "conid": 13805,
+   "symbol": "WMB",
+   "tv": "NYSE:WMB",
+   "exchange": "NYSE",
+   "name": "WILLIAMS COS INC"
+  }
+ ],
+ "OIL REFINERS": [
+  {
+   "conid": 89495776,
+   "symbol": "MPC",
+   "tv": "NYSE:MPC",
+   "exchange": "NYSE",
+   "name": "MARATHON PETROLEUM CORP"
+  },
+  {
+   "conid": 13497,
+   "symbol": "VLO",
+   "tv": "NYSE:VLO",
+   "exchange": "NYSE",
+   "name": "VALERO ENERGY CORP"
+  },
+  {
+   "conid": 105669270,
+   "symbol": "PSX",
+   "tv": "NYSE:PSX",
+   "exchange": "NYSE",
+   "name": "PHILLIPS 66"
+  },
+  {
+   "conid": 550324178,
+   "symbol": "DINO",
+   "tv": "NYSE:DINO",
+   "exchange": "NYSE",
+   "name": "HF SINCLAIR CORP",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-baskets-2026-08-14"
+  }
+ ],
+ "POWER MERCHANT": [
+  {
+   "conid": 538132976,
+   "symbol": "CEG",
+   "tv": "NASDAQ:CEG",
+   "exchange": "NASDAQ",
+   "name": "CONSTELLATION ENERGY"
+  },
+  {
+   "conid": 254457731,
+   "symbol": "VST",
+   "tv": "NYSE:VST",
+   "exchange": "NYSE",
+   "name": "VISTRA CORP"
+  },
+  {
+   "conid": 10188791,
+   "symbol": "NRG",
+   "tv": "NYSE:NRG",
+   "exchange": "NYSE",
+   "name": "NRG ENERGY INC"
+  },
+  {
+   "conid": 631538926,
+   "symbol": "TLN",
+   "tv": "NASDAQ:TLN",
+   "exchange": "NASDAQ",
+   "name": "TALEN ENERGY CORP",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-baskets-2026-08-14"
+  }
+ ],
+ "POWER REGULATED": [
+  {
+   "conid": 75960201,
+   "symbol": "NEE",
+   "tv": "NYSE:NEE",
+   "exchange": "NYSE",
+   "name": "NEXTERA ENERGY INC"
+  },
+  {
+   "conid": 13181,
+   "symbol": "AEE",
+   "tv": "NYSE:AEE",
+   "exchange": "NYSE",
+   "name": "AMEREN CORP"
+  },
+  {
+   "conid": 6969,
+   "symbol": "ETR",
+   "tv": "NYSE:ETR",
+   "exchange": "NYSE",
+   "name": "ENTERGY CORP"
+  },
+  {
+   "conid": 11005,
+   "symbol": "PEG",
+   "tv": "NYSE:PEG",
+   "exchange": "NYSE",
+   "name": "PUBLIC SERVICE ENTERPRISE GP"
+  },
+  {
+   "conid": 110176011,
+   "symbol": "DUK",
+   "tv": "NYSE:DUK",
+   "exchange": "NYSE",
+   "name": "DUKE ENERGY CORP"
+  },
+  {
+   "conid": 12300,
+   "symbol": "SO",
+   "tv": "NYSE:SO",
+   "exchange": "NYSE",
+   "name": "SOUTHERN CO/THE"
+  }
+ ],
+ "POWER GRID EQUIP": [
+  {
+   "conid": 691984365,
+   "symbol": "GEV",
+   "tv": "NYSE:GEV",
+   "exchange": "NYSE",
+   "name": "GE VERNOVA INC"
+  },
+  {
+   "conid": 447545380,
+   "symbol": "ENR",
+   "tv": "XETR:ENR",
+   "exchange": "IBIS",
+   "name": "SIEMENS ENERGY AG"
+  },
+  {
+   "conid": 118017869,
+   "symbol": "ETN",
+   "tv": "NYSE:ETN",
+   "exchange": "NYSE",
+   "name": "EATON CORP PLC"
+  },
+  {
+   "conid": 6608432,
+   "symbol": "PWR",
+   "tv": "NYSE:PWR",
+   "exchange": "NYSE",
+   "name": "QUANTA SERVICES INC"
+  }
+ ],
+ "POWER RENEW/STORAGE": [
+  {
+   "conid": 114646358,
+   "symbol": "BEP",
+   "tv": "NYSE:BEP",
+   "exchange": "NYSE",
+   "name": "BROOKFIELD RENEWABLE PARTNER"
+  },
+  {
+   "conid": 455592457,
+   "symbol": "EOSE",
+   "tv": "NASDAQ:EOSE",
+   "exchange": "NASDAQ",
+   "name": "EOS ENERGY ENTERPRISES INC"
+  },
+  {
+   "conid": 543810481,
+   "symbol": "NRGV",
+   "tv": "NYSE:NRGV",
+   "exchange": "NYSE",
+   "name": "ENERGY VAULT HOLDINGS INC"
+  },
+  {
+   "conid": 471440851,
+   "symbol": "TE",
+   "tv": "EURONEXT:TE",
+   "exchange": "SBF",
+   "name": "TECHNIP ENERGIES NV"
+  }
+ ],
+ "PACKAGING": [
+  {
+   "conid": 7740411,
+   "symbol": "PKG",
+   "tv": "NYSE:PKG",
+   "exchange": "NYSE",
+   "name": "PACKAGING CORP OF AMERICA"
+  },
+  {
+   "conid": 5513,
+   "symbol": "CCK",
+   "tv": "NYSE:CCK",
+   "exchange": "NYSE",
+   "name": "CROWN HOLDINGS INC"
+  },
+  {
+   "conid": 4651,
+   "symbol": "ATR",
+   "tv": "NYSE:ATR",
+   "exchange": "NYSE",
+   "name": "APTARGROUP INC"
+  },
+  {
+   "conid": 5052,
+   "symbol": "BALL",
+   "tv": "NYSE:BALL",
+   "exchange": "NYSE",
+   "name": "BALL CORP"
+  },
+  {
+   "conid": 845305949,
+   "symbol": "AMCR",
+   "tv": "NYSE:AMCR",
+   "exchange": "NYSE",
+   "name": "AMCOR PLC"
+  },
+  {
+   "conid": 8511,
+   "symbol": "IP",
+   "tv": "NYSE:IP",
+   "exchange": "NYSE",
+   "name": "INTERNATIONAL PAPER CO"
+  },
+  {
+   "conid": 611273,
+   "symbol": "SON",
+   "tv": "NYSE:SON",
+   "exchange": "NYSE",
+   "name": "SONOCO PRODUCTS CO"
+  },
+  {
+   "conid": 49476732,
+   "symbol": "GPK",
+   "tv": "NYSE:GPK",
+   "exchange": "NYSE",
+   "name": "GRAPHIC PACKAGING HOLDING CO"
+  },
+  {
+   "conid": 4818193,
+   "symbol": "SLGN",
+   "tv": "NYSE:SLGN",
+   "exchange": "NYSE",
+   "name": "SILGAN HOLDINGS INC"
+  },
+  {
+   "conid": 713434903,
+   "symbol": "SW",
+   "tv": "NYSE:SW",
+   "exchange": "NYSE",
+   "name": "SMURFIT WESTROCK PLC"
+  }
+ ],
+ "DEFENSE — PRIMES": [
+  {
+   "conid": 415342104,
+   "symbol": "RTX",
+   "tv": "NYSE:RTX",
+   "exchange": "NYSE",
+   "name": "RTX CORP"
+  },
+  {
+   "conid": 611191,
+   "symbol": "LMT",
+   "tv": "NYSE:LMT",
+   "exchange": "NYSE",
+   "name": "LOCKHEED MARTIN CORP"
+  },
+  {
+   "conid": 10376,
+   "symbol": "NOC",
+   "tv": "NYSE:NOC",
+   "exchange": "NYSE",
+   "name": "NORTHROP GRUMMAN CORP"
+  },
+  {
+   "conid": 7496,
+   "symbol": "GD",
+   "tv": "NYSE:GD",
+   "exchange": "NYSE",
+   "name": "GENERAL DYNAMICS CORP"
+  },
+  {
+   "conid": 371886040,
+   "symbol": "LHX",
+   "tv": "NYSE:LHX",
+   "exchange": "NYSE",
+   "name": "L3HARRIS TECHNOLOGIES INC"
+  },
+  {
+   "conid": 68492173,
+   "symbol": "KTOS",
+   "tv": "NASDAQ:KTOS",
+   "exchange": "NASDAQ",
+   "name": "KRATOS DEFENSE & SECURITY"
+  },
+  {
+   "conid": 6478305,
+   "symbol": "ESLT",
+   "tv": "NASDAQ:ESLT",
+   "exchange": "NASDAQ",
+   "name": "ELBIT SYSTEMS LTD"
+  },
+  {
+   "conid": 578561396,
+   "symbol": "MPTI",
+   "tv": "AMEX:MPTI",
+   "exchange": "AMEX",
+   "name": "M-TRON INDUSTRIES INC"
+  },
+  {
+   "conid": 4762,
+   "symbol": "BA",
+   "tv": "NYSE:BA",
+   "exchange": "NYSE",
+   "name": "BOEING CO/THE"
+  },
+  {
+   "conid": 38285434,
+   "symbol": "TDG",
+   "tv": "NYSE:TDG",
+   "exchange": "NYSE",
+   "name": "TRANSDIGM GROUP INC"
+  },
+  {
+   "conid": 13101,
+   "symbol": "TXT",
+   "tv": "NYSE:TXT",
+   "exchange": "NYSE",
+   "name": "TEXTRON INC"
+  },
+  {
+   "conid": 892744244,
+   "symbol": "HON",
+   "tv": "NASDAQ:HON",
+   "exchange": "NASDAQ",
+   "name": "HONEYWELL INTERNATIONAL INC"
+  }
+ ],
+ "DEFENSE — SERVICES GOV": [
+  {
+   "conid": 134280621,
+   "symbol": "LDOS",
+   "tv": "NYSE:LDOS",
+   "exchange": "NYSE",
+   "name": "LEIDOS HOLDINGS INC"
+  },
+  {
+   "conid": 267197,
+   "symbol": "CACI",
+   "tv": "NYSE:CACI",
+   "exchange": "NYSE",
+   "name": "CACI INTERNATIONAL INC -CL A"
+  },
+  {
+   "conid": 80968828,
+   "symbol": "BAH",
+   "tv": "NYSE:BAH",
+   "exchange": "NYSE",
+   "name": "BOOZ ALLEN HAMILTON HOLDINGS",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-baskets-2026-08-14"
+  },
+  {
+   "conid": 134306225,
+   "symbol": "SAIC",
+   "tv": "NASDAQ:SAIC",
+   "exchange": "NASDAQ",
+   "name": "SCIENCE APPLICATIONS INTE",
+   "ratified_on": "2026-08-14",
+   "ratification_id": "rotation-baskets-2026-08-14"
+  }
+ ],
+ "DEFENSE — EUROPE": [
+  {
+   "conid": 15085,
+   "symbol": "RHM",
+   "tv": "XETR:RHM",
+   "exchange": "IBIS",
+   "name": "RHEINMETALL AG"
+  },
+  {
+   "conid": 917799,
+   "symbol": "HO",
+   "tv": "EURONEXT:HO",
+   "exchange": "SBF",
+   "name": "THALES SA"
+  },
+  {
+   "conid": 35162453,
+   "symbol": "LDO",
+   "tv": "MIL:LDO",
+   "exchange": "BVME",
+   "name": "LEONARDO SPA"
+  },
+  {
+   "conid": 696509457,
+   "symbol": "SAAB",
+   "tv": "FWB:SDV1",
+   "exchange": "FWB2",
+   "name": "SAAB AB-B (Francfort)"
+  },
+  {
+   "conid": 447545377,
+   "symbol": "HAG",
+   "tv": "XETR:HAG",
+   "exchange": "IBIS",
+   "name": "HENSOLDT AG"
+  },
+  {
+   "conid": 789031694,
+   "symbol": "KOG",
+   "tv": "OSL:KOG",
+   "exchange": "OSE",
+   "name": "KONGSBERG GRUPPEN ASA"
+  },
+  {
+   "conid": 908964,
+   "symbol": "BA.",
+   "tv": "LSE:BA.",
+   "exchange": "LSE",
+   "name": "BAE SYSTEMS PLC"
+  },
+  {
+   "conid": 512412072,
+   "symbol": "AM",
+   "tv": "EURONEXT:AM",
+   "exchange": "SBF",
+   "name": "DASSAULT AVIATION SA"
+  },
+  {
+   "conid": 1322028,
+   "symbol": "SAF",
+   "tv": "EURONEXT:SAF",
+   "exchange": "SBF",
+   "name": "SAFRAN SA"
+  },
+  {
+   "conid": 29612256,
+   "symbol": "AIR",
+   "tv": "EURONEXT:AIR",
+   "exchange": "SBF",
+   "name": "AIRBUS SE"
+  }
+ ],
+ "DEFENSE — EVTOL": [
+  {
+   "conid": 514640214,
+   "symbol": "ACHR",
+   "tv": "NYSE:ACHR",
+   "exchange": "NYSE",
+   "name": "ARCHER AVIATION INC-A"
+  },
+  {
+   "conid": 507188246,
+   "symbol": "JOBY",
+   "tv": "NYSE:JOBY",
+   "exchange": "NYSE",
+   "name": "JOBY AVIATION INC"
+  },
+  {
+   "conid": 560751549,
+   "symbol": "EVEX",
+   "tv": "NYSE:EVEX",
+   "exchange": "NYSE",
+   "name": "EVE HOLDING INC"
+  },
+  {
+   "conid": 727981234,
+   "symbol": "EVTL",
+   "tv": "NYSE:EVTL",
+   "exchange": "NYSE",
+   "name": "VERTICAL AEROSPACE LTD"
+  }
+ ],
+ "RESTAURANTS": [
+  {"conid": 9408, "symbol": "MCD", "tv": "NYSE:MCD", "exchange": "NYSE", "name": "MC DONALD'S-CORP"},
+  {"conid": 274105, "symbol": "SBUX", "tv": "NASDAQ:SBUX", "exchange": "NASDAQ", "name": "STARBUCKS CORP"},
+  {"conid": 37655664, "symbol": "CMG", "tv": "NYSE:CMG", "exchange": "NYSE", "name": "CHIPOTLE MEXICAN GRILL INC"},
+  {"conid": 3206042, "symbol": "YUM", "tv": "NYSE:YUM", "exchange": "NYSE", "name": "YUM! BRANDS INC"},
+  {"conid": 176372132, "symbol": "QSR", "tv": "NYSE:QSR", "exchange": "NYSE", "name": "RESTAURANT BRANDS INTERN"},
+  {"conid": 661440, "symbol": "DRI", "tv": "NYSE:DRI", "exchange": "NYSE", "name": "DARDEN RESTAURANTS INC"},
+  {"conid": 251376406, "symbol": "YUMC", "tv": "NYSE:YUMC", "exchange": "NYSE", "name": "YUM CHINA HOLDINGS INC"},
+  {"conid": 139816149, "symbol": "ARMK", "tv": "NYSE:ARMK", "exchange": "NYSE", "name": "ARAMARK"},
+  {"conid": 31379441, "symbol": "TXRH", "tv": "NASDAQ:TXRH", "exchange": "NASDAQ", "name": "TEXAS ROADHOUSE INC"},
+  {"conid": 29831612, "symbol": "DPZ", "tv": "NASDAQ:DPZ", "exchange": "NASDAQ", "name": "DOMINO'S PIZZA INC"},
+  {"conid": 513880596, "symbol": "BROS", "tv": "NYSE:BROS", "exchange": "NYSE", "name": "DUTCH BROS INC-CLASS A"},
+  {"conid": 6647, "symbol": "EAT", "tv": "NYSE:EAT", "exchange": "NYSE", "name": "BRINKER INTL INC"},
+  {"conid": 636387343, "symbol": "CAVA", "tv": "NYSE:CAVA", "exchange": "NYSE", "name": "CAVA GROUP INC"},
+  {"conid": 267227, "symbol": "CAKE", "tv": "NASDAQ:CAKE", "exchange": "NASDAQ", "name": "CHEESECAKE FACTORY INC/THE"},
+  {"conid": 196892722, "symbol": "WING", "tv": "NASDAQ:WING", "exchange": "NASDAQ", "name": "WINGSTOP INC"}
+ ],
+ "HOUSEHOLD & PERSONAL CARE": [
+  {"conid": 11054, "symbol": "PG", "tv": "NYSE:PG", "exchange": "NYSE", "name": "PROCTER & GAMBLE CO/THE"},
+  {"conid": 5749, "symbol": "CL", "tv": "NYSE:CL", "exchange": "NYSE", "name": "COLGATE-PALMOLIVE CO"},
+  {"conid": 629043863, "symbol": "KVUE", "tv": "NYSE:KVUE", "exchange": "NYSE", "name": "KENVUE INC"},
+  {"conid": 8864, "symbol": "KMB", "tv": "NASDAQ:KMB", "exchange": "NASDAQ", "name": "KIMBERLY-CLARK CORP"},
+  {"conid": 1448477, "symbol": "EL", "tv": "NYSE:EL", "exchange": "NYSE", "name": "ESTEE LAUDER COMPANIES-CL A"},
+  {"conid": 5651, "symbol": "CHD", "tv": "NYSE:CHD", "exchange": "NYSE", "name": "CHURCH & DWIGHT CO INC"},
+  {"conid": 5794, "symbol": "CLX", "tv": "NYSE:CLX", "exchange": "NYSE", "name": "CLOROX COMPANY"},
+  {"conid": 402183626, "symbol": "REYN", "tv": "NASDAQ:REYN", "exchange": "NASDAQ", "name": "REYNOLDS CONSUMER PRODUCTS I"},
+  {"conid": 248682005, "symbol": "ELF", "tv": "NYSE:ELF", "exchange": "NYSE", "name": "ELF BEAUTY INC"},
+  {"conid": 6857699, "symbol": "IPAR", "tv": "NASDAQ:IPAR", "exchange": "NASDAQ", "name": "INTERPARFUMS INC"},
+  {"conid": 129131475, "symbol": "COTY", "tv": "NYSE:COTY", "exchange": "NYSE", "name": "COTY INC-CL A"},
+  {"conid": 891915996, "symbol": "SLBT", "tv": "NASDAQ:SLBT", "exchange": "NASDAQ", "name": "SL SCIENCE HOLDING LTD"},
+  {"conid": 196610672, "symbol": "ENR", "tv": "NYSE:ENR", "exchange": "NYSE", "name": "ENERGIZER HOLDINGS INC"},
+  {"conid": 196179389, "symbol": "EPC", "tv": "NYSE:EPC", "exchange": "NYSE", "name": "EDGEWELL PERSONAL CARE CO"}
+ ],
+ "FOOD RETAIL": [
+  {"conid": 8908, "symbol": "KR", "tv": "NYSE:KR", "exchange": "NYSE", "name": "KROGER CO"},
+  {"conid": 132310192, "symbol": "SFM", "tv": "NASDAQ:SFM", "exchange": "NASDAQ", "name": "SPROUTS FARMERS MARKET INC"},
+  {"conid": 429435235, "symbol": "ACI", "tv": "NYSE:ACI", "exchange": "NYSE", "name": "ALBERTSONS COS INC"},
+  {"conid": 682654122, "symbol": "TBBB", "tv": "NYSE:TBBB", "exchange": "NYSE", "name": "BBB FOODS INC-CLASS A"},
+  {"conid": 13817, "symbol": "WMK", "tv": "NYSE:WMK", "exchange": "NYSE", "name": "WEIS MARKETS INC"},
+  {"conid": 270520, "symbol": "IMKTA", "tv": "NASDAQ:IMKTA", "exchange": "NASDAQ", "name": "INGLES MARKETS INC-CLASS A"},
+  {"conid": 876164814, "symbol": "YSWY", "tv": "NASDAQ:YSWY", "exchange": "NASDAQ", "name": "YESWAY INC-A"},
+  {"conid": 371602099, "symbol": "GO", "tv": "NASDAQ:GO", "exchange": "NASDAQ", "name": "GROCERY OUTLET HOLDING CORP"},
+  {"conid": 462108952, "symbol": "ARKO", "tv": "NASDAQ:ARKO", "exchange": "NASDAQ", "name": "ARKO CORP"},
+  {"conid": 110753777, "symbol": "NGVC", "tv": "NYSE:NGVC", "exchange": "NYSE", "name": "NATURAL GROCERS BY VITAMIN C"},
+  {"conid": 275799, "symbol": "VLGEA", "tv": "NASDAQ:VLGEA", "exchange": "NASDAQ", "name": "VILLAGE SUPER MARKET-CLASS A"}
+ ],
+ "CASINOS & GAMING": [
+  {"conid": 32602412, "symbol": "LVS", "tv": "NYSE:LVS", "exchange": "NYSE", "name": "LAS VEGAS SANDS CORP"},
+  {"conid": 680895249, "symbol": "FLUT", "tv": "NYSE:FLUT", "exchange": "NYSE", "name": "FLUTTER ENTERTAINMENT PLC-DI"},
+  {"conid": 9560, "symbol": "MGM", "tv": "NYSE:MGM", "exchange": "NYSE", "name": "MGM RESORTS INTERNATIONAL"},
+  {"conid": 16454492, "symbol": "WYNN", "tv": "NASDAQ:WYNN", "exchange": "NASDAQ", "name": "WYNN RESORTS LTD"},
+  {"conid": 541265139, "symbol": "SGHC", "tv": "NYSE:SGHC", "exchange": "NYSE", "name": "SUPER GROUP SGHC LTD"},
+  {"conid": 5365, "symbol": "BYD", "tv": "NYSE:BYD", "exchange": "NYSE", "name": "BOYD GAMING CORP"},
+  {"conid": 462139454, "symbol": "RSI", "tv": "NYSE:RSI", "exchange": "NYSE", "name": "RUSH STREET INTERACTIVE INC"},
+  {"conid": 435774408, "symbol": "CZR", "tv": "NASDAQ:CZR", "exchange": "NASDAQ", "name": "CAESARS ENTERTAINMENT INC"},
+  {"conid": 4816415, "symbol": "PENN", "tv": "NASDAQ:PENN", "exchange": "NASDAQ", "name": "PENN ENTERTAINMENT INC"},
+  {"conid": 189114475, "symbol": "BRSL", "tv": "NYSE:BRSL", "exchange": "NYSE", "name": "BRIGHTSTAR LOTTERY PLC"}
+ ],
+ "HOTELS RESORTS & CRUISE": [
+  {"conid": 9358, "symbol": "MAR", "tv": "NASDAQ:MAR", "exchange": "NASDAQ", "name": "MARRIOTT INTERNATIONAL -CL A"},
+  {"conid": 11520, "symbol": "RCL", "tv": "NYSE:RCL", "exchange": "NYSE", "name": "ROYAL CARIBBEAN CRUISES LTD"},
+  {"conid": 257944570, "symbol": "HLT", "tv": "NYSE:HLT", "exchange": "NYSE", "name": "HILTON WORLDWIDE HOLDINGS IN"},
+  {"conid": 700079602, "symbol": "VIK", "tv": "NYSE:VIK", "exchange": "NYSE", "name": "VIKING HOLDINGS LTD"},
+  {"conid": 878372298, "symbol": "CCL", "tv": "NYSE:CCL", "exchange": "NYSE", "name": "CARNIVAL CORP LTD"},
+  {"conid": 70084337, "symbol": "H", "tv": "NYSE:H", "exchange": "NYSE", "name": "HYATT HOTELS CORP"},
+  {"conid": 120643512, "symbol": "NCLH", "tv": "NYSE:NCLH", "exchange": "NYSE", "name": "NORWEGIAN CRUISE LINE HOLDIN"},
+  {"conid": 231354124, "symbol": "RRR", "tv": "NASDAQ:RRR", "exchange": "NASDAQ", "name": "RED ROCK RESORTS INC-CLASS A"},
+  {"conid": 317669729, "symbol": "WH", "tv": "NYSE:WH", "exchange": "NYSE", "name": "WYNDHAM HOTELS & RESORTS INC"},
+  {"conid": 2586162, "symbol": "MTN", "tv": "NYSE:MTN", "exchange": "NYSE", "name": "VAIL RESORTS INC"},
+  {"conid": 2585515, "symbol": "CHH", "tv": "NYSE:CHH", "exchange": "NYSE", "name": "CHOICE HOTELS INTL INC"},
+  {"conid": 469015035, "symbol": "TNL", "tv": "NYSE:TNL", "exchange": "NYSE", "name": "TRAVEL + LEISURE CO"},
+  {"conid": 271593, "symbol": "MCRI", "tv": "NASDAQ:MCRI", "exchange": "NASDAQ", "name": "MONARCH CASINO & RESORT INC"},
+  {"conid": 199488426, "symbol": "LIND", "tv": "NASDAQ:LIND", "exchange": "NASDAQ", "name": "LINDBLAD EXPEDITIONS HOLDING"},
+  {"conid": 357194964, "symbol": "TH", "tv": "NASDAQ:TH", "exchange": "NASDAQ", "name": "TARGET HOSPITALITY CORP"}
+ ],
+ "PAYMENT NETWORKS & PROCESSORS": [
+  {"conid": 38685693, "symbol": "MA", "tv": "NYSE:MA", "exchange": "NYSE", "name": "MASTERCARD INC - A"},
+  {"conid": 49462172, "symbol": "V", "tv": "NYSE:V", "exchange": "NYSE", "name": "VISA INC-CLASS A SHARES"},
+  {"conid": 199169591, "symbol": "PYPL", "tv": "NASDAQ:PYPL", "exchange": "NASDAQ", "name": "PAYPAL HOLDINGS INC"},
+  {"conid": 321202935, "symbol": "ADYEN", "tv": "EURONEXT:ADYEN", "exchange": "AEB", "name": "ADYEN NV"},
+  {"conid": 37866641, "symbol": "FIS", "tv": "NYSE:FIS", "exchange": "NYSE", "name": "FIDELITY NATIONAL INFO SERV"}
+ ],
+ "DIGITAL LENDING": [
+  {"conid": 465119069, "symbol": "AFRM", "tv": "NASDAQ:AFRM", "exchange": "NASDAQ", "name": "AFFIRM HOLDINGS INC"},
+  {"conid": 392428133, "symbol": "FINV", "tv": "NYSE:FINV", "exchange": "NYSE", "name": "FINVOLUTION GROUP-ADR"},
+  {"conid": 503292672, "symbol": "OPFI", "tv": "NYSE:OPFI", "exchange": "NYSE", "name": "OPPFI INC"},
+  {"conid": 438058842, "symbol": "RKT", "tv": "NYSE:RKT", "exchange": "NYSE", "name": "ROCKET COS INC-CLASS A"},
+  {"conid": 494162724, "symbol": "SOFI", "tv": "NASDAQ:SOFI", "exchange": "NASDAQ", "name": "SOFI TECHNOLOGIES INC"},
+  {"conid": 1448559, "symbol": "UPBD", "tv": "NASDAQ:UPBD", "exchange": "NASDAQ", "name": "UPBOUND GROUP INC"},
+  {"conid": 531212348, "symbol": "NU", "tv": "NYSE:NU", "exchange": "NYSE", "name": "NU HOLDINGS LTD/CAYMAN ISL-A"}
+ ],
+ "EXCHANGES & BROKERS": [
+  {"conid": 45127739, "symbol": "CME", "tv": "NASDAQ:CME", "exchange": "NASDAQ", "name": "CME GROUP INC"},
+  {"conid": 156871527, "symbol": "ENX", "tv": "EURONEXT:ENX", "exchange": "SBF", "name": "EURONEXT NV"},
+  {"conid": 4627828, "symbol": "GS", "tv": "NYSE:GS", "exchange": "NYSE", "name": "GOLDMAN SACHS GROUP INC"},
+  {"conid": 504546674, "symbol": "HOOD", "tv": "NASDAQ:HOOD", "exchange": "NASDAQ", "name": "ROBINHOOD MARKETS INC - A"},
+  {"conid": 43645865, "symbol": "IBKR", "tv": "NASDAQ:IBKR", "exchange": "NASDAQ", "name": "INTERACTIVE BROKERS GRO-CL A"},
+  {"conid": 29380756, "symbol": "NDAQ", "tv": "NASDAQ:NDAQ", "exchange": "NASDAQ", "name": "NASDAQ INC"},
+  {"conid": 11905, "symbol": "SCHW", "tv": "NYSE:SCHW", "exchange": "NYSE", "name": "SCHWAB (CHARLES) CORP"}
+ ],
+ "ASSET MANAGERS & CUSTODY": [
+  {"conid": 729193719, "symbol": "BLK", "tv": "NYSE:BLK", "exchange": "NYSE", "name": "BLACKROCK INC"},
+  {"conid": 47550606, "symbol": "IVZ", "tv": "NYSE:IVZ", "exchange": "NYSE", "name": "INVESCO LTD"},
+  {"conid": 2730980, "symbol": "STT", "tv": "NYSE:STT", "exchange": "NYSE", "name": "STATE STREET CORP"},
+  {"conid": 11905, "symbol": "SCHW", "tv": "NYSE:SCHW", "exchange": "NYSE", "name": "SCHWAB (CHARLES) CORP"},
+  {"conid": 4627828, "symbol": "GS", "tv": "NYSE:GS", "exchange": "NYSE", "name": "GOLDMAN SACHS GROUP INC"}
+ ],
+ "ENTERPRISE SOFTWARE": [
+  {"conid": 29624264, "symbol": "CRM", "tv": "NYSE:CRM", "exchange": "NYSE", "name": "SALESFORCE INC"},
+  {"conid": 376427905, "symbol": "DT", "tv": "NYSE:DT", "exchange": "NYSE", "name": "DYNATRACE INC"},
+  {"conid": 520512263, "symbol": "GTLB", "tv": "NASDAQ:GTLB", "exchange": "NASDAQ", "name": "GITLAB INC-CL A"},
+  {"conid": 169544810, "symbol": "HUBS", "tv": "NYSE:HUBS", "exchange": "NYSE", "name": "HUBSPOT INC"},
+  {"conid": 532274461, "symbol": "IOT", "tv": "NYSE:IOT", "exchange": "NYSE", "name": "SAMSARA INC-CL A"},
+  {"conid": 272093, "symbol": "MSFT", "tv": "NASDAQ:MSFT", "exchange": "NASDAQ", "name": "MICROSOFT CORP"},
+  {"conid": 6580387, "symbol": "NEM", "tv": "XETR:NEM", "exchange": "IBIS", "name": "NEMETSCHEK SE"},
+  {"conid": 272800, "symbol": "ORCL", "tv": "NYSE:ORCL", "exchange": "NYSE", "name": "ORACLE CORP"},
+  {"conid": 444857009, "symbol": "PLTR", "tv": "NASDAQ:PLTR", "exchange": "NASDAQ", "name": "PALANTIR TECHNOLOGIES INC-A"},
+  {"conid": 3804335, "symbol": "SAP", "tv": "NYSE:SAP", "exchange": "NYSE", "name": "SAP SE-SPONSORED ADR"},
+  {"conid": 8314, "symbol": "IBM", "tv": "NYSE:IBM", "exchange": "NYSE", "name": "INTL BUSINESS MACHINES CORP"},
+  {"conid": 109911821, "symbol": "NOW", "tv": "NYSE:NOW", "exchange": "NYSE", "name": "SERVICENOW INC"},
+  {"conid": 444884769, "symbol": "SNOW", "tv": "NYSE:SNOW", "exchange": "NYSE", "name": "SNOWFLAKE INC"}
+ ],
+ "CLOUD & NETWORK INFRA": [
+  {"conid": 740948854, "symbol": "ANET", "tv": "NYSE:ANET", "exchange": "NYSE", "name": "ARISTA NETWORKS INC"},
+  {"conid": 268084, "symbol": "CSCO", "tv": "NASDAQ:CSCO", "exchange": "NASDAQ", "name": "CISCO SYSTEMS INC"},
+  {"conid": 366131373, "symbol": "FSLY", "tv": "NASDAQ:FSLY", "exchange": "NASDAQ", "name": "FASTLY INC - CLASS A"},
+  {"conid": 382633646, "symbol": "NET", "tv": "NYSE:NET", "exchange": "NYSE", "name": "CLOUDFLARE INC - CLASS A"},
+  {"conid": 209411798, "symbol": "HPE", "tv": "NYSE:HPE", "exchange": "NYSE", "name": "HEWLETT PACKARD ENTERPRISE"},
+  {"conid": 731466419, "symbol": "SMCI", "tv": "NASDAQ:SMCI", "exchange": "NASDAQ", "name": "SUPER MICRO COMPUTER INC"},
+  {"conid": 8314, "symbol": "IBM", "tv": "NYSE:IBM", "exchange": "NYSE", "name": "INTL BUSINESS MACHINES CORP"},
+  {"conid": 272800, "symbol": "ORCL", "tv": "NYSE:ORCL", "exchange": "NYSE", "name": "ORACLE CORP"},
+  {"conid": 478483393, "symbol": "DOCN", "tv": "NYSE:DOCN", "exchange": "NYSE", "name": "DIGITALOCEAN HOLDINGS INC"},
+  {"conid": 521525007, "symbol": "OVH", "tv": "EURONEXT:OVH", "exchange": "SBF", "name": "OVH GROUPE SA"},
+  {"conid": 771759702, "symbol": "CRWV", "tv": "NASDAQ:CRWV", "exchange": "NASDAQ", "name": "COREWEAVE INC-CL A"},
+  {"conid": 188986978, "symbol": "GDDY", "tv": "NYSE:GDDY", "exchange": "NYSE", "name": "GODADDY INC - CLASS A"}
+ ],
+ "DIGITAL PLATFORMS": [
+  {"conid": 152791428, "symbol": "700", "tv": "HKEX:700", "exchange": "SEHK", "name": "TENCENT HOLDINGS LTD"},
+  {"conid": 35359385, "symbol": "BIDU", "tv": "NASDAQ:BIDU", "exchange": "NASDAQ", "name": "BAIDU INC - SPON ADR"},
+  {"conid": 208813719, "symbol": "GOOGL", "tv": "NASDAQ:GOOGL", "exchange": "NASDAQ", "name": "ALPHABET INC-CL A"},
+  {"conid": 107113386, "symbol": "META", "tv": "NASDAQ:META", "exchange": "NASDAQ", "name": "META PLATFORMS INC-CLASS A"},
+  {"conid": 692025016, "symbol": "RDDT", "tv": "NYSE:RDDT", "exchange": "NYSE", "name": "REDDIT INC-CL A"},
+  {"conid": 311571413, "symbol": "BILI", "tv": "NASDAQ:BILI", "exchange": "NASDAQ", "name": "BILIBILI INC-SPONSORED ADR"},
+  {"conid": 15124833, "symbol": "NFLX", "tv": "NASDAQ:NFLX", "exchange": "NASDAQ", "name": "NETFLIX INC"},
+  {"conid": 9541698, "symbol": "NTES", "tv": "NASDAQ:NTES", "exchange": "NASDAQ", "name": "NETEASE INC-ADR"},
+  {"conid": 152486141, "symbol": "JD", "tv": "NASDAQ:JD", "exchange": "NASDAQ", "name": "JD.COM INC-ADR"}
+ ],
+ "GAMING & ESPORTS": [
+  {"conid": 152791428, "symbol": "700", "tv": "HKEX:700", "exchange": "SEHK", "name": "TENCENT HOLDINGS LTD"},
+  {"conid": 14019235, "symbol": "9684", "tv": "TSE:9684", "exchange": "TSEJ", "name": "SQUARE ENIX HOLDINGS CO LTD"},
+  {"conid": 14019244, "symbol": "9697", "tv": "TSE:9697", "exchange": "TSEJ", "name": "CAPCOM CO LTD"},
+  {"conid": 14019353, "symbol": "9766", "tv": "TSE:9766", "exchange": "TSEJ", "name": "KONAMI GROUP CORP"},
+  {"conid": 311571413, "symbol": "BILI", "tv": "NASDAQ:BILI", "exchange": "NASDAQ", "name": "BILIBILI INC-SPONSORED ADR"},
+  {"conid": 9541698, "symbol": "NTES", "tv": "NASDAQ:NTES", "exchange": "NASDAQ", "name": "NETEASE INC-ADR"},
+  {"conid": 476026060, "symbol": "RBLX", "tv": "NYSE:RBLX", "exchange": "NYSE", "name": "ROBLOX CORP -CLASS A"},
+  {"conid": 6478131, "symbol": "TTWO", "tv": "NASDAQ:TTWO", "exchange": "NASDAQ", "name": "TAKE-TWO INTERACTIVE SOFTWRE"},
+  {"conid": 2953285, "symbol": "UBI", "tv": "EURONEXT:UBI", "exchange": "SBF", "name": "UBISOFT ENTERTAINMENT"}
+ ],
+ "COPPER MINERS": [
+  {"conid": 788708135, "symbol": "AAL", "tv": "LSE:AAL", "exchange": "LSE", "name": "ANGLO AMERICAN PLC"},
+  {"conid": 17628566, "symbol": "ANTO", "tv": "LSE:ANTO", "exchange": "LSE", "name": "ANTOFAGASTA PLC"},
+  {"conid": 165303062, "symbol": "600362", "tv": "SSE:600362", "exchange": "SEHKNTL", "name": "JIANGXI COPPER CO LTD-A"},
+  {"conid": 110017618, "symbol": "1258", "tv": "HKEX:1258", "exchange": "SEHK", "name": "CHINA NONFERROUS MINING CORP"},
+  {"conid": 755303610, "symbol": "COR", "tv": "TSXV:COR", "exchange": "VENTURE", "name": "CAMINO MINERALS CORP"},
+  {"conid": 292735630, "symbol": "ERO", "tv": "TSX:ERO", "exchange": "TSE", "name": "ERO COPPER CORP"},
+  {"conid": 7089, "symbol": "FCX", "tv": "NYSE:FCX", "exchange": "NYSE", "name": "FREEPORT-MCMORAN INC"},
+  {"conid": 14890726, "symbol": "FM", "tv": "TSX:FM", "exchange": "TSE", "name": "FIRST QUANTUM MINERALS LTD"},
+  {"conid": 32922365, "symbol": "HBM", "tv": "TSX:HBM", "exchange": "TSE", "name": "HUDBAY MINERALS INC"},
+  {"conid": 541528676, "symbol": "HCH", "tv": "ASX:HCH", "exchange": "ASX", "name": "HOT CHILI LTD"},
+  {"conid": 133909625, "symbol": "IVN", "tv": "TSX:IVN", "exchange": "TSE", "name": "IVANHOE MINES LTD-CL A"},
+  {"conid": 13462029, "symbol": "KGH", "tv": "GPW:KGH", "exchange": "WSE", "name": "KGHM POLSKA MIEDZ SA"},
+  {"conid": 32604529, "symbol": "LUN", "tv": "TSX:LUN", "exchange": "TSE", "name": "LUNDIN MINING CORP"},
+  {"conid": 837873857, "symbol": "MNO", "tv": "TSX:MNO", "exchange": "TSE", "name": "MERIDIAN MINING PLC"},
+  {"conid": 96079902, "symbol": "NCX", "tv": "TSXV:NCX", "exchange": "VENTURE", "name": "NORTHISLE COPPER & GOLD INC"},
+  {"conid": 247231770, "symbol": "TMQ", "tv": "TSX:TMQ", "exchange": "TSE", "name": "TRILOGY METALS INC"},
+  {"conid": 39921623, "symbol": "TECK", "tv": "NYSE:TECK", "exchange": "NYSE", "name": "TECK RESOURCES LTD-CLS B"}
+ ],
+ "LITHIUM & BATTERY MATERIALS": [
+  {"conid": 257310639, "symbol": "002460", "tv": "SZSE:002460", "exchange": "SEHKSZSE", "name": "GANFENG LITHIUM GROUP CO L-A"},
+  {"conid": 297973526, "symbol": "603799", "tv": "SSE:603799", "exchange": "SEHKNTL", "name": "ZHEJIANG HUAYOU COBALT CO -A"},
+  {"conid": 141221963, "symbol": "KOD", "tv": "LSE:KOD", "exchange": "LSE", "name": "KODAL MINERALS PLC"},
+  {"conid": 657517509, "symbol": "LAC", "tv": "NYSE:LAC", "exchange": "NYSE", "name": "LITHIUM AMERICAS CORP"},
+  {"conid": 71294096, "symbol": "PLS", "tv": "ASX:PLS", "exchange": "ASX", "name": "PLS GROUP LTD"},
+  {"conid": 275483215, "symbol": "SLI", "tv": "AMEX:SLI", "exchange": "AMEX", "name": "STANDARD LITHIUM LTD"},
+  {"conid": 12374, "symbol": "SQM", "tv": "NYSE:SQM", "exchange": "NYSE", "name": "QUIMICA Y MINERA CHIL-SP ADR"},
+  {"conid": 687273967, "symbol": "CRML", "tv": "NASDAQ:CRML", "exchange": "NASDAQ", "name": "CRITICAL METALS CORP"},
+  {"conid": 794639085, "symbol": "LIB", "tv": "TSXV:LIB", "exchange": "VENTURE", "name": "LIBERTYSTREAM INFRASTRUCTURE"}
+ ],
+ "RARE EARTHS & CRITICAL METALS": [
+  {"conid": 576098262, "symbol": "601", "tv": "HKEX:601", "exchange": "SEHK", "name": "RARE EARTH MAGNESIUM TECHNOL"},
+  {"conid": 165302837, "symbol": "600111", "tv": "SSE:600111", "exchange": "SEHKNTL", "name": "CHINA NORTHERN RARE EARTH -A"},
+  {"conid": 42451390, "symbol": "769", "tv": "HKEX:769", "exchange": "SEHK", "name": "CHINA RARE EARTH HLDGS LTD"},
+  {"conid": 531717707, "symbol": "ARA", "tv": "TSX:ARA", "exchange": "TSE", "name": "ACLARA RESOURCES INC"},
+  {"conid": 44188332, "symbol": "ARU", "tv": "ASX:ARU", "exchange": "ASX", "name": "ARAFURA RARE EARTHS LTD"},
+  {"conid": 346748805, "symbol": "DEFN", "tv": "TSXV:DEFN", "exchange": "VENTURE", "name": "DEFENSE METALS CORP"},
+  {"conid": 14064364, "symbol": "LYC", "tv": "ASX:LYC", "exchange": "ASX", "name": "LYNAS RARE EARTHS LTD"},
+  {"conid": 455592408, "symbol": "MP", "tv": "NYSE:MP", "exchange": "NYSE", "name": "MP MATERIALS CORP"},
+  {"conid": 620917098, "symbol": "NB", "tv": "NASDAQ:NB", "exchange": "NASDAQ", "name": "NIOCORP DEVELOPMENTS LTD"},
+  {"conid": 67395995, "symbol": "REEMF", "tv": "OTC:REEMF", "exchange": "PINK", "name": "RARE ELEMENT RESOURCES LTD"},
+  {"conid": 459107123, "symbol": "UCU", "tv": "TSXV:UCU", "exchange": "VENTURE", "name": "UCORE RARE METALS INC"},
+  {"conid": 768545231, "symbol": "USAR", "tv": "NASDAQ:USAR", "exchange": "NASDAQ", "name": "USA RARE EARTH INC"},
+  {"conid": 44205405, "symbol": "VML", "tv": "ASX:VML", "exchange": "ASX", "name": "VITAL METALS LTD"}
+ ],
+ "PRECIOUS METALS MINERS": [
+  {"conid": 81506181, "symbol": "2099", "tv": "HKEX:2099", "exchange": "SEHK", "name": "CHINA GOLD INTERNATIONAL RES"},
+  {"conid": 165302458, "symbol": "601899", "tv": "SSE:601899", "exchange": "SEHKNTL", "name": "ZIJIN MINING GROUP CO LTD-A"},
+  {"conid": 704630251, "symbol": "ABRA", "tv": "TSX:ABRA", "exchange": "TSE", "name": "ABRASILVER RESOURCE CORP"},
+  {"conid": 41855679, "symbol": "AG", "tv": "NYSE:AG", "exchange": "NYSE", "name": "FIRST MAJESTIC SILVER CORP"},
+  {"conid": 737869891, "symbol": "AGAG", "tv": "TSXV:AGAG", "exchange": "VENTURE", "name": "ARGENTA SILVER CORP"},
+  {"conid": 814035354, "symbol": "APGO", "tv": "TSXV:APGO", "exchange": "VENTURE", "name": "APOLLO SILVER CORP"},
+  {"conid": 37028040, "symbol": "ASM", "tv": "AMEX:ASM", "exchange": "AMEX", "name": "AVINO SILVER & GOLD MINES"},
+  {"conid": 759563019, "symbol": "BAR", "tv": "CSE:BAR", "exchange": "PURE", "name": "BARRANCO GOLD MINING CORP"},
+  {"conid": 476843982, "symbol": "BRC", "tv": "TSXV:BRC", "exchange": "VENTURE", "name": "BLACKROCK SILVER CORP"},
+  {"conid": 60532895, "symbol": "CDE", "tv": "NYSE:CDE", "exchange": "NYSE", "name": "COEUR MINING INC"},
+  {"conid": 535283406, "symbol": "CPPMF", "tv": "OTC:CPPMF", "exchange": "PINK", "name": "COPPERNICO METALS INC"},
+  {"conid": 687273967, "symbol": "CRML", "tv": "NASDAQ:CRML", "exchange": "NASDAQ", "name": "CRITICAL METALS CORP"},
+  {"conid": 756915407, "symbol": "DGC", "tv": "TSXV:DGC", "exchange": "VENTURE", "name": "DAURA GOLD CORP"},
+  {"conid": 36525494, "symbol": "EXK", "tv": "NYSE:EXK", "exchange": "NYSE", "name": "ENDEAVOUR SILVER CORP"},
+  {"conid": 576945813, "symbol": "FCM", "tv": "LSE:FCM", "exchange": "LSE", "name": "FIRST CLASS METALS PLC"},
+  {"conid": 51069466, "symbol": "FRES", "tv": "LSE:FRES", "exchange": "LSE", "name": "FRESNILLO PLC"},
+  {"conid": 494184548, "symbol": "FTEL", "tv": "CSE:FTEL", "exchange": "PURE", "name": "FIRST TELLURIUM CORP"},
+  {"conid": 680620677, "symbol": "FTZFF", "tv": "OTC:FTZFF", "exchange": "PINK", "name": "FITZROY MINERALS INC"},
+  {"conid": 899097811, "symbol": "FVL", "tv": "TSX:FVL", "exchange": "TSE", "name": "FREEGOLD LTD"},
+  {"conid": 8027, "symbol": "HL", "tv": "NYSE:HL", "exchange": "NYSE", "name": "HECLA MINING CO"},
+  {"conid": 659766839, "symbol": "HSLV", "tv": "TSX:HSLV", "exchange": "TSE", "name": "HIGHLANDER SILVER CORP"},
+  {"conid": 530906145, "symbol": "IDR", "tv": "AMEX:IDR", "exchange": "AMEX", "name": "IDAHO STRATEGIC RESOURCES IN"},
+  {"conid": 568735689, "symbol": "IPX", "tv": "NASDAQ:IPX", "exchange": "NASDAQ", "name": "IPERIONX LTD - ADR"},
+  {"conid": 767280413, "symbol": "KCP", "tv": "TSXV:KCP", "exchange": "VENTURE", "name": "KING COPPER DISCOVERY CORP"},
+  {"conid": 8823, "symbol": "KGC", "tv": "NYSE:KGC", "exchange": "NYSE", "name": "KINROSS GOLD CORP"},
+  {"conid": 794639085, "symbol": "LIB", "tv": "TSXV:LIB", "exchange": "VENTURE", "name": "LIBERTYSTREAM INFRASTRUCTURE"},
+  {"conid": 177292167, "symbol": "LUG", "tv": "TSX:LUG", "exchange": "TSE", "name": "LUNDIN GOLD INC"},
+  {"conid": 44202634, "symbol": "MEI", "tv": "ASX:MEI", "exchange": "ASX", "name": "METEORIC RESOURCES LTD"},
+  {"conid": 364845424, "symbol": "MRZ", "tv": "ASX:MRZ", "exchange": "ASX", "name": "MONT ROYAL RESOURCES LTD"},
+  {"conid": 10174, "symbol": "NEM", "tv": "NYSE:NEM", "exchange": "NYSE", "name": "NEWMONT CORP"},
+  {"conid": 299520076, "symbol": "NVA", "tv": "ASX:NVA", "exchange": "ASX", "name": "NOVA MINERALS CORP-CDI"},
+  {"conid": 4816190, "symbol": "PAAS", "tv": "NYSE:PAAS", "exchange": "NYSE", "name": "PAN AMERICAN SILVER CORP"},
+  {"conid": 889302992, "symbol": "SA", "tv": "NYSE:SA", "exchange": "NYSE", "name": "SEABRIDGE GOLD INC"},
+  {"conid": 511289576, "symbol": "SNWGF", "tv": "OTC:SNWGF", "exchange": "PINK", "name": "SNOWLINE GOLD CORP"},
+  {"conid": 709025637, "symbol": "VZLA", "tv": "AMEX:VZLA", "exchange": "AMEX", "name": "VIZSLA SILVER CORP"},
+  {"conid": 276051659, "symbol": "WPM", "tv": "TSX:WPM", "exchange": "TSE", "name": "WHEATON PRECIOUS METALS CORP"}
+ ],
+ "PSYCHEDELICS": [
+
+  {"conid": 446091350, "symbol": "CMPS", "tv": "NASDAQ:CMPS", "exchange": "NASDAQ", "name": "COMPASS PATHWAYS PLC"},
+  {"conid": 694151583, "symbol": "NRXP", "tv": "NASDAQ:NRXP", "exchange": "NASDAQ", "name": "NRX PHARMACEUTICALS INC"},
+  {"conid": 929774755, "symbol": "HELP", "tv": "NASDAQ:HELP", "exchange": "NASDAQ", "name": "HELUS PHARMA INC"},
+  {"conid": 498661851, "symbol": "GHRS", "tv": "NASDAQ:GHRS", "exchange": "NASDAQ", "name": "GH RESEARCH PLC"},
+  {"conid": 641842650, "symbol": "DRUG", "tv": "NASDAQ:DRUG", "exchange": "NASDAQ", "name": "BRIGHT MINDS BIOSCIENCES INC"},
+  {"conid": 722493614, "symbol": "QNTM", "tv": "NASDAQ:QNTM", "exchange": "NASDAQ", "name": "QUANTUM BIOPHARMA-B SUB VOT"},
+  {"conid": 885010445, "symbol": "OPTH", "tv": "NASDAQ:OPTH", "exchange": "NASDAQ", "name": "OPTIMI HEALTH CORP"},
+  {"conid": 675122973, "symbol": "KTTA", "tv": "NASDAQ:KTTA", "exchange": "NASDAQ", "name": "PASITHEA THERAPEUTICS CORP"},
+  {"conid": 500029636, "symbol": "NUMIF", "tv": "PINK:NUMIF", "exchange": "PINK", "name": "NUMINUS WELLNESS INC"},
+  {"conid": 846773110, "symbol": "PBM", "tv": "NASDAQ:PBM", "exchange": "NASDAQ", "name": "PSYENCE BIOMEDICAL LTD"},
+  {"conid": 888523903, "symbol": "SILO", "tv": "NASDAQ:SILO", "exchange": "NASDAQ", "name": "SILO PHARMA INC"},
+  {"conid": 858465700, "symbol": "IXHL", "tv": "NASDAQ:IXHL", "exchange": "NASDAQ", "name": "INCANNEX HEALTHCARE INC"},
+  {"conid": 125693625, "symbol": "IGC", "tv": "AMEX:IGC", "exchange": "AMEX", "name": "IGC PHARMA INC"},
+  {"conid": 826119271, "symbol": "ENVB", "tv": "NASDAQ:ENVB", "exchange": "NASDAQ", "name": "ENVERIC BIOSCIENCES INC"}
+ ],
+ "CNS BIOTECH": [
+  {"conid": 845905488, "symbol": "DFTX", "tv": "NASDAQ:DFTX", "exchange": "NASDAQ", "name": "DEFINIUM THERAPEUTICS INC"},
+  {"conid": 385549233, "symbol": "RLMD", "tv": "NASDAQ:RLMD", "exchange": "NASDAQ", "name": "RELMADA THERAPEUTICS INC"},
+  {"conid": 4815347, "symbol": "NBIX", "tv": "NASDAQ:NBIX", "exchange": "NASDAQ", "name": "NEUROCRINE BIOSCIENCES INC"},
+  {"conid": 681352407, "symbol": "ANRO", "tv": "NYSE:ANRO", "exchange": "NYSE", "name": "ALTO NEUROSCIENCE INC"},
+  {"conid": 94892734, "symbol": "ALKS", "tv": "NASDAQ:ALKS", "exchange": "NASDAQ", "name": "ALKERMES PLC"},
+  {"conid": 324062325, "symbol": "STIM", "tv": "NASDAQ:STIM", "exchange": "NASDAQ", "name": "NEURONETICS INC"},
+  {"conid": 106853221, "symbol": "SUPN", "tv": "NASDAQ:SUPN", "exchange": "NASDAQ", "name": "SUPERNUS PHARMACEUTICALS INC"},
+  {"conid": 750199783, "symbol": "NEUP", "tv": "NASDAQ:NEUP", "exchange": "NASDAQ", "name": "NEUPHORIA THERAPEUTICS INC"},
+  {"conid": 635441634, "symbol": "VTGN", "tv": "NASDAQ:VTGN", "exchange": "NASDAQ", "name": "VISTAGEN THERAPEUTICS INC"}
+ ],
+ "INDUSTRIAL AUTOMATION": [
+  {"conid": 641664154, "symbol": "277810", "tv": "KRX:277810", "exchange": "KRX", "name": "RAINBOW ROBOTICS"},
+  {"conid": 14016451, "symbol": "6273", "tv": "TSE:6273", "exchange": "TSEJ", "name": "SMC CORP"},
+  {"conid": 14016601, "symbol": "6383", "tv": "TSE:6383", "exchange": "TSEJ", "name": "DAIFUKU CO LTD"},
+  {"conid": 14016810, "symbol": "6645", "tv": "TSE:6645", "exchange": "TSEJ", "name": "OMRON CORP", "ratified_on": "2026-08-14", "ratification_id": "rotation-missing-histories-2026-08-14"},
+  {"conid": 13905758, "symbol": "6954", "tv": "TSE:6954", "exchange": "TSEJ", "name": "FANUC CORP"},
+  {"conid": 599374251, "symbol": "ATS", "tv": "TSX:ATS", "exchange": "TSE", "name": "ATS CORP"},
+  {"conid": 26653065, "symbol": "RSW", "tv": "LSE:RSW", "exchange": "LSE", "name": "RENISHAW PLC"},
+  {"conid": 14016743, "symbol": "6506", "tv": "TSE:6506", "exchange": "TSEJ", "name": "YASKAWA ELECTRIC CORP"},
+  {"conid": 2682965, "symbol": "ABBN", "tv": "SIX:ABBN", "exchange": "EBS", "name": "ABB LTD-REG"},
+  {"conid": 11697, "symbol": "ROK", "tv": "NYSE:ROK", "exchange": "NYSE", "name": "ROCKWELL AUTOMATION INC"},
+  {"conid": 14017040, "symbol": "6861", "tv": "TSE:6861", "exchange": "TSEJ", "name": "KEYENCE CORP"},
+  {"conid": 267547, "symbol": "CGNX", "tv": "NASDAQ:CGNX", "exchange": "NASDAQ", "name": "COGNEX CORP"},
+  {"conid": 12729, "symbol": "TER", "tv": "NASDAQ:TER", "exchange": "NASDAQ", "name": "TERADYNE INC"},
+  {"conid": 131083930, "symbol": "6258", "tv": "TSE:6258", "exchange": "TSEJ", "name": "HIRATA CORP"}
+ ],
+ "SURGICAL ROBOTICS": [
+  {"conid": 522709965, "symbol": "2252", "tv": "HKEX:2252", "exchange": "SEHK", "name": "SHANGHAI MICROPORT MEDBOT-H"},
+  {"conid": 5270, "symbol": "BSX", "tv": "NYSE:BSX", "exchange": "NYSE", "name": "BOSTON SCIENTIFIC CORP"},
+  {"conid": 9063285, "symbol": "ISRG", "tv": "NASDAQ:ISRG", "exchange": "NASDAQ", "name": "INTUITIVE SURGICAL INC"},
+  {"conid": 6729012, "symbol": "TECN", "tv": "SIX:TECN", "exchange": "EBS", "name": "TECAN GROUP AG-REG"}
+ ],
+ "DATA CENTER OPERATORS": [
+  {"conid": 556067819, "symbol": "APLD", "tv": "NASDAQ:APLD", "exchange": "NASDAQ", "name": "APPLIED DIGITAL CORP"},
+  {"conid": 771759702, "symbol": "CRWV", "tv": "NASDAQ:CRWV", "exchange": "NASDAQ", "name": "COREWEAVE INC-CL A"},
+  {"conid": 478483393, "symbol": "DOCN", "tv": "NYSE:DOCN", "exchange": "NYSE", "name": "DIGITALOCEAN HOLDINGS INC"},
+  {"conid": 88819736, "symbol": "NBIS", "tv": "NASDAQ:NBIS", "exchange": "NASDAQ", "name": "NEBIUS GROUP NV"},
+  {"conid": 421139451, "symbol": "KC", "tv": "NASDAQ:KC", "exchange": "NASDAQ", "name": "KINGSOFT CLOUD HOLDINGS-ADR"},
+  {"conid": 521525007, "symbol": "OVH", "tv": "EURONEXT:OVH", "exchange": "SBF", "name": "OVH GROUPE SA"},
+  {"conid": 87356334, "symbol": "VNET", "tv": "NASDAQ:VNET", "exchange": "NASDAQ", "name": "VNET GROUP INC-ADR"},
+  {"conid": 181764593, "symbol": "EQIX", "tv": "NASDAQ:EQIX", "exchange": "NASDAQ", "name": "EQUINIX INC"}
+ ],
+ "AI DATA CENTER INFRA": [
+  {"conid": 692196414, "symbol": "ALAB", "tv": "NASDAQ:ALAB", "exchange": "NASDAQ", "name": "ASTERA LABS INC"},
+  {"conid": 541265127, "symbol": "CRDO", "tv": "NASDAQ:CRDO", "exchange": "NASDAQ", "name": "CREDO TECHNOLOGY GROUP HOLDI"},
+  {"conid": 402783527, "symbol": "VRT", "tv": "NYSE:VRT", "exchange": "NYSE", "name": "VERTIV HOLDINGS CO-A"},
+  {"conid": 129156064, "symbol": "TSSI", "tv": "NASDAQ:TSSI", "exchange": "NASDAQ", "name": "TSS INC"},
+  {"conid": 4813508, "symbol": "INOD", "tv": "NASDAQ:INOD", "exchange": "NASDAQ", "name": "INNODATA INC"},
+  {"conid": 641568851, "symbol": "HIVE", "tv": "NASDAQ:HIVE", "exchange": "NASDAQ", "name": "HIVE DIGITAL TECHNOLOGIES LT"}
+ ],
+ "COMPUTE MINERS": [
+  {"conid": 679998205, "symbol": "CORZ", "tv": "NASDAQ:CORZ", "exchange": "NASDAQ", "name": "CORE SCIENTIFIC INC"},
+  {"conid": 511470142, "symbol": "CIFR", "tv": "NASDAQ:CIFR", "exchange": "NASDAQ", "name": "CIPHER DIGITAL INC"},
+  {"conid": 526906130, "symbol": "IREN", "tv": "NASDAQ:IREN", "exchange": "NASDAQ", "name": "IREN LTD"},
+  {"conid": 641568851, "symbol": "HIVE", "tv": "NASDAQ:HIVE", "exchange": "NASDAQ", "name": "HIVE DIGITAL TECHNOLOGIES LT"},
+  {"conid": 391525016, "symbol": "CAN", "tv": "NASDAQ:CAN", "exchange": "NASDAQ", "name": "CANAAN INC."},
+  {"conid": 556067819, "symbol": "APLD", "tv": "NASDAQ:APLD", "exchange": "NASDAQ", "name": "APPLIED DIGITAL CORP"}
+ ],
+ "DATA & ANALYTICS SOFTWARE": [
+  {"conid": 459113767, "symbol": "AI", "tv": "NYSE:AI", "exchange": "NYSE", "name": "C3.AI INC-A"},
+  {"conid": 516928558, "symbol": "AMPL", "tv": "NASDAQ:AMPL", "exchange": "NASDAQ", "name": "AMPLITUDE INC-CLASS A"},
+  {"conid": 109911821, "symbol": "NOW", "tv": "NYSE:NOW", "exchange": "NYSE", "name": "SERVICENOW INC"},
+  {"conid": 444884769, "symbol": "SNOW", "tv": "NYSE:SNOW", "exchange": "NYSE", "name": "SNOWFLAKE INC"},
+  {"conid": 444857009, "symbol": "PLTR", "tv": "NASDAQ:PLTR", "exchange": "NASDAQ", "name": "PALANTIR TECHNOLOGIES INC-A"},
+  {"conid": 376427905, "symbol": "DT", "tv": "NYSE:DT", "exchange": "NYSE", "name": "DYNATRACE INC"}
+ ],
+ "SPACE LAUNCH & INFRA": [
+  {"conid": 201887215, "symbol": "AVIO", "tv": "MIL:AVIO", "exchange": "BVME", "name": "AVIO SPA"},
+  {"conid": 804733304, "symbol": "FLY", "tv": "NASDAQ:FLY", "exchange": "NASDAQ", "name": "FIREFLY AEROSPACE INC"},
+  {"conid": 760582932, "symbol": "KRMN", "tv": "NYSE:KRMN", "exchange": "NYSE", "name": "KARMAN HOLDINGS INC"},
+  {"conid": 613910262, "symbol": "LUNR", "tv": "NASDAQ:LUNR", "exchange": "NASDAQ", "name": "INTUITIVE MACHINES INC"},
+  {"conid": 512000171, "symbol": "RDW", "tv": "NYSE:RDW", "exchange": "NYSE", "name": "REDWIRE CORP"},
+  {"conid": 787273575, "symbol": "RKLB", "tv": "NASDAQ:RKLB", "exchange": "NASDAQ", "name": "ROCKET LAB CORP"},
+  {"conid": 702882675, "symbol": "MDA", "tv": "TSX:MDA", "exchange": "TSE", "name": "MDA SPACE LTD"},
+  {"conid": 790400443, "symbol": "VOYG", "tv": "NYSE:VOYG", "exchange": "NYSE", "name": "VOYAGER TECHNOLOGIES INC-A"},
+  {"conid": 839174082, "symbol": "MNTS", "tv": "NASDAQ:MNTS", "exchange": "NASDAQ", "name": "MOMENTUS INC"},
+  {"conid": 709229198, "symbol": "SPCE", "tv": "NYSE:SPCE", "exchange": "NYSE", "name": "VIRGIN GALACTIC HOLDINGS INC"}
+ ],
+ "SATELLITE CONNECTIVITY": [
+  {"conid": 480745767, "symbol": "ASTS", "tv": "NASDAQ:ASTS", "exchange": "NASDAQ", "name": "AST SPACEMOBILE INC"},
+  {"conid": 69195736, "symbol": "IRDM", "tv": "NASDAQ:IRDM", "exchange": "NASDAQ", "name": "IRIDIUM COMMUNICATIONS INC"},
+  {"conid": 33222760, "symbol": "SESG", "tv": "EURONEXT:SESG", "exchange": "SBF", "name": "SES"},
+  {"conid": 527803231, "symbol": "TSAT", "tv": "NASDAQ:TSAT", "exchange": "NASDAQ", "name": "TELESAT CORP"},
+  {"conid": 6746554, "symbol": "VSAT", "tv": "NASDAQ:VSAT", "exchange": "NASDAQ", "name": "VIASAT INC"},
+  {"conid": 890493863, "symbol": "SPCX", "tv": "NASDAQ:SPCX", "exchange": "NASDAQ", "name": "SPACE EXPLORATION TECHN-CL A"}
+ ],
+ "SPACE DATA & EARTH OBSERVATION": [
+  {"conid": 725797137, "symbol": "BKSY", "tv": "NYSE:BKSY", "exchange": "NYSE", "name": "BLACKSKY TECHNOLOGY INC"},
+  {"conid": 530906124, "symbol": "PL", "tv": "NYSE:PL", "exchange": "NYSE", "name": "PLANET LABS PBC"},
+  {"conid": 649389091, "symbol": "SPIR", "tv": "NYSE:SPIR", "exchange": "NYSE", "name": "SPIRE GLOBAL INC"},
+  {"conid": 673368857, "symbol": "SIDU", "tv": "NASDAQ:SIDU", "exchange": "NASDAQ", "name": "SIDUS SPACE INC-CL A"}
+ ],
+ "AI DRUG DISCOVERY PLATFORMS": [
+  {"conid": 482017113, "symbol": "RXRX", "tv": "NASDAQ:RXRX", "exchange": "NASDAQ", "name": "RECURSION PHARMACEUTICALS-A"},
+  {"conid": 402800760, "symbol": "SDGR", "tv": "NASDAQ:SDGR", "exchange": "NASDAQ", "name": "SCHRODINGER INC"},
+  {"conid": 459873599, "symbol": "CERT", "tv": "NASDAQ:CERT", "exchange": "NASDAQ", "name": "CERTARA INC"},
+  {"conid": 434693577, "symbol": "RLAY", "tv": "NASDAQ:RLAY", "exchange": "NASDAQ", "name": "RELAY THERAPEUTICS INC"},
+  {"conid": 267530, "symbol": "CGEN", "tv": "NASDAQ:CGEN", "exchange": "NASDAQ", "name": "COMPUGEN LTD"},
+  {"conid": 504239576, "symbol": "ABSI", "tv": "NASDAQ:ABSI", "exchange": "NASDAQ", "name": "ABSCI CORP"},
+  {"conid": 459919952, "symbol": "ABCL", "tv": "NASDAQ:ABCL", "exchange": "NASDAQ", "name": "ABCELLERA BIOLOGICS INC"},
+  {"conid": 139508766, "symbol": "XNCR", "tv": "NASDAQ:XNCR", "exchange": "NASDAQ", "name": "XENCOR INC"},
+  {"conid": 589640494, "symbol": "ZYME", "tv": "NASDAQ:ZYME", "exchange": "NASDAQ", "name": "ZYMEWORKS INC"},
+  {"conid": 718507605, "symbol": "DNA", "tv": "NYSE:DNA", "exchange": "NYSE", "name": "GINKGO BIOWORKS HOLDINGS INC"}
+ ]
+}

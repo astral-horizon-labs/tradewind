@@ -4,13 +4,20 @@ Tradewind is a local MCP server for Claude Code and Codex. It reads your Interac
 Brokers account through its Flex report, read-only, and gives your assistant:
 
 - your book at cost and its holdings;
-- a two-year weekly chart of each holding, with your average cost and your plan levels;
+- a two-year weekly chart of each holding, with your average cost and your plan levels,
+  and of any symbol you are studying;
 - one written plan per holding (thesis, what confirms it, what invalidates it, exit,
-  add), tracked at every weekly close;
+  add), tracked at every weekly close, with its review dates and its history;
+- the risk of each holding and of the whole book if every exit is hit, holdings
+  without an exit first;
+- relative strength against SPY or against the holding's basket, and 83 market baskets
+  ranked by strength;
+- your NAV over time and your drawdowns, measured without deposits and withdrawals;
 - market regime alerts, read as a move with a direction, not as a red light.
 
 It sends no orders. Your account and your plans stay on your machine; only the IBKR
-identifier (conid) of a holding goes to our price server when you ask for its chart.
+identifier (conid) of a symbol goes to our price server when a chart or a comparison
+needs its prices.
 
 ## Install
 

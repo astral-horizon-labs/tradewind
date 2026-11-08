@@ -16,7 +16,11 @@ LOT 1 : le livre au coût (`book_summary`, `positions`) et l'état de la configu
 propriétaire. LOT 3 (même jour) : le plan de chaque ligne (`plan`, `set_plan`,
 `plans_overview`), écrit chez le client et suivi sur nos prix (`client_plans.py`).
 LOT 4 (même jour) : les alertes de régime de la méthode (`regime_alerts`), évaluées sur
-nos prix (`client_regime.py`).
+nos prix (`client_regime.py`). LOT 6 (même jour, « tous les tools possibles ») : le
+marché (`relative_strength`, `basket`, `weekly_chart` d'un titre non détenu,
+`client_market.py`), le risque face aux sorties (`position_risk`, `book_risk`), les
+revues (`reviews_due`, `plan_history`, `client_risk.py`), la NAV et ses creux
+(`nav_history`, `drawdowns`, `client_nav.py`, deux requêtes Flex facultatives).
 
 CE QU'IL NE FAIT PAS : aucun ordre, aucune écriture hors de la machine du client (son
 cache local et les plans de son livre, sous son répertoire de données). Ce qui sort de la machine : la requête Flex vers IBKR, et
@@ -33,8 +37,11 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from mcp.server.mcpserver import Image, MCPServer  # noqa: E402
 
 import client_book  # noqa: E402
+import client_market  # noqa: E402
+import client_nav  # noqa: E402
 import client_plans  # noqa: E402
 import client_regime  # noqa: E402
+import client_risk  # noqa: E402
 
 INSTRUCTIONS = """\
 The user's investment book, read from IBKR through their Flex report, read-only.
@@ -45,8 +52,14 @@ Rules:
 - Weights are read at COST (`weight_cost_pct`): the money committed per holding; the
   market value (`weight_value_pct`) says what the market made of it.
 - Without a Cash Report query, NAV and cash are `null`: never infer them from positions.
-- No opinion on a holding without looking at `weekly_chart` first: the image first, the
-  figures that come with it second. The current week is not drawn.
+- No opinion on a holding without looking at `weekly_chart` first, and at its
+  `relative_strength` against its basket or SPY: the image first, the figures that come
+  with it second. The current week is not drawn. `weekly_chart` also draws a symbol the
+  user does not hold (an idea, a basket member).
+- A holding is judged against its market first: rising less than its basket or SPY means
+  the market is not carrying the bet, even in a rise.
+- Risk is the money lost if a holding goes to its exit (`position_risk`, `book_risk`). A
+  holding without a written exit has unbounded risk: say it first.
 - Every holding has a plan: thesis, what confirms it (`if_hit`), what invalidates it
   (`if_miss`), the next decision, and at least one exit level. A holding without a plan
   or without an exit gets one with `set_plan`, after `weekly_chart`. Levels are
@@ -88,7 +101,7 @@ def setup_status() -> dict:
 
 
 # Sans sortie structurée : l'image suivie de son texte se rend en deux blocs de contenu.
-@mcp.tool(structured_output=False, description="Two-year weekly chart of a holding (settled candles, log scale), with the client's average cost as blue dashes and the plan levels as solid lines. Look at it before any opinion. Grid prices and the last settled close come alongside.")
+@mcp.tool(structured_output=False, description="Two-year weekly chart of a holding (settled candles, log scale), with the client's average cost as blue dashes and the plan levels as solid lines; also any symbol of the market universe or the baskets the user does not hold. Look at it before any opinion. Grid prices and the last settled close come alongside.")
 def weekly_chart(symbol: str) -> list | dict:
     """Graphique hebdomadaire sur deux ans d'une ligne détenue (bougies réglées, échelle
     log), avec le coût moyen du client en tirets bleus. À regarder avant tout avis.
@@ -136,6 +149,68 @@ def set_plan(symbol: str, thesis: str, horizon: str, if_hit: str, if_miss: str,
     Un plan invalide est refusé en entier, avec toutes ses violations."""
     return client_plans.set_plan(symbol, thesis, horizon, if_hit, if_miss, next_decision,
                                  levels, no_levels_reason, review_by, reason)
+
+
+def with_image(result: dict) -> list | dict:
+    if "error" in result:
+        return result
+    png = result.pop("png")
+    return [Image(data=png, format="png"), result]
+
+
+@mcp.tool(structured_output=False, description='A symbol against a benchmark: the weekly ratio drawn over two years (a rising line means the symbol leads), its performance spread over 4, 13, 26 and 52 weeks, the ratio against its 10-week average and its trend over the last five weeks. `against`: a symbol (default SPY, or QQQ, XLV, IWM…) or "basket" for the equal-weight basket the symbol belongs to. Works for holdings and for any symbol of the market universe or the baskets.')
+def relative_strength(symbol: str, against: str = "SPY") -> list | dict:
+    """Le titre face à un repère : ratio hebdomadaire dessiné, écart sur 4 à 52 semaines,
+    ratio face à sa moyenne de dix semaines. `against` : un symbole ou « basket »."""
+    return with_image(client_market.relative_strength(symbol, against))
+
+
+@mcp.tool(description='A market basket (e.g. "AI", "BIOTECH", "AEROSPACE & DEFENSE"), named or found through one of its members: its members ranked by 13-week strength, and the equal-weight basket against SPY over 4 to 52 weeks. An unknown name lists the 83 baskets.')
+def basket(name_or_symbol: str) -> dict:
+    """Un panier, nommé ou désigné par un membre : membres classés par force sur 13
+    semaines, et le panier équipondéré face au S&P 500. Un nom inconnu liste les paniers."""
+    return client_market.basket(name_or_symbol)
+
+
+@mcp.tool(description='What a holding costs if it goes to its nearest exit: the exit threshold and its distance, the loss in base currency and as a share of the book, and the P&L left at the exit. A holding without a plan or without an exit has unbounded risk.')
+def position_risk(symbol: str) -> dict:
+    """Ce que coûte une ligne si elle va jusqu'à sa sortie la plus proche, en devise de
+    base et en part du livre. Sans plan ni sortie : risque non borné."""
+    return client_risk.position_risk(symbol)
+
+
+@mcp.tool(description='The whole book against its exits: holdings with unbounded risk first (no plan or no exit), then the loss to exit of every other holding, and the total loss if every exit is hit.')
+def book_risk() -> dict:
+    """Le livre face à ses sorties : les lignes au risque non borné d'abord, puis la perte
+    jusqu'à la sortie de chaque autre ligne, et la perte si toutes les sorties tombent."""
+    return client_risk.book_risk()
+
+
+@mcp.tool(description='Plans to re-read: review date passed, review within two weeks, plans without a review date (flagged stale after 180 days), and holdings without a plan.')
+def reviews_due() -> dict:
+    """Les plans à relire : revue dépassée, proche, plans sans date de revue (anciens
+    au-delà de 180 jours), lignes sans plan."""
+    return client_risk.reviews_due()
+
+
+@mcp.tool(description="Every rewrite of a symbol's plan on this machine, newest first, with the current plan.")
+def plan_history(symbol: str) -> dict:
+    """Chaque réécriture du plan d'un titre, la plus récente d'abord, et le plan actuel."""
+    return client_risk.plan_history(symbol)
+
+
+@mcp.tool(description='Account value over time (needs the optional NAV and Cash Transactions Flex queries): month-end NAV, a growth index without deposits and withdrawals, its peak, every deposit and withdrawal. `refresh=True` fetches the reports again.')
+def nav_history(refresh: bool = False) -> dict:
+    """La NAV en fins de mois, l'indice sans flux et son sommet, chaque apport et retrait
+    (requêtes Flex NAV et Cash Transactions facultatives)."""
+    return client_nav.nav_history(refresh_now=refresh)
+
+
+@mcp.tool(description='The book\'s drawdown from its peak, measured without deposits and withdrawals, its worst point, and past episodes of at least 5% with their median: context, not a threshold. Needs the optional NAV Flex query.')
+def drawdowns() -> dict:
+    """La baisse du livre depuis son sommet, sans les flux, son pire point et les creux
+    passés d'au moins 5 % avec leur médiane : du contexte, pas un seuil."""
+    return client_nav.drawdowns()
 
 
 if __name__ == "__main__":

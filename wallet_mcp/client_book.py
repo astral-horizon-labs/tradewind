@@ -81,11 +81,22 @@ def read_config() -> tuple[dict | None, str | None]:
     if not isinstance(raw, dict):
         return None, f"{path} is unreadable: a JSON object is expected"
     config = {key: str(raw.get(key, "")).strip() for key in
-              ("token", "query_id", "query_id_cash", "base_currency",
+              ("token", "query_id", "query_id_cash", "query_id_nav", "query_id_cashtx", "base_currency",
                "prices_url", "prices_key", "prices_key_file")}
     if not config["token"] or not config["query_id"]:
-        return None, f"{path} incomplet : renseigner token et query_id"
+        return None, f"{path} is incomplete: fill in token and query_id"
     return config, None
+
+
+def prices_config() -> dict:
+    """Les réglages du serveur de prix, même sans Flex configuré : le marché s'en passe."""
+    try:
+        raw = json.loads(config_path().read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    if not isinstance(raw, dict):
+        return {}
+    return {key: str(raw.get(key, "")).strip() for key in ("prices_url", "prices_key", "prices_key_file")}
 
 
 def now_utc() -> datetime.datetime:
@@ -93,8 +104,12 @@ def now_utc() -> datetime.datetime:
 
 
 def read_stamp(folder: pathlib.Path) -> dict:
+    return read_stamp_file(folder / STAMP_FILE)
+
+
+def read_stamp_file(path: pathlib.Path) -> dict:
     try:
-        return json.loads((folder / STAMP_FILE).read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8"))
     except (FileNotFoundError, json.JSONDecodeError, OSError):
         return {}
 
@@ -292,6 +307,8 @@ def setup_status() -> dict:
         "config_file": str(config_path()),
         "config_error": error,
         "cash_report": bool(config and config.get("query_id_cash")),
+        "nav_history": bool(config and config.get("query_id_nav")),
+        "deposits_withdrawals": bool(config and config.get("query_id_cashtx")),
         "base_currency": (config or {}).get("base_currency") or None,
         "state_dir": str(state_dir()),
         "last_fetch": stamp.get("fetched_at"),
@@ -300,10 +317,12 @@ def setup_status() -> dict:
 
 
 def weekly_chart(symbol: str, getter=None, *, now: datetime.datetime | None = None) -> dict:
-    """Bougies hebdomadaires réglées d'une ligne détenue, sur deux ans, avec son coût moyen.
+    """Bougies hebdomadaires réglées d'un titre, sur deux ans, avec le coût moyen s'il est détenu.
 
-    Rend `{"png": octets, …}` ou `{"error": …}`. La ligne se trouve par son symbole dans
-    le rapport Flex, puis sa série par son conid sur notre serveur de prix.
+    Rend `{"png": octets, …}` ou `{"error": …}`. Une ligne détenue se trouve par son
+    symbole dans le rapport Flex ; un titre non détenu (une idée qu'on étudie, un
+    membre de panier) par la graine de marché ou les paniers livrés (`client_market`,
+    2026-11-07). Sa série vient de notre serveur de prix, par son conid.
     """
     import client_prices
     import png_chart
@@ -318,9 +337,15 @@ def weekly_chart(symbol: str, getter=None, *, now: datetime.datetime | None = No
     wanted = symbol.strip().upper()
     held = [p for p in book["snapshot"]["positions"]
             if p["contract_description"].split(" @")[0].upper() == wanted]
-    if not held:
-        return {"error": f"{wanted} is not a holding (Flex report of {book['snapshot']['date']})"}
-    position = held[0]
+    if held:
+        position = held[0]
+    else:
+        import client_market
+        found = client_market.resolve(wanted)
+        if found is None:
+            return {"error": f"{wanted} is unknown: neither a holding (Flex report of "
+                             f"{book['snapshot']['date']}), nor in the market universe, nor in a basket"}
+        position = {"contract_id": found["conid"], "currency": None, "average_price": None}
     if getter is None:
         getter, error = client_prices.server_getter(config)
         if error:
@@ -333,7 +358,7 @@ def weekly_chart(symbol: str, getter=None, *, now: datetime.datetime | None = No
         return {"error": f"not enough weekly history for {wanted}"}
     cost = position["average_price"]
     import client_plans
-    plan_levels = client_plans.chart_levels(wanted, position["contract_id"], getter, now)
+    plan_levels = client_plans.chart_levels(wanted, position["contract_id"], getter, now) if held else []
     png, levels = png_chart.weekly_png(weeks, cost, plan_levels)
     closes = [week["c"] for week in weeks]
     last = weeks[-1]
@@ -348,6 +373,7 @@ def weekly_chart(symbol: str, getter=None, *, now: datetime.datetime | None = No
         "high_2y": max(week["h"] for week in weeks),
         "low_2y": min(week["l"] for week in weeks),
         "average_cost": cost,
+        "held": bool(held),
         "change_13w_pct": round((closes[-1] / closes[-14] - 1) * 100, 1) if len(closes) > 13 else None,
         "grid_levels_top_down": levels,
         "plan_levels": plan_levels,

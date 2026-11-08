@@ -4,16 +4,23 @@ The Tradewind MCP server reads your Interactive Brokers account through its Flex
 read-only, and gives you, inside your assistant:
 
 - your book at cost and its holdings (`book_summary`, `positions`);
-- a two-year weekly chart of each holding, with your average cost and your plan levels
-  (`weekly_chart`);
+- a two-year weekly chart of each holding, with your average cost and your plan levels,
+  and of any symbol you are studying (`weekly_chart`);
 - one plan per holding, written by the assistant and tracked at every weekly close:
   thesis, what confirms it, what invalidates it, exit and add levels (`set_plan`,
-  `plan`, `plans_overview`);
+  `plan`, `plans_overview`), with its review dates and history (`reviews_due`,
+  `plan_history`);
+- what each holding costs if it goes to its exit, and the whole book if every exit is
+  hit, holdings without an exit first (`position_risk`, `book_risk`);
+- relative strength against SPY or against the holding's basket (`relative_strength`),
+  and 83 market baskets with their members ranked by strength (`basket`);
+- your NAV over time and your drawdowns, without deposits and withdrawals (`nav_history`,
+  `drawdowns`, two optional queries);
 - the market regime alerts (`regime_alerts`).
 
 It sends no orders. Your account never leaves your machine: the Flex report and your
-plans stay there. Only the IBKR identifier (conid) of a holding goes to our price server
-when you ask for its chart.
+plans stay there. Only the IBKR identifier (conid) of a symbol goes to our price server
+when a chart or a comparison needs its prices.
 
 ## 1. Create Flex access in the IBKR portal (ten minutes, once)
 
@@ -34,6 +41,16 @@ IBKR portal → **Performance & Reports** → **Flex Queries**.
    Query*, **Cash Report** section only, columns `ClientAccountID`, `CurrencyPrimary`,
    `EndingCash` and `ToDate`, same settings. Note its Query ID.
 
+4. **NAV history and drawdowns** (optional, two more queries, same settings except the
+   period **Last 365 Days**):
+   - *Activity Flex Query* with the **Net Asset Value (NAV) in Base** section only,
+     option **Breakout by Day**, columns `ClientAccountID`, `ReportDate`, `Total`;
+   - *Activity Flex Query* with the **Cash Transactions** section only, type
+     **Deposits & Withdrawals**, columns `ClientAccountID`, `Date/Time`, `Amount`,
+     `FXRateToBase`, `Type`, `Description`.
+
+   IBKR serves one year at a time; every daily fetch is kept, so the history lengthens.
+
 ## 2. Install (one command)
 
 Python 3.11 or newer. In the repository folder:
@@ -42,7 +59,8 @@ Python 3.11 or newer. In the repository folder:
 python3 wallet_mcp/install_client.py --check
 ```
 
-The command asks for the token and the query IDs. It obtains its price server key by
+The command asks for the token and the query IDs (`--query-id-nav` and
+`--query-id-cashtx` add the NAV queries later). It obtains its price server key by
 itself, installs the server's dependency, writes `~/.config/wallet/client.json`
 (readable by you only), registers the `tradewind` server in Claude Code and Codex when
 they are installed, then fetches your book a first time.
