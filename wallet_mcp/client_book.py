@@ -323,19 +323,19 @@ def weekly_chart(symbol: str, getter=None, *, now: datetime.datetime | None = No
     symbole dans le rapport Flex ; un titre non détenu (une idée qu'on étudie, un
     membre de panier) par la graine de marché ou les paniers livrés (`client_market`,
     2026-11-07). Sa série vient de notre serveur de prix, par son conid.
+
+    Sans rapport Flex (jeton expiré, rapport en préparation, réglage incomplet), un
+    titre du marché se dessine quand même, sans coût moyen, et la note dit pourquoi
+    (2026-11-09) : l'essai à blanc du dépôt public refusait le graphique de SPY.
     """
     import client_prices
     import png_chart
 
     now = now or now_utc()
-    config, error = read_config()
-    if error:
-        return {"error": error}
     book = load_book(now=now)
-    if "error" in book:
-        return book
+    positions = [] if "error" in book else book["snapshot"]["positions"]
     wanted = symbol.strip().upper()
-    held = [p for p in book["snapshot"]["positions"]
+    held = [p for p in positions
             if p["contract_description"].split(" @")[0].upper() == wanted]
     if held:
         position = held[0]
@@ -343,11 +343,13 @@ def weekly_chart(symbol: str, getter=None, *, now: datetime.datetime | None = No
         import client_market
         found = client_market.resolve(wanted)
         if found is None:
+            if "error" in book:
+                return book
             return {"error": f"{wanted} is unknown: neither a holding (Flex report of "
                              f"{book['snapshot']['date']}), nor in the market universe, nor in a basket"}
         position = {"contract_id": found["conid"], "currency": None, "average_price": None}
     if getter is None:
-        getter, error = client_prices.server_getter(config)
+        getter, error = client_prices.server_getter(prices_config())
         if error:
             return {"error": error}
     found = client_prices.series(position["contract_id"], state_dir() / "series", getter, now)
@@ -363,6 +365,8 @@ def weekly_chart(symbol: str, getter=None, *, now: datetime.datetime | None = No
     closes = [week["c"] for week in weeks]
     last = weeks[-1]
     notes = [f"price server unreachable, keeping the cached series: {found['stale_error']}"] if found["stale_error"] else []
+    if "error" in book:
+        notes.append(f"book unavailable, average cost not drawn: {book['error']}")
     return {
         "png": png,
         "symbol": wanted,

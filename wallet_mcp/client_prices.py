@@ -71,6 +71,7 @@ def series(conid: int, folder: pathlib.Path, getter: SeriesGetter,
     path = folder / f"{conid}.json"
     fresh = path.exists() and (now.timestamp() - path.stat().st_mtime) < MAX_AGE_S
     stale_error = None
+    missing = False
     if not fresh:
         try:
             payload = getter(f"{conid}.json")
@@ -80,12 +81,13 @@ def series(conid: int, folder: pathlib.Path, getter: SeriesGetter,
             # un test au temps figé lirait sinon une copie « du futur » comme fraîche.
             os.utime(path, (now.timestamp(), now.timestamp()))
         except prices_server.ServerError as error:
-            # Le serveur répond en français (il sert aussi le propriétaire) : traduit ici.
-            stale_error = client_messages.english(str(error))
+            # Le serveur répond en français (il sert aussi le propriétaire) : son code fait foi.
+            missing = error.status == 404
+            stale_error = client_messages.server_error(error)
         except (ValueError, UnicodeDecodeError):
             stale_error = "the server returned an unreadable series"
     if not path.exists():
-        if stale_error and "HTTP 404" in stale_error:
+        if missing:
             return {"error": "no series on our server for this holding (not collected yet)"}
         return {"error": f"series unavailable: {stale_error}"}
     return {"series": json.loads(path.read_text(encoding="utf-8")), "stale_error": stale_error}

@@ -31,6 +31,7 @@ for folder in (ROOT / "scripts", pathlib.Path(__file__).resolve().parent):
 
 import atomic_file  # noqa: E402  # type: ignore[import-not-found]
 import client_book  # noqa: E402
+import client_messages  # noqa: E402
 import client_prices  # noqa: E402
 import data_root  # noqa: E402  # type: ignore[import-not-found]
 import prices_server  # noqa: E402  # type: ignore[import-not-found]
@@ -253,6 +254,7 @@ def ranking(client=None, *, now: datetime.datetime | None = None) -> dict:
     path = client_book.state_dir() / RANKING_FILE
     fresh = path.exists() and now.timestamp() - path.stat().st_mtime < RANKING_MAX_AGE_S
     stale = None
+    missing = False
     if not fresh:
         if client is None:
             client, error = client_prices.server_client(client_book.prices_config())
@@ -265,11 +267,12 @@ def ranking(client=None, *, now: datetime.datetime | None = None) -> dict:
             atomic_file.write_text(path, payload.decode("utf-8"))
             os.utime(path, (now.timestamp(), now.timestamp()))
         except prices_server.ServerError as error:
-            stale = client_book.english(str(error))
+            missing = error.status == 404
+            stale = client_messages.server_error(error)
         except (ValueError, UnicodeDecodeError):
             stale = "the server returned an unreadable ranking"
     if not path.exists():
-        if stale and "HTTP 404" in stale:
+        if missing:
             return {"error": "no basket ranking on our server yet"}
         return {"error": f"basket ranking unavailable: {stale}"}
     found = json.loads(path.read_text(encoding="utf-8"))

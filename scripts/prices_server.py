@@ -32,6 +32,10 @@ MARKET_PATH = "/v1/market/baskets.json"
 class ServerError(RuntimeError):
     """Réponse refusée ou injoignable : rendue comme valeur par les commandes."""
 
+    def __init__(self, message, *, status=None, code=None):
+        super().__init__(message)
+        self.status, self.code = status, code
+
 
 def settings():
     """(url, clé) du serveur, ou None s'il n'est pas réglé sur ce poste."""
@@ -70,7 +74,14 @@ class Client:
                 return response.read()
         except urllib.error.HTTPError as error:
             detail = error.read().decode("utf-8", "replace")[:200]
-            raise ServerError(f"{method} {path} — HTTP {error.code} {detail}") from None
+            try:
+                body = json.loads(detail)
+            except ValueError:
+                body = None
+            code = body.get("code") if isinstance(body, dict) else None
+            text = body.get("error") if isinstance(body, dict) and body.get("error") else detail
+            raise ServerError(f"{method} {path} — HTTP {error.code} {text}",
+                              status=error.code, code=code) from None
         except (urllib.error.URLError, TimeoutError, OSError) as error:
             raise ServerError(f"{method} {path} — serveur injoignable ({error})") from None
 

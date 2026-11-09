@@ -167,7 +167,7 @@ def relative_strength(symbol: str, against: str = "SPY") -> list | dict:
     return with_image(client_market.relative_strength(symbol, against))
 
 
-@mcp.tool(description='A market basket (e.g. "AI", "BIOTECH", "AEROSPACE & DEFENSE"), named or found through one of its members: its members ranked by 13-week strength, and the equal-weight basket against SPY over 4 to 52 weeks. An unknown name lists the 83 baskets.')
+@mcp.tool(description='A market basket (e.g. "AI", "CNS BIOTECH", "AEROSPACE & DEFENSE"), named or found through one of its members: its members ranked by 13-week strength, and the equal-weight basket against SPY over 4 to 52 weeks. An unknown name lists the 83 baskets.')
 def basket(name_or_symbol: str) -> dict:
     """Un panier, nommé ou désigné par un membre : membres classés par force sur 13
     semaines, et le panier équipondéré face au S&P 500. Un nom inconnu liste les paniers."""

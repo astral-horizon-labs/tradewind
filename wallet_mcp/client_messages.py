@@ -178,23 +178,6 @@ RULES: tuple[tuple[str, str], ...] = (
     (r"rapport jamais prêt après " + _V + r" s — dernier état", r"report never ready after \1 s — last state"),
     # ---- serveur de prix (prices_server, Worker server/prices-worker) ----
     (r"serveur injoignable", "server unreachable"),
-    (r"trop d'inscriptions depuis cette adresse, réessayer dans une minute",
-     "too many sign-ups from this address, try again in a minute"),
-    (r"plafond d'inscriptions du jour atteint pour cette adresse",
-     "daily sign-up limit reached for this address"),
-    (r"plafond d'inscriptions du jour atteint, réessayer demain", "daily sign-up limit reached, try again tomorrow"),
-    (r"aucune clé de cet identifiant", "no key with this identifier"),
-    (r"série trop lourde", "series too large"),
-    (r"instantané trop lourd", "snapshot too large"),
-    (r"empreinte SHA-256 différente du contenu", "SHA-256 digest does not match the content"),
-    (r"pas une série de marché", "not a market series"),
-    (r"pas un classement de marché", "not a market ranking"),
-    (r"classement trop lourd", "ranking too large"),
-    (r"gzip attendu", "gzip expected"),
-    (r"clé absente ou refusée", "key missing or refused"),
-    (r"clé en lecture seule", "read-only key"),
-    (r"trop de requêtes pour cette clé, ralentir", "too many requests for this key, slow down"),
-    (r"route inconnue", "unknown route"),
     # ---- restes communs ----
     (r"\(trouvé: aucun\)", "(found: none)"),
     (r"\(trouvé:? ", "(found "),
@@ -203,6 +186,44 @@ RULES: tuple[tuple[str, str], ...] = (
 )
 
 _COMPILED = tuple((re.compile(pattern), repl) for pattern, repl in RULES)
+
+#: Les erreurs du Worker de prix (`server/prices-worker`), par leur code stable
+#: (2026-11-08). Le client lit le code, jamais la phrase française : traduire la phrase
+#: par motifs cassait en silence à la moindre retouche du Worker.
+#: `tests/test_client_messages.py` exige une entrée pour chaque code du Worker.
+SERVER_CODES: dict[str, str] = {
+    "key_refused": "key missing or refused",
+    "read_only_key": "read-only key",
+    "rate_limited": "too many requests for this key, slow down",
+    "signup_rate_limited": "too many sign-ups from this address, try again in a minute",
+    "signup_address_daily_limit": "daily sign-up limit reached for this address",
+    "signup_daily_limit": "daily sign-up limit reached, try again tomorrow",
+    "key_not_found": "no key with this identifier",
+    "not_found": "not found",
+    "unknown_route": "unknown route",
+    "too_large": "payload too large",
+    "digest_mismatch": "SHA-256 digest does not match the content",
+    "invalid_series": "not a market series",
+    "invalid_ranking": "not a market ranking",
+    "gzip_expected": "gzip expected",
+}
+
+
+def server_message(status: int | None, code: str | None, fallback: str | None = None) -> str:
+    """Une erreur HTTP du Worker en anglais, lue par son code ; un code inconnu (Worker
+    plus récent que le client) garde le statut et la phrase d'origine."""
+    known = SERVER_CODES.get(code or "")
+    if known:
+        return f"HTTP {status}: {known}"
+    return f"HTTP {status}" + (f": {english(fallback)}" if fallback else "")
+
+
+def server_error(error) -> str:
+    """Une `prices_server.ServerError` en anglais : par son code quand le Worker a
+    répondu, par les motifs pour un serveur injoignable."""
+    if getattr(error, "status", None) is None:
+        return english(str(error))
+    return server_message(error.status, getattr(error, "code", None))
 
 
 def english(text: str | None) -> str | None:

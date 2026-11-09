@@ -40,7 +40,7 @@ import urllib.request
 HERE = pathlib.Path(__file__).resolve().parent
 if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
-from client_messages import english  # noqa: E402  (bibliothèque standard seule)
+from client_messages import server_message  # noqa: E402  (bibliothèque standard seule)
 
 PACKAGE = HERE.parent
 VENV = PACKAGE / ".venv-client"
@@ -120,10 +120,11 @@ def request_price_key(url: str, *, opener=urllib.request.urlopen) -> tuple[str |
             return json.loads(response.read().decode("utf-8"))["key"], None
     except urllib.error.HTTPError as failure:
         try:
-            detail = json.loads(failure.read().decode("utf-8")).get("error")
-        except (ValueError, AttributeError):
-            detail = None
-        return None, f"HTTP {failure.code}" + (f": {english(detail)}" if detail else "")
+            body = json.loads(failure.read().decode("utf-8"))
+        except ValueError:
+            body = None
+        body = body if isinstance(body, dict) else {}
+        return None, server_message(failure.code, body.get("code"), body.get("error"))
     except (urllib.error.URLError, OSError, ValueError, KeyError) as failure:
         return None, failure.__class__.__name__
 

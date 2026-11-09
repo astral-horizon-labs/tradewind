@@ -21,8 +21,10 @@ needs its prices.
 
 ## Install
 
-Ten minutes in the IBKR portal to create a Flex token and query
-(`wallet_mcp/CLIENT.md`), then, with Python 3.11 or newer:
+1. **Create Flex access in the IBKR portal** (ten minutes, once): a Flex token and a
+   positions query, step by step in
+   [the installation guide](wallet_mcp/CLIENT.md#1-create-flex-access-in-the-ibkr-portal-ten-minutes-once).
+2. **Install**, with Python 3.11 or newer:
 
 ```bash
 git clone https://github.com/astral-horizon-labs/tradewind.git
